@@ -26,10 +26,6 @@ projects[block_class][version] = "2.1"
 
 projects[module_filter][version] = "2.0"
 
-;projects[bear][version] = "1.x-dev"
-
-;projects[bear_necessities][version] = "1.7-alpha1"
-
 projects[better_exposed_filters][version] = 3.2
 
 projects[better_formats][version] = "1.0-beta1"
@@ -40,13 +36,9 @@ projects[crm_core_profile][version] = "1.0-beta10"
 
 projects[ctools][version] = "1.7"
 
-projects[page_manager_templates][version] = "1.x-dev"
-
 projects[date][version] = "2.8"
 
 projects[devel][version] = "1.5"
-
-projects[devel_image_provider][version] = "1.x-dev"
 
 projects[ds][version] = "2.8"
 
@@ -62,8 +54,6 @@ projects[entityreference_prepopulate][version] = "1.5"
 
 projects[feeds_tamper][version] = "1.0"
 
-projects[feeds_xpathparser][version] = "1.0"
-
 projects[fpa][version] = "2.6"
 
 projects[imageapi_optimize][version] = 1.2
@@ -71,8 +61,6 @@ projects[imageapi_optimize][version] = 1.2
 projects[addressfield][version] = "1.1"
 
 projects[compact_forms][version] = "1.0"
-
-projects[computed_field][version] = "1.0"
 
 projects[field_conditional_state][version] = "2.1"
 
@@ -83,13 +71,13 @@ projects[email][version] = "1.3"
 
 projects[references_dialog] = "1.0-beta1"
 ; https://www.drupal.org/node/2375741
-projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
+;projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
 ; until stable version https://www.drupal.org/node/2315905
-projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/references_dialog_beta1-fix_theme_links-2315905-20.patch"
+;projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/references_dialog_beta1-fix_theme_links-2315905-20.patch"
 
 projects[field_group][version] = "1.4"
-projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-accordion-heightStyle-content-2173937-8.patch"
-projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-2269133-7-active_accordion.patch"
+;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-accordion-heightStyle-content-2173937-8.patch"
+;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-2269133-7-active_accordion.patch"
 
 projects[geofield][version] = "2.3"
 
@@ -102,8 +90,6 @@ projects[link][version] = "1.3"
 projects[name][version] = "1.9"
 
 projects[phone][version] = "1.0-beta1"
-
-projects[references][version] = "2.1"
 
 projects[viewfield][version] = "2.0"
 
@@ -145,9 +131,9 @@ projects[i18n][version] = "1.12"
 ; Translate Field Pre- and Suffix, not passing tests: https://www.drupal.org/node/1221208
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_field-i18n_field-should-translate-prefix-suffix-of-number-fields-1221208-41.patch"
 ; install error patch https://www.drupal.org/node/1681414
-projects[i18n][patch][] = "https://www.drupal.org/files/static_reset.patch"
+;projects[i18n][patch][] = "https://www.drupal.org/files/static_reset.patch"
 ; https://www.drupal.org/node/2082573
-projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_string-undefined-method-2082573-13.patch"
+;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_string-undefined-method-2082573-13.patch"
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/1681414-29-i18n-fatal_error_installlll.patch"
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_string-undefined-method-2082573-13.patch"
 
@@ -155,7 +141,7 @@ projects[localize_fields][version] = "1.3"
 
 projects[i18nviews][version] = "3.x-dev"
 ; https://www.drupal.org/node/1653170
-projects[i18nviews][patch][] = "https://www.drupal.org/files/i18nviews-1653170.patch"
+;projects[i18nviews][patch][] = "https://www.drupal.org/files/i18nviews-1653170.patch"
 
 projects[l10n_update][version] = 2.0
 
@@ -167,9 +153,9 @@ projects[breakpoints][version] = "1.3"
 
 projects[colorbox][version] = "2.8"
 
-projects[context][version] = "3.6"
+;projects[context][version] = "3.6"
 
-projects[context_flag][version] = "1.2"
+;projects[context_flag][version] = "1.2"
 
 projects[session_api][version] = "1.0-rc1"
 
@@ -224,7 +210,7 @@ projects[menu_block][version] = "2.5"
 
 projects[mobile_detect][version] = "1.x-dev"
 
-projects[multiform][version] = "1.1"
+;projects[multiform][version] = "1.1"
 
 projects[options_element][version] = "1.12"
 
@@ -250,7 +236,7 @@ projects[translation_table][version] = "1.0-beta1"
 
 projects[token][version] = "1.6"
 
-projects[token_tweaks] = "1.x-dev"
+projects[token_tweaks][version] = "1.x-dev"
 
 projects[transliteration][version] = "3.2"
 
@@ -262,9 +248,9 @@ projects[entitycache][version] = "1.2"
 
 projects[picture][version] = "2.9"
 
-projects[redhen][version] = "1.9"
+;projects[redhen][version] = "1.9"
 
-projects[redhen_lead][version] = "1.0-alpha4"
+;projects[redhen_lead][version] = "1.0-alpha4"
 
 projects[relation][version] = "1.0-rc7"
 
@@ -274,7 +260,7 @@ projects[search_api_ajax][version] = "1.2"
 
 projects[search_api_db][version] = "1.4"
 ; Stopped BOA Migrate Fehler https://www.drupal.org/node/2428693
-projects[search_api_db][patch][] = "https://www.drupal.org/files/issues/entity-type-indhold-doest-specify-a-type-for-the-nid-property-2428693-2.patch"
+;projects[search_api_db][patch][] = "https://www.drupal.org/files/issues/entity-type-indhold-doest-specify-a-type-for-the-nid-property-2428693-2.patch"
 
 projects[search_api_location][version] = "2.0-beta2"
 
@@ -300,7 +286,7 @@ projects[facetapi_select][version] = "1.x-dev"
 ; Deselect Selection https://www.drupal.org/node/2336857
 ;projects[facetapi_select][patch][] = "https://www.drupal.org/files/issues/facetapi_select-2336857-12.patch"
 ; better then deselect patch?
-projects[facetapi_select][patch][] = "https://www.drupal.org/files/issues/facetapi_select-preselect-active-and-reset-2118323-20.patch"
+;projects[facetapi_select][patch][] = "https://www.drupal.org/files/issues/facetapi_select-preselect-active-and-reset-2118323-20.patch"
 
 projects[facetapi_i18n][version] = "1.0-beta2"
 ; funktioniert nicht mit BOA, von Hand patchen
@@ -314,18 +300,18 @@ projects[jquery_update][version] = "2.5"
 
 projects[select2][version] = "1.x-dev"
 ; https://www.drupal.org/node/2459015
-projects[select2][patch][] = "https://www.drupal.org/files/issues/AJAX_settings_race_condition-2459015-1.patch"
+;projects[select2][patch][] = "https://www.drupal.org/files/issues/AJAX_settings_race_condition-2459015-1.patch"
 
 projects[wysiwyg][version] = "2.x-dev"
 
 projects[variable][version] = "2.5"
 
 projects[views][version] = "3.10"
-projects[views][patch][] = "https://www.drupal.org/files/issues/views-ajax-nginx-1036962-71.patch"
+;projects[views][patch][] = "https://www.drupal.org/files/issues/views-ajax-nginx-1036962-71.patch"
 ;Needed for views selective filters
 ;projects[views][patch][] = "https://www.drupal.org/files/issues/aggregation_not_working-2159347-87.patch"
 ;Geofield Search API bug
-projects[views][patch][] = https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
+;projects[views][patch][] = https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
 
 projects[views_accelerator][version] = "1.0-beta1"
 
@@ -353,9 +339,9 @@ projects[feeds][version] = "2.x-dev"
 projects[cer][version] = 3.x-dev
 ;projects[cer][patch][] = "https://www.drupal.org/files/issues/2331553-cer_left_exception-1.patch"
 ; DAS WAR DAS ARSCHLOCH! https://www.drupal.org/node/2373761
-projects[cer][patch][] = "https://www.drupal.org/files/issues/cer-2373761-entity_api_exception-6.patch"
+;projects[cer][patch][] = "https://www.drupal.org/files/issues/cer-2373761-entity_api_exception-6.patch"
 ; only for dev, experimental
-projects[cer][patch][] = "https://www.drupal.org/files/issues/cer-entity_save.patch"
+;projects[cer][patch][] = "https://www.drupal.org/files/issues/cer-entity_save.patch"
 
 ;projects[table_element][version] = 1.0-beta1
 ; replacement for cer dev
@@ -368,20 +354,20 @@ projects[entityreference_feeds][version] = "1.x-dev"
 ;projects[entityreference_feeds][patch][] = "https://www.drupal.org/files/issues/broken_feeds-2287149-6.patch"
 
 projects[entityreference][version] = "1.1"
-projects[entityreference][patch][] = "https://www.drupal.org/files/no-label-ref-found-1943300-1.patch"
+;projects[entityreference][patch][] = "https://www.drupal.org/files/no-label-ref-found-1943300-1.patch"
 ; experimental
-projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference_wrapper_property_set-2143171-4.patch"
+;projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference_wrapper_property_set-2143171-4.patch"
 
 projects[entity][version] = "1.6"
 ; https://www.drupal.org/node/2241979
-projects[entity][patch][] = "https://www.drupal.org/files/issues/entity_defaults_rebuild-2241979-19_0.patch"
+;projects[entity][patch][] = "https://www.drupal.org/files/issues/entity_defaults_rebuild-2241979-19_0.patch"
 ; https://www.drupal.org/node/2112755
-projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-label-2112755-25.patch"
+;projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-label-2112755-25.patch"
 
 ;projects[entity_rules][version] = "1.0-alpha4"
 projects[entity_rules][version] = "1.x-dev"
 ; Labels in Features https://www.drupal.org/node/2187363
-projects[entity_rules][patch][] = "https://www.drupal.org/files/issues/entity_rules-2187363-2.patch"
+;projects[entity_rules][patch][] = "https://www.drupal.org/files/issues/entity_rules-2187363-2.patch"
 
 ;projects[workflow][version] = 2.5
 projects[workflow][version] = 2.x-dev
@@ -389,7 +375,7 @@ projects[workflow][version] = 2.x-dev
 projects[rules][version] = "2.9"
 ; Call to undefined method i18n_object_wrapper::get_strings() prevents boa install
 ; https://www.drupal.org/node/2410729
-projects[rules][patch][] = "https://www.drupal.org/files/issues/rules_i18n-undefined-method-2410729-1.patch"
+;projects[rules][patch][] = "https://www.drupal.org/files/issues/rules_i18n-undefined-method-2410729-1.patch"
 
 ; +++++ Features +++++
 
