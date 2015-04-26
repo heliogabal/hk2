@@ -24,6 +24,7 @@ dependencies[] = dhtml_menu
 dependencies[] = better_formats
 ;dependencies[] = better_exposed_filters
 ;dependencies[] = maxlength
+;dependencies[] = mobile_detect
 ;dependencies[] = select2
 ;dependencies[] = views_litepager
 

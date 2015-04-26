@@ -22,8 +22,6 @@ projects[block_class][version] = "2.1"
 ;projects[cdn][version] = "2.6"
 ;projects[cdn][patch][] = "https://www.drupal.org/files/issues/1514182-IE-font-face-CSS-hack-URL-broken-68.patch"
 
-;projects[coffee][version] = "2.2"
-
 projects[module_filter][version] = "2.0"
 
 projects[better_exposed_filters][version] = 3.2
@@ -50,7 +48,7 @@ projects[features_extra][version] = "1.0-beta1"
 
 projects[format_number][version] = "1.x-dev"
 
-projects[entityreference_prepopulate][version] = "1.5"
+;projects[entityreference_prepopulate][version] = "1.5"
 
 projects[feeds_tamper][version] = "1.0"
 
@@ -206,7 +204,7 @@ projects[libraries][version] = "2.2"
 
 projects[menu_block][version] = "2.5"
 
-projects[mobile_detect][version] = "1.x-dev"
+;projects[mobile_detect][version] = "1.x-dev"
 
 ;projects[multiform][version] = "1.1"
 
@@ -242,7 +240,7 @@ projects[transliteration][version] = "3.2"
 
 projects[globalredirect][version] = "1.5"
 
-projects[entitycache][version] = "1.2"
+;projects[entitycache][version] = "1.2"
 
 ;projects[picture][version] = "2.9"
 
@@ -300,7 +298,7 @@ projects[jquery_update][version] = "2.5"
 ; https://www.drupal.org/node/2459015
 ;projects[select2][patch][] = "https://www.drupal.org/files/issues/AJAX_settings_race_condition-2459015-1.patch"
 
-projects[wysiwyg][version] = "2.x-dev"
+;projects[wysiwyg][version] = "2.x-dev"
 
 projects[variable][version] = "2.5"
 
