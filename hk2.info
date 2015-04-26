@@ -299,5 +299,5 @@ dependencies[] = features
 
 dependencies[] = hk_ct
 ;dependencies[] = hk_search
-dependencies[] = hk_admin
+;dependencies[] = hk_admin
 ;dependencies[] = hk_translations
