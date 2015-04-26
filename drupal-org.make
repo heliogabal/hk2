@@ -321,7 +321,7 @@ projects[views_bulk_operations][version] = "3.2"
 
 projects[views_litepager][version] = "3.0"
 
-projects[views_pdf][version] = "1.4"
+;projects[views_pdf][version] = "1.4"
 
 ;projects[webform][version] = "4.7"
 
@@ -565,24 +565,24 @@ libraries[leaflet_markercluster][destination] = "libraries"
 ;libraries[leaflet_fullscreen][directory_name] = "leaflet-fullscreen"
 
 ; Views PDF
-libraries[tcpdf][type] = "libraries"
-libraries[tcpdf][download][type] = "file"
-libraries[tcpdf][download][url] = "http://tinyurl.com/tcpdf-6-2-6-zip"
-libraries[tcpdf][directory_name] = "tcpdf"
-libraries[tcpdf][destination] = "libraries"
+;libraries[tcpdf][type] = "libraries"
+;libraries[tcpdf][download][type] = "file"
+;libraries[tcpdf][download][url] = "http://tinyurl.com/tcpdf-6-2-6-zip"
+;libraries[tcpdf][directory_name] = "tcpdf"
+;libraries[tcpdf][destination] = "libraries"
 
-libraries[fpdi][type] = "libraries"
-libraries[fpdi][download][type] = "file"
-libraries[fpdi][download][url] = "http://www.setasign.com/supra/kon2_dl/80506/FPDI-1.5.2.zip"
-libraries[fpdi][directory_name] = "fpdi"
-libraries[fpdi][destination] = "libraries"
+;libraries[fpdi][type] = "libraries"
+;libraries[fpdi][download][type] = "file"
+;libraries[fpdi][download][url] = "http://www.setasign.com/supra/kon2_dl/80506/FPDI-1.5.2.zip"
+;libraries[fpdi][directory_name] = "fpdi"
+;libraries[fpdi][destination] = "libraries"
 
 ; Fontawesome
-libraries[fontawesome][type] = "libraries"
-libraries[fontawesome][download][type] = "get"
-libraries[fontawesome][download][url] = "http://fortawesome.github.io/Font-Awesome/3.2.1/assets/font-awesome.zip"
-libraries[fontawesome][directory_name] = "fontawesome"
-libraries[fontawesome][destination] = "libraries"
+;libraries[fontawesome][type] = "libraries"
+;libraries[fontawesome][download][type] = "get"
+;libraries[fontawesome][download][url] = "http://fortawesome.github.io/Font-Awesome/3.2.1/assets/font-awesome.zip"
+;libraries[fontawesome][directory_name] = "fontawesome"
+;libraries[fontawesome][destination] = "libraries"
 
 ; SimplePie RSS parser for feeds
 ;libraries[simplepie][directory_name] = simplepie
