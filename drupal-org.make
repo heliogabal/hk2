@@ -117,7 +117,7 @@ projects[media][version] = "2.x-dev"
 
 ;projects[migrate_d2d][version] = "2.1"
 
-;projects[translation_helpers][version] = "1.0"
+projects[translation_helpers][version] = "1.0"
 
 ;projects[entity_translation][version] = "1.0-beta4"
 
@@ -290,7 +290,7 @@ projects[facetapi_i18n][version] = "1.0-beta2"
 
 projects[fontello][version] = "1.0"
 
-;projects[content_menu][version] = "1.0"
+projects[content_menu][version] = "1.0"
 
 projects[jquery_update][version] = "2.5"
 
@@ -298,7 +298,7 @@ projects[select2][version] = "1.x-dev"
 ; https://www.drupal.org/node/2459015
 ;projects[select2][patch][] = "https://www.drupal.org/files/issues/AJAX_settings_race_condition-2459015-1.patch"
 
-;projects[wysiwyg][version] = "2.x-dev"
+projects[wysiwyg][version] = "2.x-dev"
 
 projects[variable][version] = "2.5"
 
@@ -313,7 +313,7 @@ projects[views][version] = "3.10"
 
 projects[views_bulk_operations][version] = "3.2"
 
-;projects[views_flag_refresh][version] = "1.3"
+projects[views_flag_refresh][version] = "1.3"
 
 ;projects[views_fluid_grid][version] = "3.0"
 
