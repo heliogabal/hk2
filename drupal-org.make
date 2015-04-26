@@ -321,6 +321,8 @@ projects[views_litepager][version] = "3.0"
 
 projects[views_pdf][version] = "1.4"
 
+projects[editableviews][version] = "1.0-beta9"
+
 ;projects[webform][version] = "4.7"
 
 ;projects[xmlsitemap][version] = "2.2"
