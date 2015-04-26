@@ -298,6 +298,6 @@ dependencies[] = features
 ;dependencies[] = hk_ct_page
 
 dependencies[] = hk_ct
-dependencies[] = hk_search
+;dependencies[] = hk_search
 dependencies[] = hk_admin
 ;dependencies[] = hk_translations
