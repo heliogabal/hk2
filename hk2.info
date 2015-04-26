@@ -97,21 +97,21 @@ dependencies[] = ds_extras
 dependencies[] = ds_forms
 dependencies[] = ds_ui
 ; Feeds
-;dependencies[] = feeds
-;dependencies[] = feeds_tamper
-;dependencies[] = feeds_tamper_ui
-;dependencies[] = feeds_ui
-;dependencies[] = entityreference_feeds
+dependencies[] = feeds
+dependencies[] = feeds_tamper
+dependencies[] = feeds_tamper_ui
+dependencies[] = feeds_ui
+dependencies[] = entityreference_feeds
 
 ; Fields
 dependencies[] = addressfield
 ;dependencies[] = computed_field
 dependencies[] = field_conditional_state
 ;dependencies[] = email
-;dependencies[] = entityreference
-;dependencies[] = references_dialog
-;dependencies[] = field_group
-;dependencies[] = geofield
+dependencies[] = entityreference
+dependencies[] = references_dialog
+dependencies[] = field_group
+dependencies[] = geofield
 ;dependencies[] = link
 ;dependencies[] = name
 ;dependencies[] = phone
@@ -122,9 +122,9 @@ dependencies[] = title
 ;dependencies[] = flag_actions
 
 ; FlexSlider
-;dependencies[] = flexslider
-;dependencies[] = flexslider_fields
-;dependencies[] = flexslider_views
+dependencies[] = flexslider
+dependencies[] = flexslider_fields
+dependencies[] = flexslider_views
 
 ; Image
 ;dependencies[] = manualcrop
@@ -233,8 +233,8 @@ dependencies[] = transliteration
 ;dependencies[] = httprl
 
 ; Picture
-;dependencies[] = flexslider_picture
-;dependencies[] = picture
+dependencies[] = flexslider_picture
+dependencies[] = picture
 
 ; Search
 ;dependencies[] = search_api

@@ -67,7 +67,7 @@ projects[dhtml_menu][version] = "1.x-dev"
 projects[email][version] = "1.3"
 
 
-;projects[references_dialog] = "1.0-beta1"
+projects[references_dialog] = "1.0-beta1"
 ; https://www.drupal.org/node/2375741
 ;projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
 ; until stable version https://www.drupal.org/node/2315905
@@ -77,7 +77,7 @@ projects[field_group][version] = "1.4"
 ;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-accordion-heightStyle-content-2173937-8.patch"
 ;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-2269133-7-active_accordion.patch"
 
-;projects[geofield][version] = "2.3"
+projects[geofield][version] = "2.3"
 
 ;projects[httprl][version] = "1.14"
 
@@ -93,7 +93,7 @@ projects[link][version] = "1.3"
 ; Warhscheinlich unnötig: https://www.drupal.org/node/1925922
 ; https://www.drupal.org/files/issues/flag-broken-1925922-131.patch
 
-;projects[flexslider][version] = "2.0-alpha3"
+projects[flexslider][version] = "2.0-alpha3"
 
 ;projects[flexslider_views_slideshow][version] = "2.x-dev"
 
@@ -242,7 +242,7 @@ projects[globalredirect][version] = "1.5"
 
 ;projects[entitycache][version] = "1.2"
 
-;projects[picture][version] = "2.9"
+projects[picture][version] = "2.9"
 
 ;projects[redhen][version] = "1.9"
 
@@ -349,7 +349,7 @@ projects[entityreference_feeds][version] = "1.x-dev"
 ; funktioniert nicht mit BOA, von Hand patchen
 ;projects[entityreference_feeds][patch][] = "https://www.drupal.org/files/issues/broken_feeds-2287149-6.patch"
 
-;projects[entityreference][version] = "1.1"
+projects[entityreference][version] = "1.1"
 ;projects[entityreference][patch][] = "https://www.drupal.org/files/no-label-ref-found-1943300-1.patch"
 ; experimental
 ;projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference_wrapper_property_set-2143171-4.patch"
