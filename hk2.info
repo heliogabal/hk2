@@ -203,6 +203,7 @@ dependencies[] = menu_block
 
 ;dependencies[] = rules
 ;dependencies[] = rules_ui
+;dependencies[] = entity_rules
 dependencies[] = strongarm
 ;dependencies[] = styleguide
 ;dependencies[] = token

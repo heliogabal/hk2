@@ -336,7 +336,7 @@ projects[views_pdf][version] = "1.4"
 projects[feeds][version] = "2.x-dev"
 
 ;projects[cer][version] = 3.0-alpha7
-projects[cer][version] = 3.x-dev
+;projects[cer][version] = 3.x-dev
 ;projects[cer][patch][] = "https://www.drupal.org/files/issues/2331553-cer_left_exception-1.patch"
 ; DAS WAR DAS ARSCHLOCH! https://www.drupal.org/node/2373761
 ;projects[cer][patch][] = "https://www.drupal.org/files/issues/cer-2373761-entity_api_exception-6.patch"
@@ -358,21 +358,21 @@ projects[entityreference][version] = "1.1"
 ; experimental
 ;projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference_wrapper_property_set-2143171-4.patch"
 
-projects[entity][version] = "1.6"
+;projects[entity][version] = "1.6"
 ; https://www.drupal.org/node/2241979
 ;projects[entity][patch][] = "https://www.drupal.org/files/issues/entity_defaults_rebuild-2241979-19_0.patch"
 ; https://www.drupal.org/node/2112755
 ;projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-label-2112755-25.patch"
 
 ;projects[entity_rules][version] = "1.0-alpha4"
-projects[entity_rules][version] = "1.x-dev"
+;projects[entity_rules][version] = "1.x-dev"
 ; Labels in Features https://www.drupal.org/node/2187363
 ;projects[entity_rules][patch][] = "https://www.drupal.org/files/issues/entity_rules-2187363-2.patch"
 
 ;projects[workflow][version] = 2.5
-projects[workflow][version] = 2.x-dev
+;projects[workflow][version] = 2.x-dev
 
-projects[rules][version] = "2.9"
+;projects[rules][version] = "2.9"
 ; Call to undefined method i18n_object_wrapper::get_strings() prevents boa install
 ; https://www.drupal.org/node/2410729
 ;projects[rules][patch][] = "https://www.drupal.org/files/issues/rules_i18n-undefined-method-2410729-1.patch"
