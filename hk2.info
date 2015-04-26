@@ -77,10 +77,10 @@ dependencies[] = translation
 dependencies[] = user
 
 ; Date/Time
-dependencies[] = date
-dependencies[] = date_api
-dependencies[] = date_popup
-dependencies[] = date_views
+;dependencies[] = date
+;dependencies[] = date_api
+;dependencies[] = date_popup
+;dependencies[] = date_views
 
 ; Development
 ;dependencies[] = devel
@@ -122,8 +122,8 @@ dependencies[] = flexslider_fields
 dependencies[] = flexslider_views
 
 ; Image
-dependencies[] = manualcrop
-dependencies[] = smartcrop
+;dependencies[] = manualcrop
+;dependencies[] = smartcrop
 
 ; Mapping
 dependencies[] = leaflet
@@ -153,8 +153,8 @@ dependencies[] = media_wysiwyg
 dependencies[] = translation_helpers
 
 ; Multilingual - Entity Translation
-dependencies[] = entity_translation
-dependencies[] = entity_translation_i18n_menu
+;dependencies[] = entity_translation
+;dependencies[] = entity_translation_i18n_menu
 
 ; Multilingual - Internationalization
 dependencies[] = i18n
@@ -179,8 +179,8 @@ dependencies[] = breakpoints
 dependencies[] = colorbox
 dependencies[] = colorbox_node
 dependencies[] = diff
-dependencies[] = entity
-dependencies[] = entity_view_mode
+;dependencies[] = entity
+;dependencies[] = entity_view_mode
 ;dependencies[] = entity_tokens
 dependencies[] = equalheights
 dependencies[] = geocoder
@@ -193,32 +193,34 @@ dependencies[] = fontello
 dependencies[] = job_scheduler
 dependencies[] = libraries
 dependencies[] = linkit
-dependencies[] = mailsystem
-dependencies[] = mandrill
+;dependencies[] = mailsystem
+;dependencies[] = mandrill
 ;dependencies[] = mandrill_reports
 ;dependencies[] = mandrill_template
 ;dependencies[] = mandrill_activity
 dependencies[] = menu_block
 ;dependencies[] = multiform
-dependencies[] = pathauto
-dependencies[] = redirect
-dependencies[] = robotstxt
+
 ;dependencies[] = rules
 ;dependencies[] = rules_ui
 dependencies[] = strongarm
 ;dependencies[] = styleguide
 dependencies[] = token
 ;dependencies[] = translation_table
-dependencies[] = transliteration
+
 
 ; Panels
 ;dependencies[] = panels
 
 ; Path management
 dependencies[] = globalredirect
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = robotstxt
+dependencies[] = transliteration
 
 ; Performance and scalability
-dependencies[] = entitycache
+;dependencies[] = entitycache
 ;dependencies[] = js
 ;dependencies[] = cdn
 ;dependencies[] = httprl
@@ -260,9 +262,9 @@ dependencies[] = views
 ;dependencies[] = views_accelerator
 dependencies[] = views_bulk_operations
 ;dependencies[] = views_cache_bully
-dependencies[] = views_flag_refresh
-dependencies[] = views_fluid_grid
-dependencies[] = views_pdf
+;dependencies[] = views_flag_refresh
+;dependencies[] = views_fluid_grid
+;dependencies[] = views_pdf
 ;dependencies[] = php_filter
 dependencies[] = views_ui
 
