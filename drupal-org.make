@@ -248,7 +248,7 @@ projects[picture][version] = "2.9"
 
 ;projects[redhen_lead][version] = "1.0-alpha4"
 
-;projects[relation][version] = "1.0-rc7"
+projects[relation][version] = "1.0-rc7"
 
 projects[search_api][version] = "1.14"
 
@@ -360,7 +360,7 @@ projects[entity][version] = "1.6"
 ; https://www.drupal.org/node/2112755
 ;projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-label-2112755-25.patch"
 
-;projects[entity_rules][version] = "1.0-alpha4"
+projects[entity_rules][version] = "1.0-alpha4"
 ;projects[entity_rules][version] = "1.x-dev"
 ; Labels in Features https://www.drupal.org/node/2187363
 ;projects[entity_rules][patch][] = "https://www.drupal.org/files/issues/entity_rules-2187363-2.patch"
