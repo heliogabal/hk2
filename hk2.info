@@ -212,6 +212,7 @@ dependencies[] = menu_block
 dependencies[] = strongarm
 ;dependencies[] = styleguide
 dependencies[] = token
+dependencies[] = token_tweaks
 ;dependencies[] = translation_table
 
 
