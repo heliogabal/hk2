@@ -26,19 +26,26 @@ dependencies[] = better_formats
 dependencies[] = select2
 
 ; CRM Core
-dependencies[] = crm_core
-dependencies[] = crm_core_activity
-dependencies[] = crm_core_activity_ui
-dependencies[] = crm_core_contact
-dependencies[] = crm_core_contact_ui
-dependencies[] = crm_core_default_matching_engine
-dependencies[] = crm_core_match
-dependencies[] = crm_core_profile
-dependencies[] = crm_core_relationship
-dependencies[] = crm_core_relationship_ui
-dependencies[] = crm_core_report
-dependencies[] = crm_core_ui
-dependencies[] = crm_core_user_sync
+;dependencies[] = crm_core
+;dependencies[] = crm_core_activity
+;dependencies[] = crm_core_activity_ui
+;dependencies[] = crm_core_contact
+;dependencies[] = crm_core_contact_ui
+;dependencies[] = crm_core_default_matching_engine
+;dependencies[] = crm_core_match
+;dependencies[] = crm_core_profile
+;dependencies[] = crm_core_relationship
+;dependencies[] = crm_core_relationship_ui
+;dependencies[] = crm_core_report
+;dependencies[] = crm_core_ui
+;dependencies[] = crm_core_user_sync
+
+; Relation
+;dependencies[] = relation
+;dependencies[] = relation_endpoint
+;dependencies[] = relation_feeds
+;dependencies[] = relation_ui
+
 ; Chaos tool suite
 dependencies[] = ctools
 ;dependencies[] = page_manager
@@ -106,8 +113,8 @@ dependencies[] = name
 dependencies[] = phone
 
 ; Flags
-dependencies[] = flag
-dependencies[] = flag_actions
+;dependencies[] = flag
+;dependencies[] = flag_actions
 
 ; FlexSlider
 dependencies[] = flexslider
@@ -220,18 +227,12 @@ dependencies[] = entitycache
 dependencies[] = flexslider_picture
 dependencies[] = picture
 
-; Relation
-dependencies[] = relation
-dependencies[] = relation_endpoint
-dependencies[] = relation_feeds
-dependencies[] = relation_ui
-
 ; Search
 dependencies[] = search_api
 ;dependencies[] = search_api_autocomplete
 ;dependencies[] = search_api_db
 dependencies[] = search_api_facetapi
-dependencies[] = search_api_location
+;dependencies[] = search_api_location
 ;dependencies[] = search_api_override
 dependencies[] = search_api_ranges
 dependencies[] = search_api_solr
@@ -273,7 +274,7 @@ dependencies[] = views_ui
 ; dependencies[] = elements
 
 ; XML sitemap
-dependencies[] = xmlsitemap
+;dependencies[] = xmlsitemap
 
 ; Features
 dependencies[] = features
