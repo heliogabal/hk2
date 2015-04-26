@@ -19,9 +19,9 @@ dependencies[] = module_filter
 dependencies[] = fpa
 
 ; UX
-dependencies[] = compact_forms
-dependencies[] = dhtml_menu
-dependencies[] = better_formats
+;dependencies[] = compact_forms
+;dependencies[] = dhtml_menu
+;dependencies[] = better_formats
 ;dependencies[] = better_exposed_filters
 ;dependencies[] = maxlength
 ;dependencies[] = mobile_detect
@@ -97,22 +97,22 @@ dependencies[] = ds_extras
 dependencies[] = ds_forms
 dependencies[] = ds_ui
 ; Feeds
-dependencies[] = feeds
-dependencies[] = feeds_tamper
-dependencies[] = feeds_tamper_ui
-dependencies[] = feeds_ui
+;dependencies[] = feeds
+;dependencies[] = feeds_tamper
+;dependencies[] = feeds_tamper_ui
+;dependencies[] = feeds_ui
 ;dependencies[] = entityreference_feeds
 
 ; Fields
 dependencies[] = addressfield
 ;dependencies[] = computed_field
 dependencies[] = field_conditional_state
-dependencies[] = email
+;dependencies[] = email
 ;dependencies[] = entityreference
 ;dependencies[] = references_dialog
-dependencies[] = field_group
+;dependencies[] = field_group
 ;dependencies[] = geofield
-dependencies[] = link
+;dependencies[] = link
 ;dependencies[] = name
 ;dependencies[] = phone
 dependencies[] = title
@@ -187,14 +187,14 @@ dependencies[] = title
 ;dependencies[] = entity
 ;dependencies[] = entity_view_mode
 ;dependencies[] = entity_tokens
-dependencies[] = equalheights
+;dependencies[] = equalheights
 ;dependencies[] = geocoder
 ;dependencies[] = geophp
 ;dependencies[] = habitat
 ;dependencies[] = hreflang
-dependencies[] = icon
-dependencies[] = icon_menu
-dependencies[] = fontello
+;dependencies[] = icon
+;dependencies[] = icon_menu
+;dependencies[] = fontello
 dependencies[] = job_scheduler
 dependencies[] = libraries
 ;dependencies[] = linkit
@@ -219,11 +219,11 @@ dependencies[] = strongarm
 ;dependencies[] = panels
 
 ; Path management
-dependencies[] = globalredirect
-dependencies[] = pathauto
-dependencies[] = redirect
-dependencies[] = robotstxt
-dependencies[] = transliteration
+;dependencies[] = globalredirect
+;dependencies[] = pathauto
+;dependencies[] = redirect
+;dependencies[] = robotstxt
+;dependencies[] = transliteration
 
 ; Performance and scalability
 ;dependencies[] = entitycache
@@ -255,8 +255,8 @@ dependencies[] = transliteration
 
 ; User interface
 ;dependencies[] = content_menu
-dependencies[] = jquery_update
-dependencies[] = wysiwyg
+;dependencies[] = jquery_update
+;dependencies[] = wysiwyg
 
 ; Variable
 dependencies[] = variable
@@ -285,7 +285,7 @@ dependencies[] = views_ui
 ;dependencies[] = xmlsitemap
 
 ; Features
-dependencies[] = features
+;dependencies[] = features
 ;dependencies[] = bear_habitat
 ;dependencies[] = bear_habitat_local
 ;dependencies[] = bear_necessities
