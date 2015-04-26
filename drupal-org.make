@@ -28,9 +28,9 @@ projects[better_exposed_filters][version] = 3.2
 
 projects[better_formats][version] = "1.0-beta1"
 
-;projects[crm_core][version] = "0.980"
+projects[crm_core][version] = "0.980"
 
-;projects[crm_core_profile][version] = "1.0-beta10"
+projects[crm_core_profile][version] = "1.0-beta10"
 
 projects[ctools][version] = "1.7"
 
@@ -54,7 +54,7 @@ projects[feeds_tamper][version] = "1.0"
 
 projects[fpa][version] = "2.6"
 
-;projects[imageapi_optimize][version] = 1.2
+projects[imageapi_optimize][version] = 1.2
 
 projects[addressfield][version] = "1.1"
 
@@ -85,9 +85,9 @@ projects[geofield][version] = "2.3"
 
 projects[link][version] = "1.3"
 
-;projects[name][version] = "1.9"
+projects[name][version] = "1.9"
 
-;projects[phone][version] = "1.0-beta1"
+projects[phone][version] = "1.0-beta1"
 
 projects[flag][version] = "3.6"
 ; Warhscheinlich unnötig: https://www.drupal.org/node/1925922
@@ -119,11 +119,11 @@ projects[media][version] = "2.x-dev"
 
 projects[translation_helpers][version] = "1.0"
 
-;projects[entity_translation][version] = "1.0-beta4"
+projects[entity_translation][version] = "1.0-beta4"
 
 ;projects[tmgmt][version] = 1.0-rc1
 
-;projects[i18n][version] = "1.12"
+projects[i18n][version] = "1.12"
 ; Translate Field Pre- and Suffix, not passing tests: https://www.drupal.org/node/1221208
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_field-i18n_field-should-translate-prefix-suffix-of-number-fields-1221208-41.patch"
 ; install error patch https://www.drupal.org/node/1681414
@@ -133,15 +133,15 @@ projects[translation_helpers][version] = "1.0"
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/1681414-29-i18n-fatal_error_installlll.patch"
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_string-undefined-method-2082573-13.patch"
 
-;projects[localize_fields][version] = "1.3"
+projects[localize_fields][version] = "1.3"
 
-;projects[i18nviews][version] = "3.x-dev"
+projects[i18nviews][version] = "3.x-dev"
 ; https://www.drupal.org/node/1653170
 ;projects[i18nviews][patch][] = "https://www.drupal.org/files/i18nviews-1653170.patch"
 
-;projects[l10n_update][version] = 2.0
+projects[l10n_update][version] = 2.0
 
-;projects[hreflang][version] = "1.2"
+projects[hreflang][version] = "1.2"
 
 ;projects[breadcrumbs_by_path][version] = "1.0-alpha12"
 
@@ -159,7 +159,7 @@ projects[colorbox_node][version] = "3.5"
 
 ;projects[session_cache][version] = "1.3"
 
-;projects[diff][version] = "3.2"
+projects[diff][version] = "3.2"
 
 ;projects[entity2text][version] = "1.0-alpha2"
 
@@ -196,11 +196,11 @@ projects[leaflet_markercluster][version] = "1.2"
 
 projects[libraries][version] = "2.2"
 
-;projects[linkit][version] = "2.7"
+projects[linkit][version] = "2.7"
 
-;projects[mailsystem][version] = "2.34"
+projects[mailsystem][version] = "2.34"
 
-;projects[mandrill][version] = "2.1"
+projects[mandrill][version] = "2.1"
 
 projects[menu_block][version] = "2.5"
 
@@ -319,7 +319,7 @@ projects[views_flag_refresh][version] = "1.3"
 
 projects[views_litepager][version] = "3.0"
 
-;projects[views_pdf][version] = "1.4"
+projects[views_pdf][version] = "1.4"
 
 ;projects[webform][version] = "4.7"
 
@@ -368,7 +368,7 @@ projects[entity][version] = "1.6"
 ;projects[workflow][version] = 2.5
 ;projects[workflow][version] = 2.x-dev
 
-;projects[rules][version] = "2.9"
+projects[rules][version] = "2.9"
 ; Call to undefined method i18n_object_wrapper::get_strings() prevents boa install
 ; https://www.drupal.org/node/2410729
 ;projects[rules][patch][] = "https://www.drupal.org/files/issues/rules_i18n-undefined-method-2410729-1.patch"

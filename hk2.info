@@ -29,25 +29,25 @@ dependencies[] = select2
 ;dependencies[] = views_litepager
 
 ; CRM Core
-;dependencies[] = crm_core
-;dependencies[] = crm_core_activity
-;dependencies[] = crm_core_activity_ui
-;dependencies[] = crm_core_contact
-;dependencies[] = crm_core_contact_ui
-;dependencies[] = crm_core_default_matching_engine
-;dependencies[] = crm_core_match
-;dependencies[] = crm_core_profile
-;dependencies[] = crm_core_relationship
-;dependencies[] = crm_core_relationship_ui
-;dependencies[] = crm_core_report
-;dependencies[] = crm_core_ui
-;dependencies[] = crm_core_user_sync
+dependencies[] = crm_core
+dependencies[] = crm_core_activity
+dependencies[] = crm_core_activity_ui
+dependencies[] = crm_core_contact
+dependencies[] = crm_core_contact_ui
+dependencies[] = crm_core_default_matching_engine
+dependencies[] = crm_core_match
+dependencies[] = crm_core_profile
+dependencies[] = crm_core_relationship
+dependencies[] = crm_core_relationship_ui
+dependencies[] = crm_core_report
+dependencies[] = crm_core_ui
+dependencies[] = crm_core_user_sync
 
 ; Relation
-;dependencies[] = relation
-;dependencies[] = relation_endpoint
-;dependencies[] = relation_feeds
-;dependencies[] = relation_ui
+dependencies[] = relation
+dependencies[] = relation_endpoint
+dependencies[] = relation_feeds
+dependencies[] = relation_ui
 
 ; Chaos tool suite
 dependencies[] = ctools
@@ -129,6 +129,7 @@ dependencies[] = flexslider_views
 ; Image
 ;dependencies[] = manualcrop
 ;dependencies[] = smartcrop
+dependencies[] = imageapi_optimize
 
 ; Mapping
 dependencies[] = leaflet
@@ -158,21 +159,21 @@ dependencies[] = media
 dependencies[] = translation_helpers
 
 ; Multilingual - Entity Translation
-;dependencies[] = entity_translation
-;dependencies[] = entity_translation_i18n_menu
+dependencies[] = entity_translation
+dependencies[] = entity_translation_i18n_menu
 
 ; Multilingual - Internationalization
-;dependencies[] = i18n
-;dependencies[] = i18n_menu
+dependencies[] = i18n
+dependencies[] = i18n_menu
 
-;dependencies[] = i18n_path
-;dependencies[] = i18n_string
+dependencies[] = i18n_path
+dependencies[] = i18n_string
 
-;dependencies[] = i18n_translation
-;dependencies[] = i18n_variable
-;dependencies[] = i18nviews
-;dependencies[] = localize_fields
-;dependencies[] = facetapi_i18n
+dependencies[] = i18n_translation
+dependencies[] = i18n_variable
+dependencies[] = i18nviews
+dependencies[] = localize_fields
+dependencies[] = facetapi_i18n
 
 ;; NIE AKTIVIEREN !
 ;dependencies[] = i18n_taxonomy
@@ -197,18 +198,18 @@ dependencies[] = translation_helpers
 ;dependencies[] = fontello
 dependencies[] = job_scheduler
 dependencies[] = libraries
-;dependencies[] = linkit
-;dependencies[] = mailsystem
-;dependencies[] = mandrill
+dependencies[] = linkit
+dependencies[] = mailsystem
+dependencies[] = mandrill
 ;dependencies[] = mandrill_reports
 ;dependencies[] = mandrill_template
 ;dependencies[] = mandrill_activity
 dependencies[] = menu_block
 ;dependencies[] = multiform
 
-;dependencies[] = rules
-;dependencies[] = rules_ui
-;dependencies[] = entity_rules
+dependencies[] = rules
+dependencies[] = rules_ui
+dependencies[] = entity_rules
 dependencies[] = strongarm
 ;dependencies[] = styleguide
 dependencies[] = token
