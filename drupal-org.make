@@ -536,13 +536,13 @@ libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][destination] = "libraries"
 
 ; Plupload
-libraries[plupload][directory_name] = "plupload"
-libraries[plupload][type] = "library"
-libraries[plupload][destination] = "libraries"
-;libraries[plupload][download][type] = "file"
-libraries[plupload][download][type] = "get"
-libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
-libraries[plupload][patch][1903850] = "http://drupal.org/files/issues/plupload-1_5_8-rm_examples-1903850-21.patch"
+;libraries[plupload][directory_name] = "plupload"
+;libraries[plupload][type] = "library"
+;libraries[plupload][destination] = ";libraries"
+;;libraries[plupload][download][type] = "file"
+;libraries[plupload][download][type] = "get"
+;libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
+;libraries[plupload][patch][1903850] = "http://drupal.org/files/issues/plupload-1_5_8-rm_examples-1903850-21.patch"
 
 ; manualcrop
 ;includes[manualcrop] = http://cgit.drupalcode.org/manualcrop/tree/manualcrop.make
@@ -561,10 +561,10 @@ libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
 libraries[leaflet_markercluster][destination] = "libraries"
 
 ; Leaflet.fullscreen plugin
-libraries[leaflet_fullscreen][download][type] = "git"
-libraries[leaflet_fullscreen][download][revision] = "2becb29"
-libraries[leaflet_fullscreen][download][url] = "https://github.com/Leaflet/Leaflet.fullscreen.git"
-libraries[leaflet_fullscreen][directory_name] = "leaflet-fullscreen"
+;libraries[leaflet_fullscreen][download][type] = "git"
+;libraries[leaflet_fullscreen][download][revision] = "2becb29"
+;libraries[leaflet_fullscreen][download][url] = "https://github.com/Leaflet/Leaflet.fullscreen.git"
+;libraries[leaflet_fullscreen][directory_name] = "leaflet-fullscreen"
 
 ; Views PDF
 libraries[tcpdf][type] = "libraries"
@@ -626,13 +626,13 @@ libraries[mandrill][directory_name] = "mandrill"
 libraries[mandrill][destination] = "libraries"
 
 ;emogrifier TODO: not working
-libraries[emogrifier][download][type] = "get"
-libraries[emogrifier][download][url] = "https://raw.githubusercontent.com/jjriv/emogrifier/master/Classes/Emogrifier.php"
-;libraries[emogrifier][download][branch] = "master"
-;libraries[emogrifier][download][revision] = "82457befc8695a895f62c895da4614815c613112"
-libraries[emogrifier][destination] = "libraries"
-libraries[emogrifier][directory_name] = "emogrifier/Classes"
-;libraries[emogrifier][copy_file][] = Emogrifier.php
+;libraries[emogrifier][download][type] = "get"
+;libraries[emogrifier][download][url] = "https://raw.githubusercontent.com/jjriv/emogrifier/master/Classes/Emogrifier.php"
+;;libraries[emogrifier][download][branch] = "master"
+;;libraries[emogrifier][download][revision] = "82457befc8695a895f62c895da4614815c613112"
+;libraries[emogrifier][destination] = "libraries"
+;libraries[emogrifier][directory_name] = "emogrifier/Classes"
+;;libraries[emogrifier][copy_file][] = Emogrifier.php
 
 ; select2
 libraries[select2][download][type] = "get"
