@@ -483,9 +483,9 @@ projects[hk_flexslider][options][working-copy] = TRUE
 ; +++++ Themes +++++
 
 ; bear_skin
-projects[bear_skin][type] = "theme"
-projects[bear_skin][version] = "1.2"
-projects[bear_skin][subdir] = ""
+;projects[bear_skin][type] = "theme"
+;projects[bear_skin][version] = "1.2"
+;projects[bear_skin][subdir] = ""
 
 ; zen
 projects[zen][type] = "theme"
