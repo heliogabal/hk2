@@ -204,7 +204,7 @@ projects[libraries][version] = "2.2"
 
 projects[menu_block][version] = "2.5"
 
-;projects[mobile_detect][version] = "1.x-dev"
+projects[mobile_detect][version] = "1.x-dev"
 
 ;projects[multiform][version] = "1.1"
 
@@ -294,7 +294,7 @@ projects[fontello][version] = "1.0"
 
 projects[jquery_update][version] = "2.5"
 
-;projects[select2][version] = "1.x-dev"
+projects[select2][version] = "1.x-dev"
 ; https://www.drupal.org/node/2459015
 ;projects[select2][patch][] = "https://www.drupal.org/files/issues/AJAX_settings_race_condition-2459015-1.patch"
 
@@ -631,10 +631,10 @@ libraries[Mobile_Detect][destination] = "libraries"
 ;;libraries[emogrifier][copy_file][] = Emogrifier.php
 
 ; select2
-;libraries[select2][download][type] = "get"
-;libraries[select2][download][url] = "https://github.com/select2/select2/archive/3.4.5.zip"
-;libraries[select2][directory_name] = "select2"
-;libraries[select2][destination] = "libraries"
+libraries[select2][download][type] = "get"
+libraries[select2][download][url] = "https://github.com/select2/select2/archive/3.4.5.zip"
+libraries[select2][directory_name] = "select2"
+libraries[select2][destination] = "libraries"
 
 ; +++++ Translations +++++
 ;translations[] = de
