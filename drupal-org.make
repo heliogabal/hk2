@@ -30,9 +30,9 @@ projects[better_exposed_filters][version] = 3.2
 
 projects[better_formats][version] = "1.0-beta1"
 
-projects[crm_core][version] = "0.980"
+;projects[crm_core][version] = "0.980"
 
-projects[crm_core_profile][version] = "1.0-beta10"
+;projects[crm_core_profile][version] = "1.0-beta10"
 
 projects[ctools][version] = "1.7"
 
@@ -93,7 +93,7 @@ projects[phone][version] = "1.0-beta1"
 
 projects[viewfield][version] = "2.0"
 
-projects[flag][version] = "3.6"
+;projects[flag][version] = "3.6"
 ; Warhscheinlich unnötig: https://www.drupal.org/node/1925922
 ; https://www.drupal.org/files/issues/flag-broken-1925922-131.patch
 
@@ -121,7 +121,7 @@ projects[message][version] = "1.10"
 
 ;projects[migrate_d2d][version] = "2.1"
 
-projects[translation_helpers][version] = "1.0"
+;projects[translation_helpers][version] = "1.0"
 
 projects[entity_translation][version] = "1.0-beta4"
 
@@ -137,13 +137,13 @@ projects[i18n][version] = "1.12"
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/1681414-29-i18n-fatal_error_installlll.patch"
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_string-undefined-method-2082573-13.patch"
 
-projects[localize_fields][version] = "1.3"
+;projects[localize_fields][version] = "1.3"
 
-projects[i18nviews][version] = "3.x-dev"
+;projects[i18nviews][version] = "3.x-dev"
 ; https://www.drupal.org/node/1653170
 ;projects[i18nviews][patch][] = "https://www.drupal.org/files/i18nviews-1653170.patch"
 
-projects[l10n_update][version] = 2.0
+;projects[l10n_update][version] = 2.0
 
 projects[hreflang][version] = "1.2"
 
@@ -167,7 +167,7 @@ projects[diff][version] = "3.2"
 
 ;projects[entity2text][version] = "1.0-alpha2"
 
-projects[entity_view_mode][version] = "1.0-rc1"
+;projects[entity_view_mode][version] = "1.0-rc1"
 
 ;projects[entityform][version] = "2.0-rc1"
 
@@ -177,7 +177,7 @@ projects[geocoder][version] = "1.2"
 
 projects[geophp][version] = "1.7"
 
-projects[habitat][version] = "1.0"
+;projects[habitat][version] = "1.0"
 
 projects[icon][version] = "1.0-beta5"
 ; Allow Icons to replace menu items https://www.drupal.org/node/2366055
@@ -202,9 +202,9 @@ projects[libraries][version] = "2.2"
 
 projects[linkit][version] = "2.7"
 
-projects[mailsystem][version] = "2.34"
+;projects[mailsystem][version] = "2.34"
 
-projects[mandrill][version] = "2.1"
+;projects[mandrill][version] = "2.1"
 
 projects[menu_block][version] = "2.5"
 
@@ -220,19 +220,19 @@ projects[pathauto_persist] = 1.3
 
 projects[redirect][version] = "1.x-dev"
 
-projects[robotstxt][version] = "1.2"
+projects[robotstxt][version] = "1.3"
 
 projects[strongarm][version] = "2.0"
 
 projects[styleguide][version] = "1.1"
 
-projects[taxonomy_manager][version] = "1.0"
+;projects[taxonomy_manager][version] = "1.0"
 
-projects[term_merge][version] = "1.2"
+;projects[term_merge][version] = "1.2"
 
 projects[title][version] = "1.0-alpha7"
 
-projects[translation_table][version] = "1.0-beta1"
+;projects[translation_table][version] = "1.0-beta1"
 
 projects[token][version] = "1.6"
 
@@ -317,17 +317,17 @@ projects[views_accelerator][version] = "1.0-beta1"
 
 projects[views_bulk_operations][version] = "3.2"
 
-projects[views_flag_refresh][version] = "1.3"
+;projects[views_flag_refresh][version] = "1.3"
 
-projects[views_fluid_grid][version] = "3.0"
+;projects[views_fluid_grid][version] = "3.0"
 
 projects[views_litepager][version] = "3.0"
 
 projects[views_pdf][version] = "1.4"
 
-projects[webform][version] = "4.7"
+;projects[webform][version] = "4.7"
 
-projects[xmlsitemap][version] = "2.2"
+;projects[xmlsitemap][version] = "2.2"
 
 ; Problematic Versions
 
