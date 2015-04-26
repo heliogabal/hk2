@@ -11,7 +11,7 @@ files[] = hk2.profile
 ; Administration
 dependencies[] = admin_menu
 ;dependencies[] = admin_menu_toolbar
-;dependencies[] = admin_views
+dependencies[] = admin_views
 dependencies[] = adminimal_admin_menu
 dependencies[] = block_class
 ;dependencies[] = coffee
@@ -24,8 +24,8 @@ dependencies[] = fpa
 ;dependencies[] = better_formats
 ;dependencies[] = better_exposed_filters
 ;dependencies[] = maxlength
-;dependencies[] = mobile_detect
-;dependencies[] = select2
+dependencies[] = mobile_detect
+dependencies[] = select2
 ;dependencies[] = views_litepager
 
 ; CRM Core
@@ -286,7 +286,7 @@ dependencies[] = views_ui
 ;dependencies[] = xmlsitemap
 
 ; Features
-;dependencies[] = features
+dependencies[] = features
 ;dependencies[] = bear_habitat
 ;dependencies[] = bear_habitat_local
 ;dependencies[] = bear_necessities
@@ -295,7 +295,7 @@ dependencies[] = views_ui
 ;dependencies[] = hk_ct_apart
 ;dependencies[] = hk_ct_page
 
-;dependencies[] = hk_ct
+dependencies[] = hk_ct
 ;dependencies[] = hk_search
-;dependencies[] = hk_admin
+dependencies[] = hk_admin
 ;dependencies[] = hk_translations
