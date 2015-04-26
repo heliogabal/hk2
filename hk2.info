@@ -24,6 +24,7 @@ dependencies[] = dhtml_menu
 dependencies[] = better_formats
 ;dependencies[] = better_exposed_filters
 ;dependencies[] = select2
+;dependencies[] = views_litepager
 
 ; CRM Core
 ;dependencies[] = crm_core
@@ -106,6 +107,7 @@ dependencies[] = addressfield
 dependencies[] = field_conditional_state
 dependencies[] = email
 ;dependencies[] = entityreference
+;dependencies[] = references_dialog
 dependencies[] = field_group
 ;dependencies[] = geofield
 dependencies[] = link
