@@ -23,6 +23,7 @@ dependencies[] = compact_forms
 dependencies[] = dhtml_menu
 dependencies[] = better_formats
 ;dependencies[] = better_exposed_filters
+;dependencies[] = maxlength
 ;dependencies[] = select2
 ;dependencies[] = views_litepager
 

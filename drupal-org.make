@@ -56,7 +56,7 @@ projects[feeds_tamper][version] = "1.0"
 
 projects[fpa][version] = "2.6"
 
-projects[imageapi_optimize][version] = 1.2
+;projects[imageapi_optimize][version] = 1.2
 
 projects[addressfield][version] = "1.1"
 
@@ -69,7 +69,7 @@ projects[dhtml_menu][version] = "1.x-dev"
 projects[email][version] = "1.3"
 
 
-projects[references_dialog] = "1.0-beta1"
+;projects[references_dialog] = "1.0-beta1"
 ; https://www.drupal.org/node/2375741
 ;projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
 ; until stable version https://www.drupal.org/node/2315905
@@ -79,7 +79,7 @@ projects[field_group][version] = "1.4"
 ;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-accordion-heightStyle-content-2173937-8.patch"
 ;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-2269133-7-active_accordion.patch"
 
-projects[geofield][version] = "2.3"
+;projects[geofield][version] = "2.3"
 
 ;projects[httprl][version] = "1.14"
 
@@ -87,35 +87,33 @@ projects[geofield][version] = "2.3"
 
 projects[link][version] = "1.3"
 
-projects[name][version] = "1.9"
+;projects[name][version] = "1.9"
 
-projects[phone][version] = "1.0-beta1"
-
-projects[viewfield][version] = "2.0"
+;projects[phone][version] = "1.0-beta1"
 
 ;projects[flag][version] = "3.6"
 ; Warhscheinlich unnötig: https://www.drupal.org/node/1925922
 ; https://www.drupal.org/files/issues/flag-broken-1925922-131.patch
 
-projects[flexslider][version] = "2.0-alpha3"
+;projects[flexslider][version] = "2.0-alpha3"
 
-projects[flexslider_views_slideshow][version] = "2.x-dev"
+;projects[flexslider_views_slideshow][version] = "2.x-dev"
 
-projects[manualcrop][version] = "1.5"
+;projects[manualcrop][version] = "1.5"
 
 projects[maxlength][version] = "3.2"
 
-projects[smartcrop][version] = "1.0-beta2"
+;projects[smartcrop][version] = "1.0-beta2"
 
-projects[file_entity][version] = "2.x-dev"
+;projects[file_entity][version] = "2.x-dev"
 
-projects[media][version] = "2.x-dev"
+;projects[media][version] = "2.x-dev"
 
-projects[media_youtube][version] = "2.0-rc1"
+;projects[media_youtube][version] = "2.0-rc1"
 
-projects[plupload][version] = "1.7"
+;projects[plupload][version] = "1.7"
 
-projects[message][version] = "1.10"
+;projects[message][version] = "1.10"
 
 ;projects[migrate][version] = "2.7"
 
@@ -123,11 +121,11 @@ projects[message][version] = "1.10"
 
 ;projects[translation_helpers][version] = "1.0"
 
-projects[entity_translation][version] = "1.0-beta4"
+;projects[entity_translation][version] = "1.0-beta4"
 
 ;projects[tmgmt][version] = 1.0-rc1
 
-projects[i18n][version] = "1.12"
+;projects[i18n][version] = "1.12"
 ; Translate Field Pre- and Suffix, not passing tests: https://www.drupal.org/node/1221208
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_field-i18n_field-should-translate-prefix-suffix-of-number-fields-1221208-41.patch"
 ; install error patch https://www.drupal.org/node/1681414
@@ -145,9 +143,9 @@ projects[i18n][version] = "1.12"
 
 ;projects[l10n_update][version] = 2.0
 
-projects[hreflang][version] = "1.2"
+;projects[hreflang][version] = "1.2"
 
-projects[breadcrumbs_by_path][version] = "1.0-alpha12"
+;projects[breadcrumbs_by_path][version] = "1.0-alpha12"
 
 ;projects[breakpoints][version] = "1.3"
 
@@ -157,9 +155,9 @@ projects[breadcrumbs_by_path][version] = "1.0-alpha12"
 
 ;projects[context_flag][version] = "1.2"
 
-projects[session_api][version] = "1.0-rc1"
+;projects[session_api][version] = "1.0-rc1"
 
-projects[session_cache][version] = "1.3"
+;projects[session_cache][version] = "1.3"
 
 ;projects[colorbox_node][version] = "3.5"
 
@@ -173,9 +171,9 @@ projects[session_cache][version] = "1.3"
 
 projects[equalheights][version] = "2.4"
 
-projects[geocoder][version] = "1.2"
+;projects[geocoder][version] = "1.2"
 
-projects[geophp][version] = "1.7"
+;projects[geophp][version] = "1.7"
 
 ;projects[habitat][version] = "1.0"
 
@@ -183,24 +181,24 @@ projects[icon][version] = "1.0-beta5"
 ; Allow Icons to replace menu items https://www.drupal.org/node/2366055
 ;projects[icon][patch][] = "https://www.drupal.org/files/issues/2366055-icon-menu-replace-2.patch"
 
-projects[ip_geoloc][version] = "1.26"
+;projects[ip_geoloc][version] = "1.26"
 ;projects[ip_geoloc][version] = "1.x-dev"
 ;projects[ip_geoloc][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/hk_customization-minZoom-maxBounds-Marker.patch"
 
 projects[job_scheduler][version] = "2.0-alpha3"
 
-projects[leaflet][version] = "1.1"
+;projects[leaflet][version] = "1.1"
 ;projects[leaflet][version] = "1.x-dev"
 
-projects[leaflet_mapbox][version] = "1.2"
+;projects[leaflet_mapbox][version] = "1.2"
 
-projects[leaflet_markercluster][version] = "1.2"
+;projects[leaflet_markercluster][version] = "1.2"
 ;projects[leaflet_markercluster][version] = "1.x-dev"
 ;libraries[leaflet_markercluster][patch][] = "https://www.drupal.org/files/issues/leaflet_markercluster-leaflet-compatibility.patch"
 
 projects[libraries][version] = "2.2"
 
-projects[linkit][version] = "2.7"
+;projects[linkit][version] = "2.7"
 
 ;projects[mailsystem][version] = "2.34"
 
@@ -620,10 +618,10 @@ libraries[Mobile_Detect][destination] = "libraries"
 ;libraries[mailchimp][destination] = "libraries"
 
 ; mandrill
-libraries[mandrill][download][type] = "get"
-libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
-libraries[mandrill][directory_name] = "mandrill"
-libraries[mandrill][destination] = "libraries"
+;libraries[mandrill][download][type] = "get"
+;libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
+;libraries[mandrill][directory_name] = "mandrill"
+;libraries[mandrill][destination] = "libraries"
 
 ;emogrifier TODO: not working
 ;libraries[emogrifier][download][type] = "get"
