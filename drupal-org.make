@@ -149,9 +149,9 @@ projects[hreflang][version] = "1.2"
 
 projects[breadcrumbs_by_path][version] = "1.0-alpha12"
 
-projects[breakpoints][version] = "1.3"
+;projects[breakpoints][version] = "1.3"
 
-projects[colorbox][version] = "2.8"
+;projects[colorbox][version] = "2.8"
 
 ;projects[context][version] = "3.6"
 
@@ -161,9 +161,9 @@ projects[session_api][version] = "1.0-rc1"
 
 projects[session_cache][version] = "1.3"
 
-projects[colorbox_node][version] = "3.5"
+;projects[colorbox_node][version] = "3.5"
 
-projects[diff][version] = "3.2"
+;projects[diff][version] = "3.2"
 
 ;projects[entity2text][version] = "1.0-alpha2"
 
@@ -246,13 +246,13 @@ projects[globalredirect][version] = "1.5"
 
 projects[entitycache][version] = "1.2"
 
-projects[picture][version] = "2.9"
+;projects[picture][version] = "2.9"
 
 ;projects[redhen][version] = "1.9"
 
 ;projects[redhen_lead][version] = "1.0-alpha4"
 
-projects[relation][version] = "1.0-rc7"
+;projects[relation][version] = "1.0-rc7"
 
 ;projects[search_api][version] = "1.14"
 
@@ -294,7 +294,7 @@ projects[relation][version] = "1.0-rc7"
 
 projects[fontello][version] = "1.0"
 
-projects[content_menu][version] = "1.0"
+;projects[content_menu][version] = "1.0"
 
 projects[jquery_update][version] = "2.5"
 
@@ -313,7 +313,7 @@ projects[views][version] = "3.10"
 ;Geofield Search API bug
 ;projects[views][patch][] = https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
 
-projects[views_accelerator][version] = "1.0-beta1"
+;projects[views_accelerator][version] = "1.0-beta1"
 
 projects[views_bulk_operations][version] = "3.2"
 
@@ -353,7 +353,7 @@ projects[entityreference_feeds][version] = "1.x-dev"
 ; funktioniert nicht mit BOA, von Hand patchen
 ;projects[entityreference_feeds][patch][] = "https://www.drupal.org/files/issues/broken_feeds-2287149-6.patch"
 
-projects[entityreference][version] = "1.1"
+;projects[entityreference][version] = "1.1"
 ;projects[entityreference][patch][] = "https://www.drupal.org/files/no-label-ref-found-1943300-1.patch"
 ; experimental
 ;projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference_wrapper_property_set-2143171-4.patch"

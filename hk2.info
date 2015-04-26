@@ -98,45 +98,45 @@ dependencies[] = feeds
 dependencies[] = feeds_tamper
 dependencies[] = feeds_tamper_ui
 dependencies[] = feeds_ui
-dependencies[] = entityreference_feeds
+;dependencies[] = entityreference_feeds
 
 ; Fields
 dependencies[] = addressfield
 ;dependencies[] = computed_field
 dependencies[] = field_conditional_state
 dependencies[] = email
-dependencies[] = entityreference
+;dependencies[] = entityreference
 dependencies[] = field_group
-dependencies[] = geofield
+;dependencies[] = geofield
 dependencies[] = link
-dependencies[] = name
-dependencies[] = phone
+;dependencies[] = name
+;dependencies[] = phone
 
 ; Flags
 ;dependencies[] = flag
 ;dependencies[] = flag_actions
 
 ; FlexSlider
-dependencies[] = flexslider
-dependencies[] = flexslider_fields
-dependencies[] = flexslider_views
+;dependencies[] = flexslider
+;dependencies[] = flexslider_fields
+;dependencies[] = flexslider_views
 
 ; Image
 ;dependencies[] = manualcrop
 ;dependencies[] = smartcrop
 
 ; Mapping
-dependencies[] = leaflet
-dependencies[] = leaflet_mapbox
-dependencies[] = leaflet_markercluster
-dependencies[] = ip_geoloc
+;dependencies[] = leaflet
+;dependencies[] = leaflet_mapbox
+;dependencies[] = leaflet_markercluster
+;dependencies[] = ip_geoloc
 
 ; Media
-dependencies[] = file_entity
-dependencies[] = media
+;dependencies[] = file_entity
+;dependencies[] = media
 ;dependencies[] = media_bulk_upload
 ;dependencies[] = media_internet
-dependencies[] = media_wysiwyg
+;dependencies[] = media_wysiwyg
 ;dependencies[] = media_youtube
 ;dependencies[] = plupload
 
@@ -175,24 +175,24 @@ dependencies[] = media_wysiwyg
 
 ; Other
 ;dependencies[] = breadcrumbs_by_path
-dependencies[] = breakpoints
-dependencies[] = colorbox
-dependencies[] = colorbox_node
+;dependencies[] = breakpoints
+;dependencies[] = colorbox
+;dependencies[] = colorbox_node
 ;dependencies[] = diff
 ;dependencies[] = entity
 ;dependencies[] = entity_view_mode
 ;dependencies[] = entity_tokens
 dependencies[] = equalheights
-dependencies[] = geocoder
-dependencies[] = geophp
+;dependencies[] = geocoder
+;dependencies[] = geophp
 ;dependencies[] = habitat
-dependencies[] = hreflang
+;dependencies[] = hreflang
 dependencies[] = icon
 dependencies[] = icon_menu
 dependencies[] = fontello
 dependencies[] = job_scheduler
 dependencies[] = libraries
-dependencies[] = linkit
+;dependencies[] = linkit
 ;dependencies[] = mailsystem
 ;dependencies[] = mandrill
 ;dependencies[] = mandrill_reports
@@ -227,8 +227,8 @@ dependencies[] = transliteration
 ;dependencies[] = httprl
 
 ; Picture
-dependencies[] = flexslider_picture
-dependencies[] = picture
+;dependencies[] = flexslider_picture
+;dependencies[] = picture
 
 ; Search
 ;dependencies[] = search_api
@@ -249,7 +249,7 @@ dependencies[] = picture
 ;dependencies[] = facetapi_pretty_paths
 
 ; User interface
-dependencies[] = content_menu
+;dependencies[] = content_menu
 dependencies[] = jquery_update
 dependencies[] = wysiwyg
 
