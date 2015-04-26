@@ -11,7 +11,7 @@ files[] = hk2.profile
 ; Administration
 dependencies[] = admin_menu
 ;dependencies[] = admin_menu_toolbar
-dependencies[] = admin_views
+;dependencies[] = admin_views
 dependencies[] = adminimal_admin_menu
 dependencies[] = block_class
 ;dependencies[] = coffee
@@ -23,7 +23,7 @@ dependencies[] = compact_forms
 dependencies[] = dhtml_menu
 dependencies[] = better_formats
 ;dependencies[] = better_exposed_filters
-dependencies[] = select2
+;dependencies[] = select2
 
 ; CRM Core
 ;dependencies[] = crm_core
@@ -150,7 +150,7 @@ dependencies[] = media_wysiwyg
 ;dependencies[] = migrate_ui
 
 ; Multilanguage
-dependencies[] = translation_helpers
+;dependencies[] = translation_helpers
 
 ; Multilingual - Entity Translation
 ;dependencies[] = entity_translation
@@ -178,7 +178,7 @@ dependencies[] = facetapi_i18n
 dependencies[] = breakpoints
 dependencies[] = colorbox
 dependencies[] = colorbox_node
-dependencies[] = diff
+;dependencies[] = diff
 ;dependencies[] = entity
 ;dependencies[] = entity_view_mode
 ;dependencies[] = entity_tokens
@@ -205,7 +205,7 @@ dependencies[] = menu_block
 ;dependencies[] = rules_ui
 dependencies[] = strongarm
 ;dependencies[] = styleguide
-dependencies[] = token
+;dependencies[] = token
 ;dependencies[] = translation_table
 
 
