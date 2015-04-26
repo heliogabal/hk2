@@ -89,7 +89,7 @@ projects[link][version] = "1.3"
 
 ;projects[phone][version] = "1.0-beta1"
 
-;projects[flag][version] = "3.6"
+projects[flag][version] = "3.6"
 ; Warhscheinlich unnötig: https://www.drupal.org/node/1925922
 ; https://www.drupal.org/files/issues/flag-broken-1925922-131.patch
 
@@ -103,9 +103,9 @@ projects[maxlength][version] = "3.2"
 
 ;projects[smartcrop][version] = "1.0-beta2"
 
-;projects[file_entity][version] = "2.x-dev"
+projects[file_entity][version] = "2.x-dev"
 
-;projects[media][version] = "2.x-dev"
+projects[media][version] = "2.x-dev"
 
 ;projects[media_youtube][version] = "2.0-rc1"
 
@@ -145,9 +145,11 @@ projects[maxlength][version] = "3.2"
 
 ;projects[breadcrumbs_by_path][version] = "1.0-alpha12"
 
-;projects[breakpoints][version] = "1.3"
+projects[breakpoints][version] = "1.3"
 
-;projects[colorbox][version] = "2.8"
+projects[colorbox][version] = "2.8"
+
+projects[colorbox_node][version] = "3.5"
 
 ;projects[context][version] = "3.6"
 
@@ -156,8 +158,6 @@ projects[maxlength][version] = "3.2"
 ;projects[session_api][version] = "1.0-rc1"
 
 ;projects[session_cache][version] = "1.3"
-
-;projects[colorbox_node][version] = "3.5"
 
 ;projects[diff][version] = "3.2"
 
@@ -169,9 +169,9 @@ projects[maxlength][version] = "3.2"
 
 projects[equalheights][version] = "2.4"
 
-;projects[geocoder][version] = "1.2"
+projects[geocoder][version] = "1.2"
 
-;projects[geophp][version] = "1.7"
+projects[geophp][version] = "1.7"
 
 ;projects[habitat][version] = "1.0"
 
@@ -179,18 +179,18 @@ projects[icon][version] = "1.0-beta5"
 ; Allow Icons to replace menu items https://www.drupal.org/node/2366055
 ;projects[icon][patch][] = "https://www.drupal.org/files/issues/2366055-icon-menu-replace-2.patch"
 
-;projects[ip_geoloc][version] = "1.26"
+projects[ip_geoloc][version] = "1.26"
 ;projects[ip_geoloc][version] = "1.x-dev"
 ;projects[ip_geoloc][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/hk_customization-minZoom-maxBounds-Marker.patch"
 
 projects[job_scheduler][version] = "2.0-alpha3"
 
-;projects[leaflet][version] = "1.1"
+projects[leaflet][version] = "1.1"
 ;projects[leaflet][version] = "1.x-dev"
 
-;projects[leaflet_mapbox][version] = "1.2"
+projects[leaflet_mapbox][version] = "1.2"
 
-;projects[leaflet_markercluster][version] = "1.2"
+projects[leaflet_markercluster][version] = "1.2"
 ;projects[leaflet_markercluster][version] = "1.x-dev"
 ;libraries[leaflet_markercluster][patch][] = "https://www.drupal.org/files/issues/leaflet_markercluster-leaflet-compatibility.patch"
 
@@ -240,7 +240,7 @@ projects[transliteration][version] = "3.2"
 
 projects[globalredirect][version] = "1.5"
 
-;projects[entitycache][version] = "1.2"
+projects[entitycache][version] = "1.2"
 
 projects[picture][version] = "2.9"
 
@@ -354,7 +354,7 @@ projects[entityreference][version] = "1.1"
 ; experimental
 ;projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference_wrapper_property_set-2143171-4.patch"
 
-;projects[entity][version] = "1.6"
+projects[entity][version] = "1.6"
 ; https://www.drupal.org/node/2241979
 ;projects[entity][patch][] = "https://www.drupal.org/files/issues/entity_defaults_rebuild-2241979-19_0.patch"
 ; https://www.drupal.org/node/2112755
