@@ -11,12 +11,12 @@ projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.36.1.tar.
 
 ;https://www.drupal.org/node/2393547
 ;projects[drupal][patch][] = "http://drupal.org/files/drupal-1934086-path_load_order-1.patch"
-projects[drupal][patch][] = "http://drupal.org/files/issues/drupal-1934086-path_load_order-6_0.patch"
-projects[drupal][patch][] = "http://drupal.org/files/core-1875824-3-d7.patch"
-projects[drupal][patch][] = "http://drupal.org/files/issues/fix_for_autocomplete_terminated_error-1232416-156.patch"
-projects[drupal][patch][] = "http://drupal.org/files/issues/drupal-undefinedindex_fileupload-1903010-4.patch"
-projects[drupal][patch][] = "http://drupal.org/files/issues/death-to-tabledrag.patch"
-;projects[drupal][patch][] = "http://drupal.org/files/schema-relative-1783278-7-D7-do-not-test.patch"
-;projects[drupal][patch][] = "http://drupal.org/files/issues/drupal-2285917-3.patch"
+;projects[drupal][patch][] = "http://drupal.org/files/issues/drupal-1934086-path_load_order-6_0.patch"
+;projects[drupal][patch][] = "http://drupal.org/files/core-1875824-3-d7.patch"
+;projects[drupal][patch][] = "http://drupal.org/files/issues/fix_for_autocomplete_terminated_error-1232416-156.patch"
+;projects[drupal][patch][] = "http://drupal.org/files/issues/drupal-undefinedindex_fileupload-1903010-4.patch"
+;projects[drupal][patch][] = "http://drupal.org/files/issues/death-to-tabledrag.patch"
+;;projects[drupal][patch][] = "http://drupal.org/files/schema-relative-1783278-7-D7-do-not-test.patch"
+;;projects[drupal][patch][] = "http://drupal.org/files/issues/drupal-2285917-3.patch"
 ; https://www.drupal.org/node/2418147
-projects[drupal][patch][] = "https://www.drupal.org/files/issues/2418147-d7-drupal_static_reset-on-module-changes-1.patch"
+;projects[drupal][patch][] = "https://www.drupal.org/files/issues/2418147-d7-drupal_static_reset-on-module-changes-1.patch"
