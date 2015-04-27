@@ -26,7 +26,7 @@ dependencies[] = fpa
 ;dependencies[] = maxlength
 dependencies[] = mobile_detect
 dependencies[] = select2
-;dependencies[] = views_litepager
+dependencies[] = views_litepager
 
 ; CRM Core
 ;dependencies[] = crm_core
@@ -101,7 +101,7 @@ dependencies[] = feeds
 dependencies[] = feeds_tamper
 dependencies[] = feeds_tamper_ui
 dependencies[] = feeds_ui
-dependencies[] = entityreference_feeds
+;dependencies[] = entityreference_feeds
 
 ; Fields
 dependencies[] = addressfield
