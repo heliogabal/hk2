@@ -127,8 +127,8 @@ dependencies[] = flexslider_fields
 dependencies[] = flexslider_views
 
 ; Image
-;dependencies[] = manualcrop
-;dependencies[] = smartcrop
+dependencies[] = manualcrop
+dependencies[] = smartcrop
 dependencies[] = imageapi_optimize
 
 ; Mapping
