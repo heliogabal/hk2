@@ -69,9 +69,9 @@ projects[email][version] = "1.3"
 
 projects[references_dialog] = "1.0-beta1"
 ; https://www.drupal.org/node/2375741
-;projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
+projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
 ; until stable version https://www.drupal.org/node/2315905
-;projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/references_dialog_beta1-fix_theme_links-2315905-20.patch"
+projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/references_dialog_beta1-fix_theme_links-2315905-20.patch"
 
 projects[field_group][version] = "1.4"
 ;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-accordion-heightStyle-content-2173937-8.patch"
@@ -302,7 +302,7 @@ projects[wysiwyg][version] = "2.x-dev"
 
 projects[variable][version] = "2.5"
 
-projects[views][version] = "3.10"
+projects[views][version] = "3.11"
 ;projects[views][patch][] = "https://www.drupal.org/files/issues/views-ajax-nginx-1036962-71.patch"
 ;Needed for views selective filters
 ;projects[views][patch][] = "https://www.drupal.org/files/issues/aggregation_not_working-2159347-87.patch"
@@ -325,7 +325,7 @@ projects[editableviews][version] = "1.0-beta9"
 
 ;projects[webform][version] = "4.7"
 
-;projects[xmlsitemap][version] = "2.2"
+projects[xmlsitemap][version] = "2.2"
 
 ; Problematic Versions
 
@@ -366,10 +366,10 @@ projects[entity][version] = "1.6"
 projects[entity_rules][version] = "1.0-alpha4"
 ;projects[entity_rules][version] = "1.x-dev"
 ; Labels in Features https://www.drupal.org/node/2187363
-;projects[entity_rules][patch][] = "https://www.drupal.org/files/issues/entity_rules-2187363-2.patch"
+projects[entity_rules][patch][] = "https://www.drupal.org/files/issues/entity_rules-2187363-2.patch"
 
 ;projects[workflow][version] = 2.5
-;projects[workflow][version] = 2.x-dev
+projects[workflow][version] = 2.x-dev
 
 projects[rules][version] = "2.9"
 ; Call to undefined method i18n_object_wrapper::get_strings() prevents boa install
@@ -379,11 +379,11 @@ projects[rules][version] = "2.9"
 ; +++++ Features +++++
 
 ; ;hk_base
-; projects[hk_base][type] = module
-; projects[hk_base][download][type] = "git"
-; projects[hk_base][download][url] = "https://github.com/heliogabal/hk_base.git"
-; projects[hk_base][subdir] = "features"
-; projects[hk_base][options][working-copy] = TRUE
+ projects[hk_base][type] = module
+ projects[hk_base][download][type] = "git"
+ projects[hk_base][download][url] = "https://github.com/heliogabal/hk_base.git"
+ projects[hk_base][subdir] = "features"
+ projects[hk_base][options][working-copy] = TRUE
 
 ; ;hk_ct_object
 ; projects[hk_ct_object][type] = module
@@ -535,16 +535,16 @@ libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][destination] = "libraries"
 
 ; Plupload
-libraries[plupload][directory_name] = "plupload"
-libraries[plupload][type] = "library"
-libraries[plupload][destination] = ";libraries"
-;libraries[plupload][download][type] = "file"
-libraries[plupload][download][type] = "get"
-libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
-libraries[plupload][patch][1903850] = "http://drupal.org/files/issues/plupload-1_5_8-rm_examples-1903850-21.patch"
+;libraries[plupload][directory_name] = "plupload"
+;libraries[plupload][type] = "library"
+;libraries[plupload][destination] = ";libraries"
+;;libraries[plupload][download][type] = "file"
+;libraries[plupload][download][type] = "get"
+;libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
+;libraries[plupload][patch][1903850] = "http://drupal.org/files/issues/plupload-1_5_8-rm_examples-1903850-21.patch"
 
 ; manualcrop
-includes[manualcrop] = http://cgit.drupalcode.org/manualcrop/tree/manualcrop.make
+;includes[manualcrop] = http://cgit.drupalcode.org/manualcrop/tree/manualcrop.make
 
 ; leaflet
 libraries[leaflet][directory_name] = "leaflet"
@@ -566,24 +566,24 @@ libraries[leaflet_markercluster][destination] = "libraries"
 ;libraries[leaflet_fullscreen][directory_name] = "leaflet-fullscreen"
 
 ; Views PDF
-libraries[tcpdf][type] = "libraries"
-libraries[tcpdf][download][type] = "file"
-libraries[tcpdf][download][url] = "http://tinyurl.com/tcpdf-6-2-6-zip"
-libraries[tcpdf][directory_name] = "tcpdf"
-libraries[tcpdf][destination] = "libraries"
+;libraries[tcpdf][type] = "libraries"
+;libraries[tcpdf][download][type] = "file"
+;libraries[tcpdf][download][url] = "http://tinyurl.com/tcpdf-6-2-6-zip"
+;libraries[tcpdf][directory_name] = "tcpdf"
+;libraries[tcpdf][destination] = "libraries"
 
 ;libraries[fpdi][type] = "libraries"
-libraries[fpdi][download][type] = "file"
-libraries[fpdi][download][url] = "http://www.setasign.com/supra/kon2_dl/80506/FPDI-1.5.2.zip"
-libraries[fpdi][directory_name] = "fpdi"
-libraries[fpdi][destination] = "libraries"
+;libraries[fpdi][download][type] = "file"
+;libraries[fpdi][download][url] = "http://www.setasign.com/supra/kon2_dl/80506/FPDI-1.5.2.zip"
+;libraries[fpdi][directory_name] = "fpdi"
+;libraries[fpdi][destination] = "libraries"
 
 ; Fontawesome
-libraries[fontawesome][type] = "libraries"
-libraries[fontawesome][download][type] = "get"
-libraries[fontawesome][download][url] = "http://fortawesome.github.io/Font-Awesome/3.2.1/assets/font-awesome.zip"
-libraries[fontawesome][directory_name] = "fontawesome"
-libraries[fontawesome][destination] = "libraries"
+;libraries[fontawesome][type] = "libraries"
+;libraries[fontawesome][download][type] = "get"
+;libraries[fontawesome][download][url] = "http://fortawesome.github.io/Font-Awesome/3.2.1/assets/font-awesome.zip"
+;libraries[fontawesome][directory_name] = "fontawesome"
+;libraries[fontawesome][destination] = "libraries"
 
 ; SimplePie RSS parser for feeds
 ;libraries[simplepie][directory_name] = simplepie
@@ -619,10 +619,10 @@ libraries[Mobile_Detect][destination] = "libraries"
 ;libraries[mailchimp][destination] = "libraries"
 
 ; mandrill
-libraries[mandrill][download][type] = "get"
-libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
-libraries[mandrill][directory_name] = "mandrill"
-libraries[mandrill][destination] = "libraries"
+;libraries[mandrill][download][type] = "get"
+;libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
+;libraries[mandrill][directory_name] = "mandrill"
+;libraries[mandrill][destination] = "libraries"
 
 ;emogrifier TODO: not working
 ;libraries[emogrifier][download][type] = "get"

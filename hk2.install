@@ -95,7 +95,7 @@ function hk2_install() {
   $enable = array(
     'theme_default' => 'hk_theme',
     'admin_theme' => 'adminimal_theme',
-    //'zen'
+    'zen'
   );
   theme_enable($enable);
 
@@ -106,7 +106,7 @@ function hk2_install() {
   }
 variable_set('admin_theme', 'adminimal_theme');
   // Disable the default Bartik theme
-  //theme_disable(array('bartik'));
+  theme_disable(array('bartik'));
 
   //Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
@@ -124,7 +124,7 @@ variable_set('admin_theme', 'adminimal_theme');
   // Update the menu router information.
   menu_rebuild();
   // revert features to ensure they are all installed
-     $features = array(
+ //    $features = array(
     // 'bear_habitat',
     // 'bear_necessities',
     // 'bear_user',
@@ -135,12 +135,12 @@ variable_set('admin_theme', 'adminimal_theme');
      // 'hk_ct_object',
      // 'hk_ct_apart',
      // 'hk_ct_page',
-       'hk_ct'//,
+      // 'hk_ct'//,
        //'hk_search',
-      //'hk_admin'//,
-    //   'hk_translations'
-     );
-     features_revert($features);
+      //'hk_admin',
+       //'hk_translations'
+ //    );
+   //  features_revert($features);
   // ignore any rebuild messages
   node_access_needs_rebuild(FALSE);
   // ignore any other install messages
