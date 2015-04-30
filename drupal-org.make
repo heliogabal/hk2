@@ -97,11 +97,11 @@ projects[flexslider][version] = "2.0-alpha3"
 
 ;projects[flexslider_views_slideshow][version] = "2.x-dev"
 
-;projects[manualcrop][version] = "1.5"
+projects[manualcrop][version] = "1.5"
 
 projects[maxlength][version] = "3.2"
 
-;projects[smartcrop][version] = "1.0-beta2"
+projects[smartcrop][version] = "1.0-beta2"
 
 projects[file_entity][version] = "2.x-dev"
 
@@ -544,7 +544,7 @@ libraries[colorbox][destination] = "libraries"
 ;libraries[plupload][patch][1903850] = "http://drupal.org/files/issues/plupload-1_5_8-rm_examples-1903850-21.patch"
 
 ; manualcrop
-;includes[manualcrop] = http://cgit.drupalcode.org/manualcrop/tree/manualcrop.make
+includes[manualcrop] = http://cgit.drupalcode.org/manualcrop/tree/manualcrop.make
 
 ; leaflet
 libraries[leaflet][directory_name] = "leaflet"

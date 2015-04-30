@@ -24,9 +24,9 @@ dependencies[] = fpa
 ;dependencies[] = better_formats
 ;dependencies[] = better_exposed_filters
 ;dependencies[] = maxlength
-dependencies[] = mobile_detect
-dependencies[] = select2
-dependencies[] = views_litepager
+;dependencies[] = mobile_detect
+;dependencies[] = select2
+;dependencies[] = views_litepager
 
 ; CRM Core
 ;dependencies[] = crm_core
@@ -113,8 +113,8 @@ dependencies[] = references_dialog
 dependencies[] = field_group
 dependencies[] = geofield
 ;dependencies[] = link
-;dependencies[] = name
-;dependencies[] = phone
+dependencies[] = name
+dependencies[] = phone
 dependencies[] = title
 
 ; Flags
@@ -127,7 +127,7 @@ dependencies[] = flexslider_fields
 dependencies[] = flexslider_views
 
 ; Image
-dependencies[] = manualcrop
+;dependencies[] = manualcrop
 dependencies[] = smartcrop
 dependencies[] = imageapi_optimize
 
@@ -175,18 +175,20 @@ dependencies[] = i18nviews
 dependencies[] = localize_fields
 dependencies[] = facetapi_i18n
 
+;dependencies[] = tmgmt
+
 ;; NIE AKTIVIEREN !
 ;dependencies[] = i18n_taxonomy
 ;dependencies[] = i18n_node
 
 ; Other
 ;dependencies[] = breadcrumbs_by_path
-;dependencies[] = breakpoints
-;dependencies[] = colorbox
-;dependencies[] = colorbox_node
+dependencies[] = breakpoints
+dependencies[] = colorbox
+dependencies[] = colorbox_node
 dependencies[] = diff
 dependencies[] = editableviews
-;dependencies[] = entity
+dependencies[] = entity
 ;dependencies[] = entity_view_mode
 ;dependencies[] = entity_tokens
 ;dependencies[] = equalheights
@@ -208,13 +210,13 @@ dependencies[] = linkit
 dependencies[] = menu_block
 ;dependencies[] = multiform
 
-dependencies[] = rules
+;dependencies[] = rules
 ;dependencies[] = rules_ui
 ;dependencies[] = entity_rules
 dependencies[] = strongarm
 ;dependencies[] = styleguide
-dependencies[] = token
-dependencies[] = token_tweaks
+;dependencies[] = token
+;dependencies[] = token_tweaks
 ;dependencies[] = translation_table
 
 
@@ -224,8 +226,8 @@ dependencies[] = token_tweaks
 ; Path management
 dependencies[] = globalredirect
 dependencies[] = pathauto
-dependencies[] = redirect
-dependencies[] = robotstxt
+;dependencies[] = redirect
+;dependencies[] = robotstxt
 dependencies[] = transliteration
 
 ; Performance and scalability
@@ -241,19 +243,19 @@ dependencies[] = picture
 ; Search
 dependencies[] = search_api
 ;dependencies[] = search_api_autocomplete
-;dependencies[] = search_api_db
-dependencies[] = search_api_facetapi
+dependencies[] = search_api_db
+;dependencies[] = search_api_facetapi
 ;dependencies[] = search_api_location
 ;dependencies[] = search_api_override
-dependencies[] = search_api_ranges
-dependencies[] = search_api_solr
+;dependencies[] = search_api_ranges
+;dependencies[] = search_api_solr
 ;dependencies[] = search_api_sorts
-dependencies[] = search_api_views
+;dependencies[] = search_api_views
 
 ; Search Toolkit
-dependencies[] = current_search
-dependencies[] = facetapi
-dependencies[] = facetapi_bonus
+;dependencies[] = current_search
+;dependencies[] = facetapi
+;dependencies[] = facetapi_bonus
 ;dependencies[] = facetapi_pretty_paths
 
 ; User interface
@@ -275,7 +277,7 @@ dependencies[] = views_flag_refresh
 ;dependencies[] = views_fluid_grid
 ;dependencies[] = views_pdf
 ;dependencies[] = php_filter
-dependencies[] = views_ui
+;dependencies[] = views_ui
 
 ; Workflow
 ; dependencies[] = workflow
@@ -297,7 +299,7 @@ dependencies[] = features
 ;dependencies[] = hk_ct_apart
 ;dependencies[] = hk_ct_page
 
-dependencies[] = hk_ct
+;dependencies[] = hk_ct
 ;dependencies[] = hk_search
 ;dependencies[] = hk_admin
 ;dependencies[] = hk_translations
