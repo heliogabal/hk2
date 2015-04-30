@@ -303,7 +303,7 @@ projects[wysiwyg][version] = "2.x-dev"
 projects[variable][version] = "2.5"
 
 projects[views][version] = "3.11"
-;projects[views][patch][] = "https://www.drupal.org/files/issues/views-ajax-nginx-1036962-71.patch"
+projects[views][patch][] = "https://www.drupal.org/files/issues/views-ajax-nginx-1036962-71.patch"
 ;Needed for views selective filters
 ;projects[views][patch][] = "https://www.drupal.org/files/issues/aggregation_not_working-2159347-87.patch"
 ;Geofield Search API bug
@@ -566,24 +566,24 @@ libraries[leaflet_markercluster][destination] = "libraries"
 ;libraries[leaflet_fullscreen][directory_name] = "leaflet-fullscreen"
 
 ; Views PDF
-;libraries[tcpdf][type] = "libraries"
-;libraries[tcpdf][download][type] = "file"
-;libraries[tcpdf][download][url] = "http://tinyurl.com/tcpdf-6-2-6-zip"
-;libraries[tcpdf][directory_name] = "tcpdf"
-;libraries[tcpdf][destination] = "libraries"
+libraries[tcpdf][type] = "libraries"
+libraries[tcpdf][download][type] = "file"
+libraries[tcpdf][download][url] = "http://tinyurl.com/tcpdf-6-2-6-zip"
+libraries[tcpdf][directory_name] = "tcpdf"
+libraries[tcpdf][destination] = "libraries"
 
-;libraries[fpdi][type] = "libraries"
-;libraries[fpdi][download][type] = "file"
-;libraries[fpdi][download][url] = "http://www.setasign.com/supra/kon2_dl/80506/FPDI-1.5.2.zip"
-;libraries[fpdi][directory_name] = "fpdi"
-;libraries[fpdi][destination] = "libraries"
+libraries[fpdi][type] = "libraries"
+libraries[fpdi][download][type] = "file"
+libraries[fpdi][download][url] = "http://www.setasign.com/supra/kon2_dl/80506/FPDI-1.5.2.zip"
+libraries[fpdi][directory_name] = "fpdi"
+libraries[fpdi][destination] = "libraries"
 
 ; Fontawesome
-;libraries[fontawesome][type] = "libraries"
-;libraries[fontawesome][download][type] = "get"
-;libraries[fontawesome][download][url] = "http://fortawesome.github.io/Font-Awesome/3.2.1/assets/font-awesome.zip"
-;libraries[fontawesome][directory_name] = "fontawesome"
-;libraries[fontawesome][destination] = "libraries"
+libraries[fontawesome][type] = "libraries"
+libraries[fontawesome][download][type] = "get"
+libraries[fontawesome][download][url] = "http://fortawesome.github.io/Font-Awesome/3.2.1/assets/font-awesome.zip"
+libraries[fontawesome][directory_name] = "fontawesome"
+libraries[fontawesome][destination] = "libraries"
 
 ; SimplePie RSS parser for feeds
 ;libraries[simplepie][directory_name] = simplepie
@@ -619,10 +619,10 @@ libraries[Mobile_Detect][destination] = "libraries"
 ;libraries[mailchimp][destination] = "libraries"
 
 ; mandrill
-;libraries[mandrill][download][type] = "get"
-;libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
-;libraries[mandrill][directory_name] = "mandrill"
-;libraries[mandrill][destination] = "libraries"
+libraries[mandrill][download][type] = "get"
+libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
+libraries[mandrill][directory_name] = "mandrill"
+libraries[mandrill][destination] = "libraries"
 
 ;emogrifier TODO: not working
 ;libraries[emogrifier][download][type] = "get"
@@ -640,4 +640,4 @@ libraries[select2][directory_name] = "select2"
 libraries[select2][destination] = "libraries"
 
 ; +++++ Translations +++++
-;translations[] = de
+translations[] = de
