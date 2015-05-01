@@ -359,9 +359,9 @@ projects[entityreference][version] = "1.1"
 
 projects[entity][version] = "1.6"
 ; https://www.drupal.org/node/2241979
-;projects[entity][patch][] = "https://www.drupal.org/files/issues/entity_defaults_rebuild-2241979-19_0.patch"
+projects[entity][patch][] = "https://www.drupal.org/files/issues/entity_defaults_rebuild-2241979-19_0.patch"
 ; https://www.drupal.org/node/2112755
-;projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-label-2112755-25.patch"
+projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-label-2112755-25.patch"
 
 projects[entity_rules][version] = "1.0-alpha4"
 ;projects[entity_rules][version] = "1.x-dev"
