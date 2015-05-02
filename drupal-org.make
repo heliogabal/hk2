@@ -307,7 +307,7 @@ projects[views][patch][] = "https://www.drupal.org/files/issues/views-ajax-nginx
 ;Needed for views selective filters
 ;projects[views][patch][] = "https://www.drupal.org/files/issues/aggregation_not_working-2159347-87.patch"
 ;Geofield Search API bug
-;projects[views][patch][] = https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
+projects[views][patch][] = https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
 
 ;projects[views_accelerator][version] = "1.0-beta1"
 
