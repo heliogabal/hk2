@@ -58,6 +58,8 @@ projects[imageapi_optimize][version] = 1.2
 
 projects[addressfield][version] = "1.1"
 
+projects[addressfield_autocomplete][version] = "1.0-beta5"
+
 projects[compact_forms][version] = "1.0"
 
 projects[field_conditional_state][version] = "2.1"
@@ -641,6 +643,12 @@ libraries[select2][download][type] = "get"
 libraries[select2][download][url] = "https://github.com/select2/select2/archive/3.4.5.zip"
 libraries[select2][directory_name] = "select2"
 libraries[select2][destination] = "libraries"
+
+; addressfield autocomplete
+libraries[geocomplete][download][type] = "get"
+libraries[geocomplete][download][url] = "https://github.com/ubilabs/geocomplete/archive/1.6.4.zip"
+libraries[geocomplete][directory_name] = "geocomplete"
+libraries[geocomplete][destination] = "libraries"
 
 ; +++++ Translations +++++
 translations[] = de
