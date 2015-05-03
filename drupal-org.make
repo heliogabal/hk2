@@ -212,7 +212,10 @@ projects[options_element][version] = "1.12"
 
 projects[pathauto][version] = "1.x-dev"
 
-projects[pathauto_persist] = 1.3
+projects[pathauto_persist][version] = 1.3
+
+projects[filefield_paths][version] = "1.0-beta4"
+projects[filefield_paths][patch][] = "https://www.drupal.org/files/issues/deprecated_e-2103151-26.patch"
 
 projects[redirect][version] = "1.x-dev"
 
