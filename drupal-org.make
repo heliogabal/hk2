@@ -573,7 +573,7 @@ libraries[leaflet_markercluster][destination] = "libraries"
 ; Views PDF
 libraries[tcpdf][type] = "libraries"
 libraries[tcpdf][download][type] = "file"
-libraries[tcpdf][download][url] = "http://tinyurl.com/tcpdf-6-2-6-zip"
+libraries[tcpdf][download][url] = "http://kent.dl.sourceforge.net/project/tcpdf/tcpdf_6_2_8.zip"
 libraries[tcpdf][directory_name] = "tcpdf"
 libraries[tcpdf][destination] = "libraries"
 
