@@ -123,7 +123,7 @@ projects[translation_helpers][version] = "1.0"
 
 projects[entity_translation][version] = "1.0-beta4"
 
-;projects[tmgmt][version] = 1.0-rc1
+projects[tmgmt][version] = 1.0-rc1
 
 projects[i18n][version] = "1.12"
 ; Translate Field Pre- and Suffix, not passing tests: https://www.drupal.org/node/1221208
