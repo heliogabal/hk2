@@ -60,6 +60,8 @@ projects[addressfield][version] = "1.1"
 
 projects[addressfield_autocomplete][version] = "1.0-beta5"
 
+projects[gmap][version] = "2.9"
+
 projects[compact_forms][version] = "1.0"
 
 projects[field_conditional_state][version] = "2.1"
@@ -367,6 +369,8 @@ projects[entity][version] = "1.6"
 projects[entity][patch][] = "https://www.drupal.org/files/issues/entity_defaults_rebuild-2241979-19_0.patch"
 ; https://www.drupal.org/node/2112755
 projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-label-2112755-25.patch"
+; BOA Install error Unsupported operand type
+projects[entity][patch][] = "https://www.drupal.org/files/issues/unsupported-operands-2136919-11.patch"
 
 projects[entity_rules][version] = "1.0-alpha4"
 ;projects[entity_rules][version] = "1.x-dev"
@@ -375,6 +379,8 @@ projects[entity_rules][patch][] = "https://www.drupal.org/files/issues/entity_ru
 
 ;projects[workflow][version] = 2.5
 projects[workflow][version] = 2.x-dev
+; Patch for BOA install unsupported operand type:
+; http://cgit.drupalcode.org/workflow/patch/workflow.entity.inc?id=0e7166be97a6161e6e170f954a5d986d2875567f
 
 projects[rules][version] = "2.9"
 ; Call to undefined method i18n_object_wrapper::get_strings() prevents boa install
