@@ -79,7 +79,7 @@ projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/refe
 
 projects[field_group][version] = "1.4"
 ;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-accordion-heightStyle-content-2173937-8.patch"
-;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-2269133-7-active_accordion.patch"
+projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-2269133-7-active_accordion.patch"
 
 projects[geofield][version] = "2.3"
 
@@ -183,7 +183,7 @@ projects[icon][version] = "1.0-beta5"
 ; Allow Icons to replace menu items https://www.drupal.org/node/2366055
 ;projects[icon][patch][] = "https://www.drupal.org/files/issues/2366055-icon-menu-replace-2.patch"
 
-projects[ip_geoloc][version] = "1.26"
+projects[ip_geoloc][version] = "1.27"
 ;projects[ip_geoloc][version] = "1.x-dev"
 ;projects[ip_geoloc][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/hk_customization-minZoom-maxBounds-Marker.patch"
 
