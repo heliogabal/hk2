@@ -9,6 +9,8 @@ defaults[projects][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc5"
 
+projects[admin_menu_sources][version] = "1.0"
+
 projects[admin_views][version] = "1.4"
 
 projects[adminimal_admin_menu][version] = "1.5"
@@ -229,9 +231,9 @@ projects[strongarm][version] = "2.0"
 
 projects[styleguide][version] = "1.1"
 
-;projects[taxonomy_manager][version] = "1.0"
+projects[taxonomy_manager][version] = "1.0"
 
-;projects[term_merge][version] = "1.2"
+projects[term_merge][version] = "1.2"
 
 projects[title][version] = "1.0-alpha7"
 
