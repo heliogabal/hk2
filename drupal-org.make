@@ -163,7 +163,7 @@ projects[colorbox_node][version] = "3.5"
 
 ;projects[session_api][version] = "1.0-rc1"
 
-;projects[session_cache][version] = "1.3"
+projects[session_cache][version] = "1.3"
 
 projects[diff][version] = "3.2"
 
@@ -573,10 +573,10 @@ libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
 libraries[leaflet_markercluster][destination] = "libraries"
 
 ; Leaflet.fullscreen plugin
-;libraries[leaflet_fullscreen][download][type] = "git"
-;libraries[leaflet_fullscreen][download][revision] = "2becb29"
-;libraries[leaflet_fullscreen][download][url] = "https://github.com/Leaflet/Leaflet.fullscreen.git"
-;libraries[leaflet_fullscreen][directory_name] = "leaflet-fullscreen"
+libraries[leaflet_fullscreen][download][type] = "git"
+libraries[leaflet_fullscreen][download][revision] = "2becb29"
+libraries[leaflet_fullscreen][download][url] = "https://github.com/Leaflet/Leaflet.fullscreen.git"
+libraries[leaflet_fullscreen][directory_name] = "leaflet-fullscreen"
 
 ; Views PDF
 libraries[tcpdf][type] = "libraries"
