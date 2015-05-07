@@ -50,7 +50,7 @@ projects[features_extra][version] = "1.0-beta1"
 
 projects[format_number][version] = "1.x-dev"
 
-;projects[entityreference_prepopulate][version] = "1.5"
+projects[entityreference_prepopulate][version] = "1.5"
 
 projects[feeds_tamper][version] = "1.0"
 
@@ -85,7 +85,7 @@ projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_grou
 
 projects[geofield][version] = "2.3"
 
-;projects[httprl][version] = "1.14"
+projects[httprl][version] = "1.14"
 
 ;projects[js][version] = "1.x-dev"
 
