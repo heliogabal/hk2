@@ -451,6 +451,13 @@ projects[hk_translations][download][url] = "https://github.com/heliogabal/hk_tra
 projects[hk_translations][subdir] = "features"
 projects[hk_translations][options][working-copy] = TRUE
 
+;hk_rules
+projects[hk_rules][type] = module
+projects[hk_rules][download][type] = "git"
+projects[hk_rules][download][url] = "https://github.com/heliogabal/hk_rules.git"
+projects[hk_rules][subdir] = "features"
+projects[hk_rules][options][working-copy] = TRUE
+
 
 ; custom modules
 
