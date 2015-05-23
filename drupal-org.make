@@ -460,6 +460,13 @@ projects[hk_rules][download][url] = "https://github.com/heliogabal/hk_rules.git"
 projects[hk_rules][subdir] = "features"
 projects[hk_rules][options][working-copy] = TRUE
 
+;hk_expose
+projects[hk_expose][type] = module
+projects[hk_expose][download][type] = "git"
+projects[hk_expose][download][url] = "https://github.com/heliogabal/hk_expose.git"
+projects[hk_expose][subdir] = "features"
+projects[hk_expose][options][working-copy] = TRUE
+
 
 ; custom modules
 
