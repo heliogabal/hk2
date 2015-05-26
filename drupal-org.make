@@ -197,6 +197,8 @@ projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[leaflet][version] = "1.1"
 ;projects[leaflet][version] = "1.x-dev"
+; Unsupported operand types: https://www.drupal.org/node/2185767
+projects[leaflet][patch][] = "https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch"
 
 projects[leaflet_mapbox][version] = "1.2"
 
