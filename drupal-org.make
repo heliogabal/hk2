@@ -373,6 +373,7 @@ projects[entityreference][version] = "1.1"
 ;projects[entityreference][patch][] = "https://www.drupal.org/files/no-label-ref-found-1943300-1.patch"
 ; experimental
 ;projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference_wrapper_property_set-2143171-4.patch"
+projects[entityreference][patch][] = "https://www.drupal.org/files/issues/1451852-entityreference-validateunpublished-13.patch"
 
 projects[entity][version] = "1.6"
 ; https://www.drupal.org/node/2241979
