@@ -117,7 +117,9 @@ projects[media][version] = "2.x-dev"
 
 ;projects[media_youtube][version] = "2.0-rc1"
 
-;projects[plupload][version] = "1.7"
+projects[plupload][version] = "1.7"
+
+;projects[media_browser_plus][version] = "3.3"
 
 ;projects[message][version] = "1.10"
 
@@ -218,7 +220,7 @@ projects[menu_block][version] = "2.5"
 
 projects[mobile_detect][version] = "1.x-dev"
 
-;projects[multiform][version] = "1.1"
+projects[multiform][version] = "1.1"
 
 projects[options_element][version] = "1.12"
 
@@ -571,13 +573,13 @@ libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][destination] = "libraries"
 
 ; Plupload
-;libraries[plupload][directory_name] = "plupload"
-;libraries[plupload][type] = "library"
-;libraries[plupload][destination] = ";libraries"
+libraries[plupload][directory_name] = "plupload"
+libraries[plupload][type] = "library"
+libraries[plupload][destination] = "libraries"
 ;;libraries[plupload][download][type] = "file"
-;libraries[plupload][download][type] = "get"
-;libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
-;libraries[plupload][patch][1903850] = "http://drupal.org/files/issues/plupload-1_5_8-rm_examples-1903850-21.patch"
+libraries[plupload][download][type] = "get"
+libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
+libraries[plupload][patch][1903850] = "http://drupal.org/files/issues/plupload-1_5_8-rm_examples-1903850-21.patch"
 
 ; manualcrop
 includes[manualcrop] = http://cgit.drupalcode.org/manualcrop/tree/manualcrop.make
