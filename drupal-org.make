@@ -114,6 +114,7 @@ projects[smartcrop][version] = "1.0-beta2"
 projects[file_entity][version] = "2.x-dev"
 
 projects[media][version] = "2.x-dev"
+projects[media][patch][] = "https://www.drupal.org/files/issues/allow_selecting_of-951004-136.patch"
 
 ;projects[media_youtube][version] = "2.0-rc1"
 
