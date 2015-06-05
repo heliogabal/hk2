@@ -21,6 +21,8 @@ projects[advagg][version] = "2.8"
 
 projects[autocomplete_deluxe][version] = 2.1
 
+projects[autosave][version] = "2.2"
+
 projects[block_class][version] = "2.1"
 
 ;projects[cdn][version] = "2.6"
@@ -377,6 +379,8 @@ projects[entityreference][version] = "1.1"
 ; experimental
 ;projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference_wrapper_property_set-2143171-4.patch"
 projects[entityreference][patch][] = "https://www.drupal.org/files/issues/1451852-entityreference-validateunpublished-13.patch"
+; not sure if really necessary ...
+;projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference-label_access_respecting_null.patch"
 
 projects[entity][version] = "1.6"
 ; https://www.drupal.org/node/2241979
