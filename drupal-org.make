@@ -30,6 +30,8 @@ projects[block_class][version] = "2.1"
 
 projects[module_filter][version] = "2.0"
 
+projects[multiselect][version] = "1.10"
+
 projects[better_exposed_filters][version] = 3.2
 
 projects[better_formats][version] = "1.0-beta1"
