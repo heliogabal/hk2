@@ -20,3 +20,5 @@ projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.37.1.tar.
 ;;projects[drupal][patch][] = "http://drupal.org/files/issues/drupal-2285917-3.patch"
 ; https://www.drupal.org/node/2418147
 ;projects[drupal][patch][] = "https://www.drupal.org/files/issues/2418147-d7-drupal_static_reset-on-module-changes-1.patch"
+;https://www.drupal.org/node/1969208
+projects[drupal][patch] = "https://www.drupal.org/files/issues/node-sql-rewrite-1969208-28.patch"
