@@ -417,7 +417,7 @@ projects[rules_download][version] = 2.0
 
 projects[simplify][version] = "3.3"
 
-projects[custom_formatter][version] = "2.2"
+projects[custom_formatters][version] = "2.2"
 
 ; +++++ Features +++++
 
@@ -710,4 +710,5 @@ libraries[geocomplete][directory_name] = "geocomplete"
 libraries[geocomplete][destination] = "libraries"
 
 ; +++++ Translations +++++
-translations[] = de
+;translations[] = de
+;translations[] = zh_hans
