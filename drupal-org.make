@@ -413,6 +413,12 @@ projects[rules][version] = "2.9"
 ; https://www.drupal.org/node/2410729
 ;projects[rules][patch][] = "https://www.drupal.org/files/issues/rules_i18n-undefined-method-2410729-1.patch"
 
+projects[rules_download][version] = 2.0
+
+projects[simplify][version] = "3.3"
+
+projects[custom_formatter][version] = "2.2"
+
 ; +++++ Features +++++
 
 ; ;hk_base
