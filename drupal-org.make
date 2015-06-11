@@ -316,7 +316,7 @@ projects[fontello][version] = "1.0"
 
 projects[content_menu][version] = "1.0"
 
-projects[jquery_update][version] = "2.5"
+projects[jquery_update][version] = "3.0-alpha2"
 
 projects[select2][version] = "1.x-dev"
 ; https://www.drupal.org/node/2459015
