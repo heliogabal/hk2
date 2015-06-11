@@ -64,6 +64,8 @@ projects[fpa][version] = "2.6"
 
 projects[imageapi_optimize][version] = 1.2
 
+projects[image_resize_filter][version] = "1.14"
+
 projects[addressfield][version] = "1.1"
 
 projects[addressfield_autocomplete][version] = "1.0-beta5"
@@ -350,6 +352,10 @@ projects[views_flag_refresh][version] = "1.3"
 projects[views_litepager][version] = "3.0"
 
 projects[views_pdf][version] = "1.4"
+
+projects[views_merge_rows][version] = "1.0-rc1"
+
+projects[print][version] = "2.0"
 
 projects[editableviews][version] = "1.0-beta9"
 
