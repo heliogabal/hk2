@@ -479,6 +479,13 @@ projects[hk_expose][download][url] = "https://github.com/heliogabal/hk_expose.gi
 projects[hk_expose][subdir] = "features"
 projects[hk_expose][options][working-copy] = TRUE
 
+;hk_mergimg
+projects[hk_mergimg][type] = module
+projects[hk_mergimg][download][type] = "git"
+projects[hk_mergimg][download][url] = "https://github.com/heliogabal/hk_mergimg.git"
+projects[hk_mergimg][subdir] = "features"
+projects[hk_mergimg][options][working-copy] = TRUE
+
 
 ; custom modules
 
