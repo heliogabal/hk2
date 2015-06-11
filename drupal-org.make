@@ -84,8 +84,8 @@ projects[references_dialog] = "1.0-beta1"
 projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
 ; until stable version https://www.drupal.org/node/2315905
 projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/references_dialog_beta1-fix_theme_links-2315905-20.patch"
-; Half of this patch needed for link parameter, then some additional patching, still hardcoded for now...
-projects[references_dialog][patch][] = https://www.drupal.org/files/translatable-fields-1543490-10.patch
+; Half of this patch needed for link parameter, then some additional patching, still hardcoded for now... https://www.drupal.org/node/2149805
+projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2149805-make-parent-context-available-to-dialog.patch"
 
 projects[field_group][version] = "1.4"
 ;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-accordion-heightStyle-content-2173937-8.patch"
@@ -139,6 +139,10 @@ projects[translation_helpers][version] = "1.0"
 projects[entity_translation][version] = "1.0-beta4"
 
 projects[tmgmt][version] = 1.0-rc1
+; https://www.drupal.org/node/1543480 Exclude Fields from tmgmt translation
+projects[tmgmt][patch][] = "https://www.drupal.org/files/tmgmt_translate_attribute_0.patch"
+; https://www.drupal.org/node/2442683 add wysiwyg support to tmgmt
+projects[tmgmt][patch][] = "https://www.drupal.org/files/issues/tmgmt-wysiwyg_support-2442683-1.patch"
 
 projects[tmgmt_microsoft][version] = "1.0-alpha2"
 
