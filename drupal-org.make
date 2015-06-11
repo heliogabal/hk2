@@ -17,7 +17,7 @@ projects[admin_views][version] = "1.4"
 
 projects[adminimal_admin_menu][version] = "1.5"
 
-projects[advagg][version] = "2.8"
+projects[advagg][version] = "2.10"
 
 projects[autocomplete_deluxe][version] = 2.1
 
@@ -46,11 +46,11 @@ projects[date][version] = "2.8"
 
 projects[devel][version] = "1.5"
 
-projects[ds][version] = "2.8"
+projects[ds][version] = "2.10"
 
 projects[features][version] = "2.5"
 
-projects[features_translations][version] = "1.0"
+projects[features_translations][version] = "2.0"
 
 projects[features_extra][version] = "1.0-beta1"
 
@@ -58,7 +58,7 @@ projects[format_number][version] = "1.x-dev"
 
 projects[entityreference_prepopulate][version] = "1.5"
 
-projects[feeds_tamper][version] = "1.0"
+projects[feeds_tamper][version] = "1.1"
 
 projects[fpa][version] = "2.6"
 
@@ -84,6 +84,8 @@ projects[references_dialog] = "1.0-beta1"
 projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
 ; until stable version https://www.drupal.org/node/2315905
 projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/references_dialog_beta1-fix_theme_links-2315905-20.patch"
+; Half of this patch needed for link parameter, then some additional patching, still hardcoded for now...
+projects[references_dialog][patch][] = https://www.drupal.org/files/translatable-fields-1543490-10.patch
 
 projects[field_group][version] = "1.4"
 ;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-accordion-heightStyle-content-2173937-8.patch"
@@ -140,7 +142,7 @@ projects[tmgmt][version] = 1.0-rc1
 
 projects[tmgmt_microsoft][version] = "1.0-alpha2"
 
-projects[i18n][version] = "1.12"
+projects[i18n][version] = "1.13"
 ; Translate Field Pre- and Suffix, not passing tests: https://www.drupal.org/node/1221208
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_field-i18n_field-should-translate-prefix-suffix-of-number-fields-1221208-41.patch"
 ; install error patch https://www.drupal.org/node/1681414
@@ -264,7 +266,7 @@ projects[globalredirect][version] = "1.5"
 
 projects[entitycache][version] = "1.2"
 
-projects[picture][version] = "2.9"
+projects[picture][version] = "2.10"
 
 ;projects[redhen][version] = "1.9"
 
@@ -272,7 +274,7 @@ projects[picture][version] = "2.9"
 
 projects[relation][version] = "1.0-rc7"
 
-projects[search_api][version] = "1.14"
+projects[search_api][version] = "1.15"
 
 ;projects[search_api_ajax][version] = "1.2"
 
@@ -287,7 +289,7 @@ projects[search_api_db][version] = "1.4"
 projects[search_api_ranges][version] = "1.x-dev"
 ;needed for no 502 dropdown ranges
 
-projects[search_api_solr][version] = "1.6"
+projects[search_api_solr][version] = "1.7"
 
 ;projects[search_api_sorts][version] = "1.5"
 
