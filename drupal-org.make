@@ -75,6 +75,9 @@ projects[gmap][version] = "2.9"
 projects[compact_forms][version] = "1.0"
 
 projects[field_conditional_state][version] = "2.1"
+projects[field_conditional_state][patch][] = "https://www.drupal.org/files/issues/support_address_field-2227927-9.patch"
+projects[field_conditional_state][patch][] = "https://www.drupal.org/files/issues/support_address_field-2227927-16.patch"
+projects[field_conditional_state][patch][] = "https://www.drupal.org/files/issues/support_address_field_autocomplete-2499175-1.patch"
 
 projects[dhtml_menu][version] = "1.x-dev"
 
