@@ -366,6 +366,14 @@ projects[editableviews][version] = "1.0-beta9"
 
 projects[xmlsitemap][version] = "2.2"
 
+projects[admin_language][version] = "1.0-beta1"
+
+projects[computed_field][version] = "1.0"
+
+projects[fallback_language_negotiation][version] = "1.x-dev"
+
+projects[view_unpublished][version] = "1.2"
+
 ; Problematic Versions
 
 ;projects[feeds][version] = "2.0-alpha8"
