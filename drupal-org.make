@@ -615,6 +615,13 @@ libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/arch
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][destination] = "libraries"
 
+libraries[leaflet_label][type] = "libraries"
+libraries[leaflet_label][download][type] = "file"
+libraries[leaflet_label][download][url] = "https://github.com/Leaflet/Leaflet.label/archive/0.2.1.zip"
+libraries[leaflet_label][directory_name] = "leaflet_label"
+libraries[leaflet_label][destination] = "libraries"
+
+
 ; Plupload
 libraries[plupload][directory_name] = "plupload"
 libraries[plupload][type] = "library"
