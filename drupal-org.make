@@ -220,6 +220,8 @@ projects[leaflet][patch][] = "https://www.drupal.org/files/issues/field-formatte
 
 projects[leaflet_mapbox][version] = "1.2"
 
+projects[leaflet_label][version] = "1.0"
+
 projects[leaflet_markercluster][version] = "1.2"
 ;projects[leaflet_markercluster][version] = "1.x-dev"
 ;libraries[leaflet_markercluster][patch][] = "https://www.drupal.org/files/issues/leaflet_markercluster-leaflet-compatibility.patch"
