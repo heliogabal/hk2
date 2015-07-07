@@ -222,6 +222,8 @@ projects[leaflet_mapbox][version] = "1.2"
 
 projects[leaflet_label][version] = "1.0"
 
+projects[leaflet_hash][version] = "1.1"
+
 projects[leaflet_markercluster][version] = "1.2"
 ;projects[leaflet_markercluster][version] = "1.x-dev"
 ;libraries[leaflet_markercluster][patch][] = "https://www.drupal.org/files/issues/leaflet_markercluster-leaflet-compatibility.patch"
@@ -623,6 +625,11 @@ libraries[leaflet_label][download][url] = "https://github.com/Leaflet/Leaflet.la
 libraries[leaflet_label][directory_name] = "leaflet_label"
 libraries[leaflet_label][destination] = "libraries"
 
+libraries[leaflet-hash][type] = "libraries"
+libraries[leaflet-hash][download][type] = "file"
+libraries[leaflet-hash][download][url] = "https://raw.githubusercontent.com/mlevans/leaflet-hash/master/leaflet-hash.js"
+libraries[leaflet-hash][directory_name] = "leaflet-hash"
+libraries[leaflet-hash][destination] = "libraries"
 
 ; Plupload
 libraries[plupload][directory_name] = "plupload"
