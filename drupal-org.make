@@ -68,7 +68,10 @@ projects[image_resize_filter][version] = "1.14"
 
 projects[addressfield][version] = "1.1"
 
-projects[addressfield_autocomplete][version] = "1.0-beta5"
+;projects[addressfield_autocomplete][version] = "1.0-beta5"
+; House number after street-name patch
+projects[addressfield_autocomplete][version] = "1.x-dev"
+projects[addressfield_autocomplete][patch][] = https://www.drupal.org/files/issues/addressfield_autocomplete-wrong_order_street_number-2499229-1.patch
 
 projects[gmap][version] = "2.9"
 
