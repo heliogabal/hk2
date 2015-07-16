@@ -95,9 +95,9 @@ projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/refe
 ; Half of this patch needed for link parameter, then some additional patching, still hardcoded for now... https://www.drupal.org/node/2149805
 projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2149805-make-parent-context-available-to-dialog.patch"
 
-projects[field_group][version] = "1.4"
+projects[field_group][version] = "1.x-dev" ; until accordion open is fixed
 ;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-accordion-heightStyle-content-2173937-8.patch"
-projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-2269133-7-active_accordion.patch"
+;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-2269133-7-active_accordion.patch"
 
 projects[geofield][version] = "2.3"
 
