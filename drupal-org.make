@@ -178,7 +178,7 @@ projects[hreflang][version] = "1.2"
 
 projects[breakpoints][version] = "1.3"
 
-projects[colorbox][version] = "2.8"
+projects[colorbox][version] = "2.9"
 
 projects[colorbox_node][version] = "3.5"
 
