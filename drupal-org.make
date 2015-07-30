@@ -342,6 +342,8 @@ projects[select2][version] = "1.x-dev"
 
 projects[wysiwyg][version] = "2.x-dev"
 
+projects[emptyparagraphkiller][version] = "1.0-beta2"
+
 projects[variable][version] = "2.5"
 
 projects[views][version] = "3.11"
