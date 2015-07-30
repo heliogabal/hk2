@@ -13,11 +13,11 @@ projects[admin_menu_source][version] = "1.0"
 
 projects[admin_theme][version] = "1.0"
 
-projects[admin_views][version] = "1.4"
+projects[admin_views][version] = "1.5"
 
-projects[adminimal_admin_menu][version] = "1.5"
+projects[adminimal_admin_menu][version] = "1.6"
 
-projects[advagg][version] = "2.10"
+projects[advagg][version] = "2.14"
 
 projects[autocomplete_deluxe][version] = 2.1
 
@@ -46,9 +46,9 @@ projects[date][version] = "2.8"
 
 projects[devel][version] = "1.5"
 
-projects[ds][version] = "2.10"
+projects[ds][version] = "2.11"
 
-projects[features][version] = "2.5"
+projects[features][version] = "2.6"
 
 projects[features_translations][version] = "2.0"
 
@@ -64,7 +64,7 @@ projects[fpa][version] = "2.6"
 
 projects[imageapi_optimize][version] = 1.2
 
-projects[image_resize_filter][version] = "1.14"
+projects[image_resize_filter][version] = "1.15"
 
 projects[addressfield][version] = "1.1"
 
@@ -125,10 +125,10 @@ projects[maxlength][version] = "3.2"
 
 projects[smartcrop][version] = "1.0-beta2"
 
-projects[file_entity][version] = "2.x-dev"
+projects[file_entity][version] = "2.0-beta2"
 
-projects[media][version] = "2.x-dev"
-projects[media][patch][] = "https://www.drupal.org/files/issues/allow_selecting_of-951004-136.patch"
+projects[media][version] = "2.0-beta1"
+;projects[media][patch][] = "https://www.drupal.org/files/issues/allow_selecting_of-951004-136.patch"
 
 ;projects[media_youtube][version] = "2.0-rc1"
 
@@ -164,7 +164,7 @@ projects[i18n][version] = "1.13"
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/1681414-29-i18n-fatal_error_installlll.patch"
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_string-undefined-method-2082573-13.patch"
 
-projects[localize_fields][version] = "1.3"
+projects[localize_fields][version] = "1.4"
 
 projects[i18nviews][version] = "3.x-dev"
 ; https://www.drupal.org/node/1653170
@@ -210,8 +210,8 @@ projects[icon][version] = "1.0-beta5"
 ; Allow Icons to replace menu items https://www.drupal.org/node/2366055
 ;projects[icon][patch][] = "https://www.drupal.org/files/issues/2366055-icon-menu-replace-2.patch"
 
-projects[ip_geoloc][version] = "1.27"
-;projects[ip_geoloc][version] = "1.x-dev"
+;projects[ip_geoloc][version] = "1.27"
+projects[ip_geoloc][version] = "1.x-dev"
 ;projects[ip_geoloc][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/hk_customization-minZoom-maxBounds-Marker.patch"
 
 projects[job_scheduler][version] = "2.0-alpha3"
@@ -282,7 +282,7 @@ projects[globalredirect][version] = "1.5"
 
 projects[entitycache][version] = "1.2"
 
-projects[picture][version] = "2.10"
+projects[picture][version] = "2.11"
 
 ;projects[redhen][version] = "1.9"
 
@@ -353,7 +353,7 @@ projects[views][patch][] = https://www.drupal.org/files/issues/2115269-views_han
 
 ;projects[views_accelerator][version] = "1.0-beta1"
 
-projects[views_bulk_operations][version] = "3.2"
+projects[views_bulk_operations][version] = "3.3"
 
 projects[views_flag_refresh][version] = "1.3"
 
@@ -367,7 +367,7 @@ projects[views_merge_rows][version] = "1.0-rc1"
 
 projects[print][version] = "2.0"
 
-projects[editableviews][version] = "1.0-beta9"
+projects[editableviews][version] = "1.0-beta10"
 
 ;projects[webform][version] = "4.7"
 
@@ -377,15 +377,15 @@ projects[admin_language][version] = "1.0-beta1"
 
 projects[computed_field][version] = "1.0"
 
-;projects[fallback_language_negotiation][version] = "1.x-dev"
+projects[fallback_language_negotiation][version] = "1.x-dev"
 
 projects[view_unpublished][version] = "1.2"
 
 ; Problematic Versions
 
-;projects[feeds][version] = "2.0-alpha8"
+projects[feeds][version] = "2.0-beta1"
 ; see empty field behavior change in dev for later debugging https://www.drupal.org/node/1107522
-projects[feeds][version] = "2.x-dev"
+;projects[feeds][version] = "2.x-dev"
 
 
 ;projects[cer][version] = 3.0-alpha7
@@ -441,7 +441,7 @@ projects[rules_download][version] = 2.0
 
 projects[simplify][version] = "3.3"
 
-projects[custom_formatters][version] = "2.2"
+projects[custom_formatters][version] = "2.4"
 
 ; +++++ Features +++++
 
