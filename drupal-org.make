@@ -30,7 +30,7 @@ projects[block_class][version] = "2.1"
 
 projects[module_filter][version] = "2.0"
 
-projects[multiselect][version] = "1.10"
+projects[multiselect][version] = "1.11"
 
 projects[better_exposed_filters][version] = 3.2
 
@@ -128,7 +128,7 @@ projects[smartcrop][version] = "1.0-beta2"
 projects[file_entity][version] = "2.0-beta2"
 
 projects[media][version] = "2.0-beta1"
-;projects[media][patch][] = "https://www.drupal.org/files/issues/allow_selecting_of-951004-136.patch"
+projects[media][patch][] = "https://www.drupal.org/files/issues/allow_selecting_of-951004-136.patch"
 
 ;projects[media_youtube][version] = "2.0-rc1"
 
@@ -254,7 +254,7 @@ projects[pathauto_persist][version] = 1.3
 projects[filefield_paths][version] = "1.0-beta4"
 projects[filefield_paths][patch][] = "https://www.drupal.org/files/issues/deprecated_e-2103151-26.patch"
 
-projects[redirect][version] = "1.x-dev"
+projects[redirect][version] = "1.0-rc3"
 
 projects[robotstxt][version] = "1.3"
 
@@ -305,7 +305,7 @@ projects[search_api_db][version] = "1.4"
 projects[search_api_ranges][version] = "1.x-dev"
 ;needed for no 502 dropdown ranges
 
-projects[search_api_solr][version] = "1.7"
+projects[search_api_solr][version] = "1.8"
 
 ;projects[search_api_sorts][version] = "1.5"
 
@@ -364,6 +364,8 @@ projects[views_litepager][version] = "3.0"
 projects[views_pdf][version] = "1.4"
 
 projects[views_merge_rows][version] = "1.0-rc1"
+
+projects[views_field_view][version] = "1.1"
 
 projects[print][version] = "2.0"
 
