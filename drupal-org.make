@@ -750,5 +750,5 @@ libraries[geocomplete][directory_name] = "geocomplete"
 libraries[geocomplete][destination] = "libraries"
 
 ; +++++ Translations +++++
-;translations[] = de
-;translations[] = zh_hans
+translations[] = de
+translations[] = zh_hans
