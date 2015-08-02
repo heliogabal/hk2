@@ -228,6 +228,8 @@ projects[leaflet_label][version] = "1.0"
 
 projects[leaflet_hash][version] = "1.1"
 
+projects[leaflet_widget][version] = "2.0-beta1"
+
 projects[leaflet_markercluster][version] = "1.2"
 ;projects[leaflet_markercluster][version] = "1.x-dev"
 ;libraries[leaflet_markercluster][patch][] = "https://www.drupal.org/files/issues/leaflet_markercluster-leaflet-compatibility.patch"
@@ -665,10 +667,17 @@ libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
 libraries[leaflet_markercluster][destination] = "libraries"
 
 ; Leaflet.fullscreen plugin
-libraries[leaflet_fullscreen][download][type] = "git"
-libraries[leaflet_fullscreen][download][revision] = "2becb29"
-libraries[leaflet_fullscreen][download][url] = "https://github.com/Leaflet/Leaflet.fullscreen.git"
-libraries[leaflet_fullscreen][directory_name] = "leaflet-fullscreen"
+libraries[leaflet_widget][directory_name] = "Leaflet.widget"
+libraries[leaflet_widget][type] = "library"
+libraries[leaflet_widget][destination] = "libraries"
+libraries[leaflet_widget][download][type] = "get"
+libraries[leaflet_widget][download][url] = "https://github.com/Leaflet/Leaflet.fullscreen.git"
+
+; Leaflet.widget plugin
+libraries[leaflet_widget][download][type] = "git"
+libraries[leaflet_widget][download][url] = "https://github.com/tnightingale/Leaflet.widget/zipball/master"
+libraries[leaflet_widget][directory_name] = "Leaflet.widget"
+
 
 ; Views PDF
 libraries[tcpdf][type] = "libraries"
