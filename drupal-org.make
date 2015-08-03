@@ -658,7 +658,7 @@ libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][type] = "library"
 libraries[leaflet][destination] = "libraries"
 libraries[leaflet][download][type] = "get"
-libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip"
+libraries[leaflet][download][url] = "http://cdn.leafletjs.com/downloads/leaflet-0.7.3.zip"
 
 ; leaflet markercluster
 libraries[leaflet_markercluster][download][type] = "git"
@@ -677,14 +677,15 @@ libraries[leaflet_widget][download][url] = "https://github.com/Leaflet/Leaflet.f
 libraries[leaflet_widget][download][type] = "git"
 libraries[leaflet_widget][download][url] = "https://github.com/tnightingale/Leaflet.widget/zipball/master"
 libraries[leaflet_widget][directory_name] = "Leaflet.widget"
+libraries[leaflet_widget][destination] = "libraries"
 
 
 ; Views PDF
-libraries[tcpdf][type] = "libraries"
-libraries[tcpdf][download][type] = "file"
-libraries[tcpdf][download][url] = "http://kent.dl.sourceforge.net/project/tcpdf/tcpdf_6_2_8.zip"
-libraries[tcpdf][directory_name] = "tcpdf"
-libraries[tcpdf][destination] = "libraries"
+;libraries[tcpdf][type] = "libraries"
+;libraries[tcpdf][download][type] = "file"
+;libraries[tcpdf][download][url] = "http://kent.dl.sourceforge.net/project/tcpdf/tcpdf_6_2_8.zip"
+;libraries[tcpdf][directory_name] = "tcpdf"
+;libraries[tcpdf][destination] = "libraries"
 
 libraries[fpdi][type] = "libraries"
 libraries[fpdi][download][type] = "file"
