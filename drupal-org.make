@@ -450,6 +450,10 @@ projects[simplify][version] = "3.3"
 
 projects[custom_formatters][version] = "2.4"
 
+projects[hybridauth][version] = "2.13"
+
+projects[realname][version] = "1.2"
+
 ; +++++ Features +++++
 
 ; ;hk_base
@@ -759,6 +763,12 @@ libraries[geocomplete][download][type] = "get"
 libraries[geocomplete][download][url] = "https://github.com/ubilabs/geocomplete/archive/1.6.4.zip"
 libraries[geocomplete][directory_name] = "geocomplete"
 libraries[geocomplete][destination] = "libraries"
+
+; hybridauth
+libraries[hybridauth][download][type] = "get"
+libraries[hybridauth][download][url] = "https://github.com/hybridauth/hybridauth/archive/v2.4.1.zip"
+libraries[hybridauth][directory_name] = "hybridauth"
+libraries[hybridauth][destination] = "libraries"
 
 ; +++++ Translations +++++
 translations[] = de
