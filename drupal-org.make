@@ -183,6 +183,8 @@ projects[colorbox][version] = "2.9"
 
 projects[colorbox_node][version] = "3.5"
 
+projects[ng_lightbox][version] = "1.2"
+
 ;projects[context][version] = "3.6"
 
 ;projects[context_flag][version] = "1.2"
