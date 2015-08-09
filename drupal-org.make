@@ -674,9 +674,8 @@ libraries[leaflet_markercluster][destination] = "libraries"
 
 ; Leaflet.fullscreen plugin
 libraries[leaflet_widget][directory_name] = "Leaflet.widget"
-libraries[leaflet_widget][type] = "library"
 libraries[leaflet_widget][destination] = "libraries"
-libraries[leaflet_widget][download][type] = "get"
+libraries[leaflet_widget][download][type] = "git"
 libraries[leaflet_widget][download][url] = "https://github.com/Leaflet/Leaflet.fullscreen.git"
 
 ; Leaflet.widget plugin
