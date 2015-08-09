@@ -64,7 +64,7 @@ projects[fpa][version] = "2.6"
 
 projects[imageapi_optimize][version] = 1.2
 
-projects[image_resize_filter][version] = "1.15"
+projects[image_resize_filter][version] = "1.16"
 
 projects[addressfield][version] = "1.1"
 
@@ -116,7 +116,7 @@ projects[flag][version] = "3.6"
 ; Warhscheinlich unnötig: https://www.drupal.org/node/1925922
 ; https://www.drupal.org/files/issues/flag-broken-1925922-131.patch
 
-projects[flexslider][version] = "2.0-alpha3"
+projects[flexslider][version] = "2.0-rc1"
 
 ;projects[flexslider_views_slideshow][version] = "2.x-dev"
 
@@ -209,7 +209,7 @@ projects[geophp][version] = "1.7"
 
 ;projects[habitat][version] = "1.0"
 
-projects[icon][version] = "1.0-beta5"
+projects[icon][version] = "1.0-beta6"
 ; Allow Icons to replace menu items https://www.drupal.org/node/2366055
 ;projects[icon][patch][] = "https://www.drupal.org/files/issues/2366055-icon-menu-replace-2.patch"
 
