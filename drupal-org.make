@@ -374,6 +374,8 @@ projects[views_merge_rows][version] = "1.0-rc1"
 
 projects[views_field_view][version] = "1.1"
 
+projects[views_conditional][version] = "1.3"
+
 projects[print][version] = "2.0"
 
 projects[editableviews][version] = "1.0-beta10"
@@ -386,7 +388,7 @@ projects[admin_language][version] = "1.0-beta1"
 
 projects[computed_field][version] = "1.0"
 
-;projects[fallback_language_negotiation][version] = "1.x-dev"
+projects[fallback_language_negotation][version] = "1.x-dev"
 
 projects[view_unpublished][version] = "1.2"
 
