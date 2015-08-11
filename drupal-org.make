@@ -68,6 +68,8 @@ projects[image_resize_filter][version] = "1.16"
 
 projects[addressfield][version] = "1.1"
 
+projects[typogrify][version] = "1.0-rc10"
+
 ;projects[addressfield_autocomplete][version] = "1.0-beta5"
 ; House number after street-name patch
 projects[addressfield_autocomplete][version] = "1.x-dev"
