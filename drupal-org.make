@@ -685,8 +685,9 @@ libraries[leaflet_fullscreen][download][url] = "https://github.com/Leaflet/Leafl
 ; Leaflet.widget plugin
 libraries[leaflet_widget][directory_name] = "Leaflet.widget"
 libraries[leaflet_widget][destination] = "libraries"
-libraries[leaflet_widget][download][type] = "git"
-libraries[leaflet_widget][download][url] = "https://github.com/tnightingale/Leaflet.widget/zipball/master"
+libraries[leaflet_widget][type] = "library"
+libraries[leaflet_widget][download][type] = "get"
+libraries[leaflet_widget][download][url] = "https://codeload.github.com/tnightingale/Leaflet.widget/legacy.zip/master"
 
 ; Views PDF
 ;libraries[tcpdf][type] = "libraries"
