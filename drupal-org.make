@@ -675,17 +675,16 @@ libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
 libraries[leaflet_markercluster][destination] = "libraries"
 
 ; Leaflet.fullscreen plugin
-libraries[leaflet_widget][directory_name] = "Leaflet.widget"
-libraries[leaflet_widget][destination] = "libraries"
-libraries[leaflet_widget][download][type] = "git"
-libraries[leaflet_widget][download][url] = "https://github.com/Leaflet/Leaflet.fullscreen.git"
+libraries[leaflet_fullscreen][directory_name] = "leaflet-fullscreen"
+libraries[leaflet_fullscreen][destination] = "libraries"
+libraries[leaflet_fullscreen][download][type] = "git"
+libraries[leaflet_fullscreen][download][url] = "https://github.com/Leaflet/Leaflet.fullscreen.git"
 
 ; Leaflet.widget plugin
-libraries[leaflet_widget][download][type] = "git"
-libraries[leaflet_widget][download][url] = "https://github.com/tnightingale/Leaflet.widget/zipball/master"
 libraries[leaflet_widget][directory_name] = "Leaflet.widget"
 libraries[leaflet_widget][destination] = "libraries"
-
+libraries[leaflet_widget][download][type] = "git"
+libraries[leaflet_widget][download][url] = "https://github.com/tnightingale/Leaflet.widget/zipball/master"
 
 ; Views PDF
 ;libraries[tcpdf][type] = "libraries"
