@@ -689,6 +689,14 @@ libraries[leaflet_widget][type] = "library"
 libraries[leaflet_widget][download][type] = "get"
 libraries[leaflet_widget][download][url] = "https://codeload.github.com/tnightingale/Leaflet.widget/legacy.zip/master"
 
+; Leaflet.draw plugin
+libraries[leaflet_draw][directory_name] = "Leaflet.draw"
+libraries[leaflet_draw][destination] = "libraries"
+libraries[leaflet_draw][type] = "library"
+libraries[leaflet_draw][download][type] = "get"
+libraries[leaflet_draw][download][url] = "https://github.com/Leaflet/Leaflet.draw/archive/v0.2.4.zip"
+
+
 ; Views PDF
 ;libraries[tcpdf][type] = "libraries"
 ;libraries[tcpdf][download][type] = "file"
