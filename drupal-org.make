@@ -460,6 +460,8 @@ projects[hybridauth][version] = "2.13"
 
 projects[realname][version] = "1.2"
 
+projects[eu_cookie_compliance][version] = "1.14"
+
 ; +++++ Features +++++
 
 ; ;hk_base
