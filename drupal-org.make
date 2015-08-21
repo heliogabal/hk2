@@ -40,7 +40,9 @@ projects[crm_core][version] = "0.980"
 
 projects[crm_core_profile][version] = "1.0-beta10"
 
-projects[ctools][version] = "1.7"
+projects[ctools][version] = "1.9"
+; will be fixed in 1.11, until then patch is needed to have ajax in modals working : https://www.drupal.org/node/1823088
+projects[ctools][patch][] = "https://www.drupal.org/files/issues/eventBubblingBugIE8-1823088-9.patch"
 
 projects[date][version] = "2.8"
 
@@ -57,6 +59,8 @@ projects[features_extra][version] = "1.0-beta1"
 projects[format_number][version] = "1.x-dev"
 
 projects[entityreference_prepopulate][version] = "1.5"
+
+projects[entityreference_view_widget][version] = "2.0-rc6"
 
 projects[feeds_tamper][version] = "1.1"
 
