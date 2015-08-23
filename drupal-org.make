@@ -17,7 +17,7 @@ projects[admin_views][version] = "1.5"
 
 projects[adminimal_admin_menu][version] = "1.6"
 
-projects[advagg][version] = "2.14"
+projects[advagg][version] = "2.15"
 
 projects[autocomplete_deluxe][version] = 2.1
 
@@ -607,7 +607,7 @@ projects[zen][version] = "5.5"
 projects[zen][subdir] = ""
 
 projects[adminimal_theme][type] = "theme"
-projects[adminimal_theme][version] = "1.21"
+projects[adminimal_theme][version] = "1.22"
 projects[adminimal_theme][subdir] = ""
 
 projects[hk_theme][type] = "theme"
