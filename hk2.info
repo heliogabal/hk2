@@ -292,6 +292,7 @@ dependencies[] = xmlsitemap
 
 ; custom modules
 dependencies[] = hk_leaflet
+dependencies[] = hk_flexslider
 dependencies[] = hk_mergimg
 
 ; Features

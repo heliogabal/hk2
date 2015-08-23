@@ -475,27 +475,6 @@ projects[eu_cookie_compliance][version] = "1.14"
  projects[hk_base][subdir] = "features"
  projects[hk_base][options][working-copy] = TRUE
 
-; ;hk_ct_object
-; projects[hk_ct_object][type] = module
-; projects[hk_ct_object][download][type] = "git"
-; projects[hk_ct_object][download][url] = "https://github.com/heliogabal/hk_ct_object.git"
-; projects[hk_ct_object][subdir] = "features"
-; projects[hk_ct_object][options][working-copy] = TRUE
-
-; ;hk_ct_apart
-; projects[hk_ct_apart][type] = module
-; projects[hk_ct_apart][download][type] = "git"
-; projects[hk_ct_apart][download][url] = "https://github.com/heliogabal/hk_ct_apart.git"
-; projects[hk_ct_apart][subdir] = "features"
-; projects[hk_ct_apart][options][working-copy] = TRUE
-
-; ;hk_ct_page
-; projects[hk_ct_page][type] = module
-; projects[hk_ct_page][download][type] = "git"
-; projects[hk_ct_page][download][url] = "https://github.com/heliogabal/hk_ct_page.git"
-; projects[hk_ct_page][subdir] = "features"
-; projects[hk_ct_page][options][working-copy] = TRUE
-
 ;hk_ct
 projects[hk_ct][type] = module
 projects[hk_ct][download][type] = "git"
@@ -538,33 +517,15 @@ projects[hk_expose][download][url] = "https://github.com/heliogabal/hk_expose.gi
 projects[hk_expose][subdir] = "features"
 projects[hk_expose][options][working-copy] = TRUE
 
+
+; custom modules
+
 ;hk_mergimg
 projects[hk_mergimg][type] = module
 projects[hk_mergimg][download][type] = "git"
 projects[hk_mergimg][download][url] = "https://github.com/heliogabal/hk_mergimg.git"
-projects[hk_mergimg][subdir] = "features"
+projects[hk_mergimg][subdir] = "custom"
 projects[hk_mergimg][options][working-copy] = TRUE
-
-
-; custom modules
-
-; weight_language, experimental, aber gut
-projects[weight_language][type] = "module"
-projects[weight_language][version] = "1.x-dev"
-projects[weight_language][download][type] = "git"
-projects[weight_language][download][url] = "http://git.drupal.org/sandbox/jm.federico/1876362.git"
-projects[weight_language][download][branch] = "7.x-1.x"
-projects[weight_language][download][revision]= "29ba320bb292274080559d4fd2939998c94cbcd9"
-projects[weight_language][subdir] = "custom"
-projects[weight_language][directory_name] = "weight_language"
-projects[weight_language][options][working-copy] = TRUE
-
-;hk_exposed_filters
-projects[hk_exposed_filters][type] = module
-projects[hk_exposed_filters][download][type] = "git"
-projects[hk_exposed_filters][download][url] = "https://github.com/heliogabal/hk_exposed_filters.git"
-projects[hk_exposed_filters][subdir] = "custom"
-projects[hk_exposed_filters][options][working-copy] = TRUE
 
 ;hk_leaflet
 projects[hk_leaflet][type] = module
@@ -580,13 +541,6 @@ projects[hk_flexslider][download][url] = "https://github.com/heliogabal/hk_flexs
 projects[hk_flexslider][subdir] = "custom"
 projects[hk_flexslider][options][working-copy] = TRUE
 
-;hk_search
-;projects[hk_search][type] = module
-;projects[hk_search][download][type] = "git"
-;projects[hk_search][download][url] = "https://github.com/heliogabal/hk_search.git"
-;projects[hk_search][subdir] = "custom"
-;projects[hk_search][options][working-copy] = TRUE
-
 ;ip_geoloc_patched
 ;projects[ip_geoloc][type] = module
 ;projects[ip_geoloc][download][type] = "git"
@@ -595,11 +549,6 @@ projects[hk_flexslider][options][working-copy] = TRUE
 ;projects[ip_geoloc][options][working-copy] = TRUE
 
 ; +++++ Themes +++++
-
-; bear_skin
-;projects[bear_skin][type] = "theme"
-;projects[bear_skin][version] = "1.2"
-;projects[bear_skin][subdir] = ""
 
 ; zen
 projects[zen][type] = "theme"
