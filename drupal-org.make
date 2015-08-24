@@ -466,6 +466,8 @@ projects[realname][version] = "1.2"
 
 projects[eu_cookie_compliance][version] = "1.14"
 
+projects[values][version] = "1.1"
+
 ; +++++ Features +++++
 
 ; ;hk_base
