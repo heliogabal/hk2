@@ -49,6 +49,7 @@ projects[date][version] = "2.8"
 projects[devel][version] = "1.5"
 
 projects[ds][version] = "2.11"
+projects[ds][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/ds.patch"
 
 projects[features][version] = "2.6"
 
@@ -317,6 +318,8 @@ projects[search_api_ranges][version] = "1.x-dev"
 ;needed for no 502 dropdown ranges
 
 projects[search_api_solr][version] = "1.8"
+;idevels
+projects[search_api_solr][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/search_api_solr.patch"
 
 ;projects[search_api_sorts][version] = "1.5"
 
@@ -438,6 +441,9 @@ projects[entity][patch][] = "https://www.drupal.org/files/issues/entity_defaults
 projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-label-2112755-25.patch"
 ; BOA Install error Unsupported operand type
 projects[entity][patch][] = "https://www.drupal.org/files/issues/unsupported-operands-2136919-11.patch"
+; idevels
+projects[entity][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/entity.patch"
+
 
 projects[entity_rules][version] = "1.0-alpha4"
 ;projects[entity_rules][version] = "1.x-dev"
@@ -549,6 +555,13 @@ projects[hk_flexslider][options][working-copy] = TRUE
 ;projects[ip_geoloc][download][url] = "https://github.com/heliogabal/ip_geoloc.git"
 ;projects[ip_geoloc][subdir] = "custom"
 ;projects[ip_geoloc][options][working-copy] = TRUE
+
+;drudesk
+projects[drudesk][type] = module
+projects[drudesk][download][type] = "git"
+projects[drudesk][download][url] = "https://github.com/heliogabal/drudesk.git"
+projects[drudesk][subdir] = "custom"
+projects[drudesk][options][working-copy] = TRUE
 
 ; +++++ Themes +++++
 
