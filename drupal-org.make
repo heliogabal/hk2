@@ -49,7 +49,8 @@ projects[date][version] = "2.8"
 projects[devel][version] = "1.5"
 
 projects[ds][version] = "2.11"
-projects[ds][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/ds.patch"
+; idevels
+;projects[ds][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/ds.patch"
 
 projects[features][version] = "2.6"
 
@@ -302,11 +303,11 @@ projects[picture][version] = "2.11"
 
 projects[relation][version] = "1.0-rc7"
 
-projects[search_api][version] = "1.15"
+projects[search_api][version] = "1.16"
 
 ;projects[search_api_ajax][version] = "1.2"
 
-projects[search_api_db][version] = "1.4"
+projects[search_api_db][version] = "1.5"
 ; Stopped BOA Migrate Fehler https://www.drupal.org/node/2428693
 ;projects[search_api_db][patch][] = "https://www.drupal.org/files/issues/entity-type-indhold-doest-specify-a-type-for-the-nid-property-2428693-2.patch"
 
@@ -317,9 +318,9 @@ projects[search_api_db][version] = "1.4"
 projects[search_api_ranges][version] = "1.x-dev"
 ;needed for no 502 dropdown ranges
 
-projects[search_api_solr][version] = "1.8"
+projects[search_api_solr][version] = "1.9"
 ;idevels
-projects[search_api_solr][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/search_api_solr.patch"
+;projects[search_api_solr][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/search_api_solr.patch"
 
 ;projects[search_api_sorts][version] = "1.5"
 
@@ -442,7 +443,7 @@ projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-label-21
 ; BOA Install error Unsupported operand type
 projects[entity][patch][] = "https://www.drupal.org/files/issues/unsupported-operands-2136919-11.patch"
 ; idevels
-projects[entity][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/entity.patch"
+;projects[entity][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/entity.patch"
 
 
 projects[entity_rules][version] = "1.0-alpha4"

@@ -23,4 +23,4 @@ projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.39.1.tar.
 ;https://www.drupal.org/node/1969208
 projects[drupal][patch][] = "https://www.drupal.org/files/issues/node-sql-rewrite-1969208-28.patch"
 /* idevels */
-projects[drupal][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/drupal.patch"
+;projects[drupal][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/drupal.patch"
