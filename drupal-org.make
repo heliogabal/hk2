@@ -402,6 +402,10 @@ projects[fallback_language_negotation][version] = "1.x-dev"
 
 projects[view_unpublished][version] = "1.2"
 
+projects[slick][version] = "2.0-rc1"
+
+projects[slick_view][version] = "2.0-rc1"
+
 ; Problematic Versions
 
 projects[feeds][version] = "2.0-beta1"
