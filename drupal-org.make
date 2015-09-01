@@ -404,7 +404,7 @@ projects[view_unpublished][version] = "1.2"
 
 projects[slick][version] = "2.0-rc1"
 
-projects[slick_view][version] = "2.0-rc1"
+projects[slick_views][version] = "2.0-rc1"
 
 ; Problematic Versions
 
