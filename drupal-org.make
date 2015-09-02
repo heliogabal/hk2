@@ -409,6 +409,8 @@ projects[slick_views][version] = "2.0-rc1"
 
 projects[office_hours][version] = "1.4"
 
+projects[mimemail][version] = "1.0-beta4"
+
 ; Problematic Versions
 
 projects[feeds][version] = "2.0-beta1"
