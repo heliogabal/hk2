@@ -233,6 +233,7 @@ projects[leaflet][version] = "1.1"
 projects[leaflet][patch][] = "https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch"
 
 projects[leaflet_mapbox][version] = "1.2"
+projects[leaflet_mapbox][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/leaflet_mapbox.patch"
 
 projects[leaflet_label][version] = "1.0"
 
