@@ -397,7 +397,7 @@ projects[xmlsitemap][version] = "2.2"
 
 projects[admin_language][version] = "1.0-beta1"
 
-;projects[computed_field][version] = "1.0"
+projects[computed_field][version] = "1.0"
 
 projects[fallback_language_negotation][version] = "1.x-dev"
 
