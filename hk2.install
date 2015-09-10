@@ -7,7 +7,7 @@
 function hk2_install() {
     // Enable some hk blocks.
   $default_theme = 'hk_theme';
-  $admin_theme = 'adminimal';
+  $admin_theme = 'hk_adminimal_theme';
   // disable all themes
   db_update('system')
     ->fields(array('status' => 0))
@@ -94,8 +94,9 @@ function hk2_install() {
   // but not placed into variables.
   $enable = array(
     'theme_default' => 'hk_theme',
-    'admin_theme' => 'adminimal',
-    'zen'
+    'admin_theme' => 'hk_adminimal_theme',
+    'zen',
+    'adminimal'
   );
   theme_enable($enable);
 
@@ -104,7 +105,7 @@ function hk2_install() {
       variable_set($var, $theme);
     }
   }
-variable_set('admin_theme', 'adminimal');
+variable_set('admin_theme', 'hk_adminimal_theme');
   // Disable the default Bartik theme
   theme_disable(array('bartik'));
 
