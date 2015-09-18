@@ -120,6 +120,7 @@ projects[link][version] = "1.3"
 
 projects[name][version] = "1.9"
 projects[name][patch][] = "https://www.drupal.org/files/name_title_translation-1788156-1.patch"
+projects[name][patch][] = "https://www.drupal.org/files/name-vocabulary-as-option-fails-2071691-1.patch"
 
 projects[phone][version] = "1.0-beta1"
 
