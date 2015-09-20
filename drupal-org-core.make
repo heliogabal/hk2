@@ -24,3 +24,9 @@ projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.39.1.tar.
 ;projects[drupal][patch][] = "https://www.drupal.org/files/issues/node-sql-rewrite-1969208-28.patch"
 /* idevels */
 ;projects[drupal][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/drupal.patch"
+
+; Performance patches from https://drupal.psu.edu/blog/post/purespeed-core-patching
+projects[drupal][patch][] = "https://www.drupal.org/files/issues/D7-2263365-17a-module_implements.patch"
+projects[drupal][patch][] = "https://www.drupal.org/files/issues/D7_improve_theme_registry-2339447-65.patch"
+projects[drupal][patch][] = "https://www.drupal.org/files/issues/drupal-1443308-37-module_load_include-static-cache.patch"
+projects[drupal][patch][] = "https://www.drupal.org/files/issues/drupal-2222635-26-rename-truncate.patch"
