@@ -411,9 +411,15 @@ projects[slick][version] = "2.0-rc1"
 
 projects[slick_views][version] = "2.0-rc1"
 
+;projects[slick_extras][version] = "2.0-beta2"
+
 projects[office_hours][version] = "1.4"
 
 projects[mimemail][version] = "1.0-beta4"
+
+projects[smtp][version] = "1.2"
+
+projects[node_clone][version] = "1.0-rc2"
 
 ; Problematic Versions
 
