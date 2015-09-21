@@ -228,6 +228,7 @@ projects[icon][version] = "1.0-beta6"
 ;projects[ip_geoloc][version] = "1.27"
 projects[ip_geoloc][version] = "1.x-dev"
 ;projects[ip_geoloc][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/hk_customization-minZoom-maxBounds-Marker.patch"
+projects[ip_geoloc][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/rik_ip_geoloc.patch"
 
 projects[job_scheduler][version] = "2.0-alpha3"
 
@@ -463,7 +464,7 @@ projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-label-21
 projects[entity][patch][] = "https://www.drupal.org/files/issues/unsupported-operands-2136919-11.patch"
 ; idevels
 ;projects[entity][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/entity.patch"
-
+projects[entity][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/rik_entity.patch"
 
 projects[entity_rules][version] = "1.0-alpha4"
 ;projects[entity_rules][version] = "1.x-dev"
