@@ -190,6 +190,8 @@ projects[hreflang][version] = "1.2"
 ;projects[breadcrumbs_by_path][version] = "1.0-alpha12"
 
 projects[breakpoints][version] = "1.3"
+; drush cc all faster https://www.drupal.org/node/2378449
+projects[breakpoints][patch][] = "https://www.drupal.org/files/issues/2415363-breakpoints-menu_rebuild-13.patch"
 
 projects[colorbox][version] = "2.9"
 
