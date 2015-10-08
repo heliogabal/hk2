@@ -199,9 +199,11 @@ projects[colorbox_node][version] = "3.5"
 
 projects[ng_lightbox][version] = "1.2"
 
-;projects[context][version] = "3.6"
+projects[context][version] = "3.6"
 
-;projects[context_flag][version] = "1.2"
+projects[context_flag][version] = "1.2"
+
+projects[contextual_view_modes][version] = "1.2"
 
 projects[session_api][version] = "1.0-rc1"
 
