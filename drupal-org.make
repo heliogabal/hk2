@@ -19,7 +19,7 @@ projects[adminimal_admin_menu][version] = "1.6"
 projects[adminimal_admin_menu][patch][] = "https://www.drupal.org/files/issues/adminimal_admin_menu-js-error-2407007-3.patch"
 projects[adminimal_admin_menu][patch][] = "https://www.drupal.org/files/issues/adminimal_admin_menu-js-error-2407007-3-no-whitespace-changes.patch"
 
-projects[advagg][version] = "2.15"
+projects[advagg][version] = "2.16"
 
 projects[autocomplete_deluxe][version] = 2.1
 
@@ -46,7 +46,7 @@ projects[ctools][version] = "1.9"
 ; will be fixed in 1.11, until then patch is needed to have ajax in modals working : https://www.drupal.org/node/1823088
 projects[ctools][patch][] = "https://www.drupal.org/files/issues/eventBubblingBugIE8-1823088-9.patch"
 
-projects[date][version] = "2.8"
+projects[date][version] = "2.9"
 
 projects[devel][version] = "1.5"
 
@@ -54,7 +54,7 @@ projects[ds][version] = "2.11"
 ; idevels
 ;projects[ds][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/ds.patch"
 
-projects[features][version] = "2.6"
+projects[features][version] = "2.7"
 
 projects[features_translations][version] = "2.0"
 
@@ -74,7 +74,7 @@ projects[imageapi_optimize][version] = 1.2
 
 projects[image_resize_filter][version] = "1.16"
 
-projects[addressfield][version] = "1.1"
+projects[addressfield][version] = "1.2"
 
 projects[typogrify][version] = "1.0-rc10"
 
@@ -83,7 +83,7 @@ projects[typogrify][version] = "1.0-rc10"
 projects[addressfield_autocomplete][version] = "1.x-dev"
 projects[addressfield_autocomplete][patch][] = https://www.drupal.org/files/issues/addressfield_autocomplete-wrong_order_street_number-2499229-1.patch
 
-projects[gmap][version] = "2.9"
+projects[gmap][version] = "2.10"
 
 projects[compact_forms][version] = "1.0"
 
@@ -124,7 +124,7 @@ projects[name][patch][] = "https://www.drupal.org/files/name-vocabulary-as-optio
 
 projects[phone][version] = "1.0-beta1"
 
-projects[flag][version] = "3.6"
+projects[flag][version] = "3.7"
 ; Warhscheinlich unnötig: https://www.drupal.org/node/1925922
 ; https://www.drupal.org/files/issues/flag-broken-1925922-131.patch
 
@@ -193,7 +193,7 @@ projects[breakpoints][version] = "1.3"
 ; drush cc all faster https://www.drupal.org/node/2378449
 projects[breakpoints][patch][] = "https://www.drupal.org/files/issues/2415363-breakpoints-menu_rebuild-13.patch"
 
-projects[colorbox][version] = "2.9"
+projects[colorbox][version] = "2.10"
 
 projects[colorbox_node][version] = "3.5"
 
@@ -236,15 +236,15 @@ projects[ip_geoloc][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_
 
 projects[job_scheduler][version] = "2.0-alpha3"
 
-projects[leaflet][version] = "1.1"
+projects[leaflet][version] = "1.3"
 ;projects[leaflet][version] = "1.x-dev"
 ; Unsupported operand types: https://www.drupal.org/node/2185767
-projects[leaflet][patch][] = "https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch"
+;projects[leaflet][patch][] = "https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch"
 
 projects[leaflet_mapbox][version] = "1.2"
 projects[leaflet_mapbox][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/leaflet_mapbox.patch"
 
-projects[leaflet_label][version] = "1.0"
+projects[leaflet_label][version] = "1.2"
 
 projects[leaflet_hash][version] = "1.1"
 
@@ -260,7 +260,7 @@ projects[linkit][version] = "2.7"
 
 projects[mailsystem][version] = "2.34"
 
-projects[mandrill][version] = "2.1"
+projects[mandrill][version] = "2.2"
 
 projects[menu_block][version] = "2.5"
 
@@ -270,12 +270,12 @@ projects[multiform][version] = "1.1"
 
 projects[options_element][version] = "1.12"
 
-projects[pathauto][version] = "1.x-dev"
+projects[pathauto][version] = "1.3"
 
 projects[pathauto_persist][version] = 1.3
 
-projects[filefield_paths][version] = "1.0-beta4"
-projects[filefield_paths][patch][] = "https://www.drupal.org/files/issues/deprecated_e-2103151-26.patch"
+projects[filefield_paths][version] = "1.0-rc1"
+;projects[filefield_paths][patch][] = "https://www.drupal.org/files/issues/deprecated_e-2103151-26.patch"
 
 projects[redirect][version] = "1.0-rc3"
 
@@ -305,7 +305,7 @@ projects[globalredirect][version] = "1.5"
 
 projects[entitycache][version] = "1.2"
 
-projects[picture][version] = "2.11"
+projects[picture][version] = "2.13"
 
 ;projects[redhen][version] = "1.9"
 
@@ -392,7 +392,7 @@ projects[views_pdf][version] = "1.4"
 
 projects[views_merge_rows][version] = "1.0-rc1"
 
-projects[views_field_view][version] = "1.1"
+projects[views_field_view][version] = "1.2"
 
 projects[views_conditional][version] = "1.3"
 
@@ -412,9 +412,9 @@ projects[fallback_language_negotation][version] = "1.x-dev"
 
 projects[view_unpublished][version] = "1.2"
 
-projects[slick][version] = "2.0-rc1"
+projects[slick][version] = "2.0-rc2"
 
-projects[slick_views][version] = "2.0-rc1"
+projects[slick_views][version] = "2.0-rc2"
 
 ;projects[slick_extras][version] = "2.0-beta2"
 
@@ -485,7 +485,7 @@ projects[rules][version] = "2.9"
 ; https://www.drupal.org/node/2410729
 ;projects[rules][patch][] = "https://www.drupal.org/files/issues/rules_i18n-undefined-method-2410729-1.patch"
 
-projects[rules_download][version] = 2.0
+projects[rules_download][version] = 2.1
 
 projects[simplify][version] = "3.3"
 
