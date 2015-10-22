@@ -359,7 +359,7 @@ projects[fontello][version] = "1.0"
 
 projects[content_menu][version] = "1.0"
 
-projects[jquery_update][version] = "3.0-alpha2"
+projects[jquery_update][version] = "3.0-alpha3"
 
 projects[select2][version] = "1.x-dev"
 ; https://www.drupal.org/node/2459015
@@ -596,7 +596,7 @@ projects[zen][version] = "5.5"
 projects[zen][subdir] = ""
 
 projects[adminimal_theme][type] = "theme"
-projects[adminimal_theme][version] = "1.22"
+projects[adminimal_theme][version] = "1.23"
 projects[adminimal_theme][subdir] = ""
 
 projects[hk_theme][type] = "theme"
