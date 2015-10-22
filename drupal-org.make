@@ -787,3 +787,4 @@ libraries[hybridauth][destination] = "libraries"
 ; +++++ Translations +++++
 translations[] = de
 translations[] = zh_hans
+translations[] = ru
