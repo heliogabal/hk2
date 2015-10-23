@@ -784,6 +784,12 @@ libraries[hybridauth][download][url] = "https://github.com/hybridauth/hybridauth
 libraries[hybridauth][directory_name] = "hybridauth"
 libraries[hybridauth][destination] = "libraries"
 
+; fontfaceobserver
+libraries[fontfaceobserver][download][type] = "get"
+libraries[fontfaceobserver][download][url] = "https://github.com/bramstein/fontfaceobserver/archive/v1.5.4.zip"
+libraries[fontfaceobserver][directory_name] = "fontfaceobserver"
+libraries[fontfaceobserver][destination] = "libraries"
+
 ; +++++ Translations +++++
 translations[] = de
 translations[] = zh_hans
