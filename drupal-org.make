@@ -264,7 +264,11 @@ projects[mandrill][version] = "2.2"
 
 projects[menu_block][version] = "2.5"
 
-projects[mobile_detect][version] = "1.x-dev"
+;projects[mobile_detect][version] = "1.x-dev"
+
+projects[mobile_switch][version] = "2.0-beta1"
+
+projects[context_mobile_switch][version] = "2.0-alpha1"
 
 projects[multiform][version] = "1.1"
 
