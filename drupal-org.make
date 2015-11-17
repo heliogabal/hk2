@@ -270,6 +270,8 @@ projects[mobile_switch][version] = "2.0-beta1"
 
 projects[context_mobile_switch][version] = "2.0-alpha1"
 
+projects[context_block_disable][version] = 2.1
+
 projects[multiform][version] = "1.1"
 
 projects[options_element][version] = "1.12"
