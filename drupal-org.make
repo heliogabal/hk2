@@ -71,6 +71,10 @@ projects[feeds_tamper][version] = "1.1"
 projects[fpa][version] = "2.6"
 
 projects[imageapi_optimize][version] = 1.2
+; Use resmush.it instead of smush.it https://www.drupal.org/node/2458453
+projects[imageapi_optimize][patch][] = "https://www.drupal.org/files/issues/imageapi_optimize-add-resmushit-service-2458453-25.patch"
+; https://www.drupal.org/files/issues/imageapi_optimize-2613174-performance-include.patch
+projects[imageapi_optimize][patch][] = "https://www.drupal.org/files/issues/imageapi_optimize-2613174-performance-include.patch"
 
 projects[image_resize_filter][version] = "1.16"
 
@@ -267,6 +271,8 @@ projects[menu_block][version] = "2.5"
 ;projects[mobile_detect][version] = "1.x-dev"
 
 projects[mobile_switch][version] = "2.0-beta1"
+; Implement extra cache for mobile https://www.drupal.org/node/1854198
+projects[mobile_switch][patch][] = "https://www.drupal.org/files/mobile_switch-new_cache_provider-1854198-14.diff"
 
 projects[context_mobile_switch][version] = "2.0-alpha1"
 
