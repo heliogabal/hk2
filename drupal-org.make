@@ -302,6 +302,8 @@ projects[taxonomy_manager][version] = "1.0"
 projects[term_merge][version] = "1.2"
 
 projects[title][version] = "1.0-alpha7"
+; try simple solution first... https://www.drupal.org/node/2267251
+projects[title][patch][] = "https://www.drupal.org/files/issues/title-2267251-11_0.patch"
 
 ;projects[translation_table][version] = "1.0-beta1"
 
@@ -470,6 +472,8 @@ projects[entityreference][version] = "1.1"
 projects[entityreference][patch][] = "https://www.drupal.org/files/issues/1451852-entityreference-validateunpublished-13.patch"
 ; not sure if really necessary ...
 ;projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference-label_access_respecting_null.patch"
+; Language awareness: https://www.drupal.org/node/1674792
+projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference-rendered-entity-is-not-language-aware-1674792-85.patch"
 
 projects[entity][version] = "1.6"
 ; https://www.drupal.org/node/2241979
