@@ -159,7 +159,7 @@ projects[plupload][version] = "1.7"
 
 ;projects[migrate_d2d][version] = "2.1"
 
-projects[translation_helpers][version] = "1.0"
+;deprecated... projects[translation_helpers][version] = "1.0"
 
 projects[entity_translation][version] = "1.0-beta4"
 
