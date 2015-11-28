@@ -68,7 +68,8 @@ projects[entityreference_view_widget][version] = "2.0-rc6"
 
 projects[feeds_tamper][version] = "1.1"
 
-projects[fpa][version] = "2.6"
+;o_contrib_seven
+;projects[fpa][version] = "2.6"
 
 projects[imageapi_optimize][version] = 1.2
 ; Use resmush.it instead of smush.it https://www.drupal.org/node/2458453
@@ -116,7 +117,8 @@ projects[field_group][version] = "1.x-dev"
 
 projects[geofield][version] = "2.3"
 
-projects[httprl][version] = "1.14"
+;o_contrib_seven
+;projects[httprl][version] = "1.14"
 
 ;projects[js][version] = "1.x-dev"
 
@@ -317,7 +319,8 @@ projects[transliteration][version] = "3.2"
 
 projects[globalredirect][version] = "1.5"
 
-projects[entitycache][version] = "1.2"
+;o_contrib_seven
+;projects[entitycache][version] = "1.2"
 
 projects[picture][version] = "2.13"
 
@@ -392,7 +395,8 @@ projects[views][patch][] = "https://www.drupal.org/files/issues/views-ajax-nginx
 ;Geofield Search API bug
 projects[views][patch][] = https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
 
-projects[views_accelerator][version] = "1.0-beta1"
+;o_contrib_seven
+;projects[views_accelerator][version] = "1.0-beta1"
 
 projects[views_bulk_operations][version] = "3.3"
 
