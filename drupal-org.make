@@ -87,6 +87,8 @@ projects[typogrify][version] = "1.0-rc10"
 ; House number after street-name patch
 projects[addressfield_autocomplete][version] = "1.x-dev"
 projects[addressfield_autocomplete][patch][] = https://www.drupal.org/files/issues/addressfield_autocomplete-wrong_order_street_number-2499229-1.patch
+; Image order fix https://www.drupal.org/node/2534836
+projects[addressfield_autocomplete][patch][] = "https://www.drupal.org/files/issues/addressfield_autocomplete-incompatible_with_tabledrag-2534836.patch"
 
 projects[gmap][version] = "2.10"
 
