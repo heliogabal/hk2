@@ -19,7 +19,7 @@ projects[adminimal_admin_menu][version] = "1.6"
 projects[adminimal_admin_menu][patch][] = "https://www.drupal.org/files/issues/adminimal_admin_menu-js-error-2407007-3.patch"
 projects[adminimal_admin_menu][patch][] = "https://www.drupal.org/files/issues/adminimal_admin_menu-js-error-2407007-3-no-whitespace-changes.patch"
 
-projects[advagg][version] = "2.16"
+;projects[advagg][version] = "2.16"
 
 projects[autocomplete_deluxe][version] = 2.1
 
@@ -126,7 +126,7 @@ projects[geofield][version] = "2.3"
 
 projects[link][version] = "1.3"
 
-projects[name][version] = "1.9"
+projects[name][version] = "1.10"
 projects[name][patch][] = "https://www.drupal.org/files/name_title_translation-1788156-10.patch"
 projects[name][patch][] = "https://www.drupal.org/files/name-vocabulary-as-option-fails-2071691-1.patch"
 
@@ -272,7 +272,7 @@ projects[mandrill][version] = "2.2"
 
 projects[menu_block][version] = "2.5"
 
-;projects[mobile_detect][version] = "1.x-dev"
+;projects[mobile_detect][version] = "1.0-alpha1"
 
 projects[mobile_switch][version] = "2.0-beta1"
 ; Implement extra cache for mobile https://www.drupal.org/node/1854198
@@ -290,7 +290,7 @@ projects[pathauto][version] = "1.3"
 
 projects[pathauto_persist][version] = 1.3
 
-projects[filefield_paths][version] = "1.0-rc1"
+projects[filefield_paths][version] = "1.0"
 ;projects[filefield_paths][patch][] = "https://www.drupal.org/files/issues/deprecated_e-2103151-26.patch"
 
 projects[redirect][version] = "1.0-rc3"
@@ -303,7 +303,7 @@ projects[styleguide][version] = "1.1"
 
 projects[taxonomy_manager][version] = "1.0"
 
-projects[term_merge][version] = "1.2"
+projects[term_merge][version] = "1.3"
 
 projects[title][version] = "1.0-alpha7"
 ; try simple solution first... https://www.drupal.org/node/2267251
@@ -390,7 +390,7 @@ projects[emptyparagraphkiller][version] = "1.0-beta2"
 
 projects[variable][version] = "2.5"
 
-projects[views][version] = "3.11"
+projects[views][version] = "3.13"
 projects[views][patch][] = "https://www.drupal.org/files/issues/views-ajax-nginx-1036962-71.patch"
 ;Needed for views selective filters
 ;projects[views][patch][] = "https://www.drupal.org/files/issues/aggregation_not_working-2159347-87.patch"
@@ -432,9 +432,9 @@ projects[fallback_language_negotation][version] = "1.x-dev"
 
 projects[view_unpublished][version] = "1.2"
 
-projects[slick][version] = "2.0-rc2"
+projects[slick][version] = "2.0-rc3"
 
-projects[slick_views][version] = "2.0-rc2"
+projects[slick_views][version] = "2.0-rc3"
 
 ;projects[slick_extras][version] = "2.0-beta2"
 
@@ -444,7 +444,7 @@ projects[mimemail][version] = "1.0-beta4"
 
 projects[smtp][version] = "1.2"
 
-projects[node_clone][version] = "1.0-rc2"
+projects[node_clone][version] = "1.0"
 
 ; Problematic Versions
 
@@ -497,8 +497,8 @@ projects[entity_rules][version] = "1.0-alpha4"
 ; Labels in Features https://www.drupal.org/node/2187363
 projects[entity_rules][patch][] = "https://www.drupal.org/files/issues/entity_rules-2187363-2.patch"
 
-;projects[workflow][version] = 2.5
-projects[workflow][version] = 2.x-dev
+;projects[workflow][version] = 2.6
+projects[workflow][version] = 2.6
 ; Patch for BOA install unsupported operand type:
 ; http://cgit.drupalcode.org/workflow/patch/workflow.entity.inc?id=0e7166be97a6161e6e170f954a5d986d2875567f
 
@@ -614,7 +614,7 @@ projects[drudesk][options][working-copy] = TRUE
 
 ; zen
 projects[zen][type] = "theme"
-projects[zen][version] = "5.5"
+projects[zen][version] = "5.6"
 projects[zen][subdir] = ""
 
 projects[adminimal_theme][type] = "theme"
