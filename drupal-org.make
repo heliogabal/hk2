@@ -79,6 +79,8 @@ projects[imageapi_optimize][patch][] = "https://www.drupal.org/files/issues/imag
 
 projects[image_resize_filter][version] = "1.16"
 
+projects[imageinfo_cache][version] = "3.5"
+
 projects[addressfield][version] = "1.2"
 
 projects[typogrify][version] = "1.0-rc10"
