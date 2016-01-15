@@ -15,17 +15,20 @@ projects[admin_theme][version] = "1.0"
 
 projects[admin_views][version] = "1.5"
 
-projects[adminimal_admin_menu][version] = "1.6"
+projects[adminimal_admin_menu][version] = "1.7"
 projects[adminimal_admin_menu][patch][] = "https://www.drupal.org/files/issues/adminimal_admin_menu-js-error-2407007-3.patch"
 projects[adminimal_admin_menu][patch][] = "https://www.drupal.org/files/issues/adminimal_admin_menu-js-error-2407007-3-no-whitespace-changes.patch"
 
-;projects[advagg][version] = "2.16"
+projects[advagg][version] = "2.17"
+; Turn Errors into Warnings to allow migrate: https://www.drupal.org/node/2631444
+projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-4-watchdog-notice.patch"
+projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-6-no-watchdog-public.patch"
 
 projects[autocomplete_deluxe][version] = 2.1
 
 projects[autosave][version] = "2.2"
 
-projects[block_class][version] = "2.1"
+projects[block_class][version] = "2.3"
 
 ;projects[cdn][version] = "2.6"
 ;projects[cdn][patch][] = "https://www.drupal.org/files/issues/1514182-IE-font-face-CSS-hack-URL-broken-68.patch"
@@ -76,6 +79,7 @@ projects[imageapi_optimize][version] = 1.2
 projects[imageapi_optimize][patch][] = "https://www.drupal.org/files/issues/imageapi_optimize-add-resmushit-service-2458453-25.patch"
 ; https://www.drupal.org/files/issues/imageapi_optimize-2613174-performance-include.patch
 projects[imageapi_optimize][patch][] = "https://www.drupal.org/files/issues/imageapi_optimize-2613174-performance-include.patch"
+projects[imageapi_optimize][patch][] = "https://www.drupal.org/files/issues/imageapi_optimize-1983826-46.patch"
 
 projects[image_resize_filter][version] = "1.16"
 
@@ -114,7 +118,7 @@ projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/refe
 ; Half of this patch needed for link parameter, then some additional patching, still hardcoded for now... https://www.drupal.org/node/2149805
 projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2149805-make-parent-context-available-to-dialog.patch"
 
-projects[field_group][version] = "1.x-dev"
+projects[field_group][version] = "1.5"
 ; until accordion open is fixed
 ;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-accordion-heightStyle-content-2173937-8.patch"
 ;projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-2269133-7-active_accordion.patch"
@@ -129,8 +133,8 @@ projects[geofield][version] = "2.3"
 projects[link][version] = "1.3"
 
 projects[name][version] = "1.10"
-projects[name][patch][] = "https://www.drupal.org/files/name_title_translation-1788156-10.patch"
-projects[name][patch][] = "https://www.drupal.org/files/name-vocabulary-as-option-fails-2071691-1.patch"
+projects[name][patch][] = "https://www.drupal.org/files/issues/name_title_translation-1788156-13.patch"
+;projects[name][patch][] = "https://www.drupal.org/files/name-vocabulary-as-option-fails-2071691-1.patch"
 
 projects[phone][version] = "1.0-beta1"
 
@@ -199,15 +203,15 @@ projects[hreflang][version] = "1.2"
 
 ;projects[breadcrumbs_by_path][version] = "1.0-alpha12"
 
-projects[breakpoints][version] = "1.3"
-; drush cc all faster https://www.drupal.org/node/2378449
-projects[breakpoints][patch][] = "https://www.drupal.org/files/issues/2415363-breakpoints-menu_rebuild-13.patch"
+projects[breakpoints][version] = "1.4"
+; drush cc all faster https://www.drupal.org/node/2378449 applied to 1.4
+;projects[breakpoints][patch][] = "https://www.drupal.org/files/issues/2415363-breakpoints-menu_rebuild-13.patch"
 
 projects[colorbox][version] = "2.10"
 
 projects[colorbox_node][version] = "3.5"
 
-projects[ng_lightbox][version] = "1.2"
+projects[ng_lightbox][version] = "1.3"
 
 projects[context][version] = "3.6"
 
@@ -217,7 +221,7 @@ projects[contextual_view_modes][version] = "1.2"
 
 projects[session_api][version] = "1.0-rc1"
 
-projects[session_cache][version] = "1.3"
+projects[session_cache][version] = "1.4"
 
 projects[diff][version] = "3.2"
 
@@ -235,12 +239,14 @@ projects[geophp][version] = "1.7"
 
 ;projects[habitat][version] = "1.0"
 
+projects[hide_submit][version] = "2.2"
+
 projects[icon][version] = "1.0-beta6"
 ; Allow Icons to replace menu items https://www.drupal.org/node/2366055
 ;projects[icon][patch][] = "https://www.drupal.org/files/issues/2366055-icon-menu-replace-2.patch"
 
-;projects[ip_geoloc][version] = "1.27"
-projects[ip_geoloc][version] = "1.x-dev"
+projects[ip_geoloc][version] = "1.29"
+;projects[ip_geoloc][version] = "1.x-dev"
 ;projects[ip_geoloc][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/hk_customization-minZoom-maxBounds-Marker.patch"
 projects[ip_geoloc][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/rik_ip_geoloc.patch"
 
@@ -324,7 +330,7 @@ projects[transliteration][version] = "3.2"
 projects[globalredirect][version] = "1.5"
 
 ;o_contrib_seven
-;projects[entitycache][version] = "1.2"
+;projects[entitycache][version] = "1.5"
 
 projects[picture][version] = "2.13"
 
@@ -393,11 +399,13 @@ projects[emptyparagraphkiller][version] = "1.0-beta2"
 projects[variable][version] = "2.5"
 
 projects[views][version] = "3.13"
-projects[views][patch][] = "https://www.drupal.org/files/issues/views-ajax-nginx-1036962-71.patch"
+;fixed in 3.13?
+;projects[views][patch][] = "https://www.drupal.org/files/issues/views-ajax-nginx-1036962-71.patch"
 ;Needed for views selective filters
 ;projects[views][patch][] = "https://www.drupal.org/files/issues/aggregation_not_working-2159347-87.patch"
 ;Geofield Search API bug
-projects[views][patch][] = https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
+;fixed in 3.13?
+;projects[views][patch][] = https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
 
 ;o_contrib_seven
 ;projects[views_accelerator][version] = "1.0-beta1"
@@ -434,9 +442,9 @@ projects[fallback_language_negotation][version] = "1.x-dev"
 
 projects[view_unpublished][version] = "1.2"
 
-projects[slick][version] = "2.0-rc3"
+projects[slick][version] = "2.0"
 
-projects[slick_views][version] = "2.0-rc3"
+projects[slick_views][version] = "2.0"
 
 ;projects[slick_extras][version] = "2.0-beta2"
 
@@ -444,7 +452,7 @@ projects[office_hours][version] = "1.4"
 
 projects[mimemail][version] = "1.0-beta4"
 
-projects[smtp][version] = "1.2"
+projects[smtp][version] = "1.3"
 
 projects[node_clone][version] = "1.0"
 
@@ -500,7 +508,7 @@ projects[entity_rules][version] = "1.0-alpha4"
 projects[entity_rules][patch][] = "https://www.drupal.org/files/issues/entity_rules-2187363-2.patch"
 
 ;projects[workflow][version] = 2.6
-projects[workflow][version] = 2.6
+projects[workflow][version] = 2.8
 ; Patch for BOA install unsupported operand type:
 ; http://cgit.drupalcode.org/workflow/patch/workflow.entity.inc?id=0e7166be97a6161e6e170f954a5d986d2875567f
 
@@ -521,7 +529,7 @@ projects[realname][version] = "1.2"
 
 projects[eu_cookie_compliance][version] = "1.14"
 
-projects[values][version] = "1.1"
+projects[values][version] = "1.2"
 
 ; +++++ Features +++++
 
