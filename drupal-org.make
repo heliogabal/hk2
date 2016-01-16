@@ -241,6 +241,8 @@ projects[geophp][version] = "1.7"
 
 projects[hide_submit][version] = "2.2"
 
+projects[node_revision_delete][version] = "2.6"
+
 projects[icon][version] = "1.0-beta6"
 ; Allow Icons to replace menu items https://www.drupal.org/node/2366055
 ;projects[icon][patch][] = "https://www.drupal.org/files/issues/2366055-icon-menu-replace-2.patch"
@@ -330,7 +332,7 @@ projects[transliteration][version] = "3.2"
 projects[globalredirect][version] = "1.5"
 
 ;o_contrib_seven
-;projects[entitycache][version] = "1.5"
+projects[entitycache][version] = "1.5"
 
 projects[picture][version] = "2.13"
 
@@ -530,6 +532,8 @@ projects[realname][version] = "1.2"
 projects[eu_cookie_compliance][version] = "1.14"
 
 projects[values][version] = "1.2"
+
+projects[translation_helpers][version] = "1.0"
 
 ; +++++ Features +++++
 
