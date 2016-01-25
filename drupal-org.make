@@ -41,9 +41,9 @@ projects[better_exposed_filters][version] = 3.2
 
 projects[better_formats][version] = "1.0-beta1"
 
-projects[crm_core][version] = "0.980"
+projects[crm_core][version] = "1.0-rc1"
 
-projects[crm_core_profile][version] = "1.0-beta10"
+projects[crm_core_profile][version] = "1.x-dev"
 
 projects[ctools][version] = "1.9"
 ; will be fixed in 1.11, until then patch is needed to have ajax in modals working : https://www.drupal.org/node/1823088
@@ -654,7 +654,7 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 libraries[ckeditor][destination] = "libraries"
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.3/ckeditor_4.3.3_full.zip"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.5.6/ckeditor_4.5.6_full.zip"
 
 ; Flexslider
 libraries[flexslider][directory_name] = "flexslider"
