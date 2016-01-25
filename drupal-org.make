@@ -53,7 +53,7 @@ projects[date][version] = "2.9"
 
 projects[devel][version] = "1.5"
 
-projects[ds][version] = "2.11"
+projects[ds][version] = "2.12"
 ; idevels
 ;projects[ds][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/ds.patch"
 
@@ -211,7 +211,7 @@ projects[colorbox][version] = "2.10"
 
 projects[colorbox_node][version] = "3.5"
 
-projects[ng_lightbox][version] = "1.3"
+projects[ng_lightbox][version] = "1.4"
 
 projects[context][version] = "3.6"
 
@@ -259,7 +259,7 @@ projects[leaflet][version] = "1.3"
 ; Unsupported operand types: https://www.drupal.org/node/2185767
 ;projects[leaflet][patch][] = "https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch"
 
-projects[leaflet_mapbox][version] = "1.2"
+projects[leaflet_mapbox][version] = "1.3"
 projects[leaflet_mapbox][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/leaflet_mapbox.patch"
 
 projects[leaflet_label][version] = "1.2"
@@ -438,7 +438,7 @@ projects[xmlsitemap][version] = "2.2"
 
 projects[admin_language][version] = "1.0-beta1"
 
-projects[computed_field][version] = "1.0"
+projects[computed_field][version] = "1.1"
 
 projects[fallback_language_negotation][version] = "1.x-dev"
 
