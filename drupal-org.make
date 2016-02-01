@@ -325,7 +325,8 @@ projects[title][patch][] = "https://www.drupal.org/files/issues/title-2267251-11
 
 projects[token][version] = "1.6"
 
-projects[token_tweaks][version] = "1.x-dev"
+; replaced by preprocess function: http://www.blazindrop.com/article/slow-drupal-node-edit-pages-token-tree-slowing-you-down
+;projects[token_tweaks][version] = "1.x-dev"
 
 projects[transliteration][version] = "3.2"
 
