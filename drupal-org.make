@@ -26,7 +26,7 @@ projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-
 
 projects[autocomplete_deluxe][version] = 2.1
 
-projects[autosave][version] = "2.2"
+;projects[autosave][version] = "2.2"
 
 projects[block_class][version] = "2.3"
 
@@ -58,6 +58,8 @@ projects[ds][version] = "2.12"
 ;projects[ds][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/ds.patch"
 
 projects[features][version] = "2.7"
+; use regular cache instead of variables table (can be disabled with 2.8): https://www.drupal.org/node/1325288
+projects[features][patch][] = "https://www.drupal.org/files/issues/use_regular_cache_table-1325288-46.patch"
 
 projects[features_translations][version] = "2.0"
 
@@ -209,7 +211,7 @@ projects[breakpoints][version] = "1.4"
 
 projects[colorbox][version] = "2.10"
 
-projects[colorbox_node][version] = "3.5"
+;projects[colorbox_node][version] = "3.5"
 
 projects[ng_lightbox][version] = "1.4"
 
@@ -231,7 +233,7 @@ projects[diff][version] = "3.2"
 
 ;projects[entityform][version] = "2.0-rc1"
 
-projects[equalheights][version] = "2.4"
+;projects[equalheights][version] = "2.4"
 
 projects[geocoder][version] = "1.2"
 
@@ -264,7 +266,7 @@ projects[leaflet_mapbox][patch][] = "https://raw.githubusercontent.com/heliogaba
 
 projects[leaflet_label][version] = "1.2"
 
-projects[leaflet_hash][version] = "1.1"
+;projects[leaflet_hash][version] = "1.1"
 
 projects[leaflet_widget][version] = "2.0-beta1"
 
@@ -420,7 +422,7 @@ projects[views_flag_refresh][version] = "1.3"
 
 projects[views_litepager][version] = "3.0"
 
-projects[views_pdf][version] = "1.4"
+;projects[views_pdf][version] = "1.4"
 
 projects[views_merge_rows][version] = "1.0-rc1"
 
