@@ -825,7 +825,7 @@ libraries[hybridauth][destination] = "libraries"
 
 ; fontfaceobserver
 libraries[fontfaceobserver][download][type] = "get"
-libraries[fontfaceobserver][download][url] = "https://github.com/bramstein/fontfaceobserver/archive/v1.5.4.zip"
+libraries[fontfaceobserver][download][url] = "https://github.com/bramstein/fontfaceobserver/archive/v1.6.3.zip"
 libraries[fontfaceobserver][directory_name] = "fontfaceobserver"
 libraries[fontfaceobserver][destination] = "libraries"
 
