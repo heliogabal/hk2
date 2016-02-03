@@ -211,6 +211,8 @@ projects[breakpoints][version] = "1.4"
 
 projects[colorbox][version] = "2.10"
 
+projects[photobox][version] = "1.0-beta2"
+
 ;projects[colorbox_node][version] = "3.5"
 
 projects[ng_lightbox][version] = "1.4"
@@ -828,6 +830,13 @@ libraries[fontfaceobserver][download][type] = "get"
 libraries[fontfaceobserver][download][url] = "https://github.com/bramstein/fontfaceobserver/archive/v1.6.3.zip"
 libraries[fontfaceobserver][directory_name] = "fontfaceobserver"
 libraries[fontfaceobserver][destination] = "libraries"
+
+; photobox
+libraries[photobox][download][type] = "get"
+libraries[photobox][download][url] = "https://github.com/yairEO/photobox/archive/1.9.9.zip"
+libraries[photobox][directory_name] = "photobox"
+libraries[photobox][destination] = "libraries"
+
 
 ; +++++ Translations +++++
 translations[] = de
