@@ -73,7 +73,7 @@ projects[feeds_tamper][version] = "1.1"
 ;o_contrib_seven
 ;projects[fpa][version] = "2.6"
 
-projects[imageapi_optimize][version] = 1.2
+projects[imageapi_optimize][version] = 1.x-dev
 ; Use resmush.it instead of smush.it https://www.drupal.org/node/2458453
 projects[imageapi_optimize][patch][] = "https://www.drupal.org/files/issues/imageapi_optimize-add-resmushit-service-2458453-25.patch"
 ; https://www.drupal.org/files/issues/imageapi_optimize-2613174-performance-include.patch
@@ -707,8 +707,9 @@ libraries[leaflet][download][type] = "get"
 libraries[leaflet][download][url] = "http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.zip"
 
 ; leaflet markercluster
-libraries[leaflet_markercluster][download][type] = "git"
-libraries[leaflet_markercluster][download][url] = "https://github.com/Leaflet/Leaflet.markercluster.git"
+libraries[leaflet_markercluster][download][type] = "get"
+libraries[leaflet_markercluster][type] = "library"
+libraries[leaflet_markercluster][download][url] = "https://github.com/Leaflet/Leaflet.markercluster/archive/v1.0.0-beta.2.0.zip"
 libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
 libraries[leaflet_markercluster][destination] = "libraries"
 
