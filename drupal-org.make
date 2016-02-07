@@ -20,9 +20,6 @@ projects[adminimal_admin_menu][patch][] = "https://www.drupal.org/files/issues/a
 projects[adminimal_admin_menu][patch][] = "https://www.drupal.org/files/issues/adminimal_admin_menu-js-error-2407007-3-no-whitespace-changes.patch"
 
 projects[advagg][version] = "2.17"
-; Turn Errors into Warnings to allow migrate: https://www.drupal.org/node/2631444
-projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-4-watchdog-notice.patch"
-projects[advagg][patch][] = "https://www.drupal.org/files/issues/advagg-2631444-6-no-watchdog-public.patch"
 
 projects[autocomplete_deluxe][version] = 2.1
 
@@ -67,7 +64,7 @@ projects[features_extra][version] = "1.0-beta1"
 
 projects[format_number][version] = "1.x-dev"
 
-projects[entityreference_prepopulate][version] = "1.5"
+projects[entityreference_prepopulate][version] = "1.6"
 
 projects[entityreference_view_widget][version] = "2.0-rc6"
 
@@ -195,9 +192,7 @@ projects[i18n][version] = "1.13"
 
 projects[localize_fields][version] = "1.4"
 
-projects[i18nviews][version] = "3.x-dev"
-; https://www.drupal.org/node/1653170
-;projects[i18nviews][patch][] = "https://www.drupal.org/files/i18nviews-1653170.patch"
+projects[i18nviews][version] = "3.0-alpha1"
 
 projects[l10n_update][version] = 2.0
 
@@ -237,7 +232,7 @@ projects[diff][version] = "3.2"
 
 ;projects[equalheights][version] = "2.4"
 
-projects[geocoder][version] = "1.2"
+projects[geocoder][version] = "1.3"
 
 projects[geophp][version] = "1.7"
 
@@ -514,7 +509,6 @@ projects[entity_rules][version] = "1.0-alpha4"
 ; Labels in Features https://www.drupal.org/node/2187363
 projects[entity_rules][patch][] = "https://www.drupal.org/files/issues/entity_rules-2187363-2.patch"
 
-;projects[workflow][version] = 2.6
 projects[workflow][version] = 2.8
 ; Patch for BOA install unsupported operand type:
 ; http://cgit.drupalcode.org/workflow/patch/workflow.entity.inc?id=0e7166be97a6161e6e170f954a5d986d2875567f
