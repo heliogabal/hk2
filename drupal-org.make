@@ -771,8 +771,8 @@ libraries[jquery.imagesloaded][destination] = "libraries"
 
 ; imgAreaSelect for manualcrop
 libraries[jquery.imgareaselect][download][type] = file
-libraries[jquery.imgareaselect][download][url] = https://github.com/odyniec/imgareaselect/archive/v0.9.11-rc.1.tar.gz
-libraries[jquery.imgareaselect][download][subtree] = imgareaselect-0.9.11-rc.1
+libraries[jquery.imgareaselect][download][url] = "http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip"
+libraries[jquery.imgareaselect][download][subtree] = imgareaselect-0.9.10
 libraries[jquery.imgareaselect][directory_name] = "jquery.imgareaselect"
 libraries[jquery.imgareaselect][destination] = "libraries"
 
