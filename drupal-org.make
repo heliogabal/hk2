@@ -483,7 +483,7 @@ projects[entityreference_feeds][version] = "1.x-dev"
 ; funktioniert nicht mit BOA, von Hand patchen
 ;projects[entityreference_feeds][patch][] = "https://www.drupal.org/files/issues/broken_feeds-2287149-6.patch"
 
-projects[entityreference][version] = "1.1"
+projects[entityreference][version] = "1.x-dev"
 ;projects[entityreference][patch][] = "https://www.drupal.org/files/no-label-ref-found-1943300-1.patch"
 ; experimental
 ;projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference_wrapper_property_set-2143171-4.patch"
