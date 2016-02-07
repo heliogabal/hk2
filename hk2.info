@@ -24,7 +24,7 @@ dependencies[] = dhtml_menu
 ;dependencies[] = better_formats
 dependencies[] = better_exposed_filters
 ;dependencies[] = maxlength
-dependencies[] = mobile_detect
+;dependencies[] = mobile_detect
 ;dependencies[] = select2
 ;dependencies[] = views_litepager
 
@@ -176,7 +176,7 @@ dependencies[] = i18nviews
 dependencies[] = localize_fields
 dependencies[] = facetapi_i18n
 
-dependencies[] = tmgmt
+;dependencies[] = tmgmt
 
 ;; NIE AKTIVIEREN !
 ;dependencies[] = i18n_taxonomy
@@ -186,7 +186,7 @@ dependencies[] = tmgmt
 ;dependencies[] = breadcrumbs_by_path
 dependencies[] = breakpoints
 dependencies[] = colorbox
-dependencies[] = colorbox_node
+;dependencies[] = colorbox_node
 dependencies[] = diff
 dependencies[] = editableviews
 dependencies[] = entity
@@ -217,7 +217,7 @@ dependencies[] = entity_rules
 dependencies[] = strongarm
 ;dependencies[] = styleguide
 dependencies[] = token
-dependencies[] = token_tweaks
+;dependencies[] = token_tweaks
 ;dependencies[] = translation_table
 
 
