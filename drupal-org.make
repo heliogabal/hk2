@@ -16,8 +16,8 @@ projects[admin_theme][version] = "1.0"
 projects[admin_views][version] = "1.5"
 
 projects[adminimal_admin_menu][version] = "1.7"
-projects[adminimal_admin_menu][patch][] = "https://www.drupal.org/files/issues/adminimal_admin_menu-js-error-2407007-3.patch"
 projects[adminimal_admin_menu][patch][] = "https://www.drupal.org/files/issues/adminimal_admin_menu-js-error-2407007-3-no-whitespace-changes.patch"
+projects[adminimal_admin_menu][patch][] = "https://www.drupal.org/files/issues/adminimal_admin_menu-js-error-2407007-3.patch"
 
 projects[advagg][version] = "2.17"
 
@@ -314,7 +314,7 @@ projects[taxonomy_manager][version] = "1.0"
 
 projects[term_merge][version] = "1.3"
 
-projects[title][version] = "1.0-alpha7"
+projects[title][version] = "1.x-dev"
 ; try simple solution first... https://www.drupal.org/node/2267251
 projects[title][patch][] = "https://www.drupal.org/files/issues/title-2267251-11_0.patch"
 
@@ -491,7 +491,7 @@ projects[entityreference][patch][] = "https://www.drupal.org/files/issues/145185
 ; not sure if really necessary ...
 ;projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference-label_access_respecting_null.patch"
 ; Language awareness: https://www.drupal.org/node/1674792
-projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference-rendered-entity-is-not-language-aware-1674792-85.patch"
+projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference-n1674792-99.patch"
 
 projects[entity][version] = "1.6"
 ; https://www.drupal.org/node/2241979
