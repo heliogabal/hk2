@@ -697,7 +697,7 @@ libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/arch
 libraries[plupload][patch][1903850] = "http://drupal.org/files/issues/plupload-1_5_8-rm_examples-1903850-21.patch"
 
 ; manualcrop
-includes[manualcrop] = http://cgit.drupalcode.org/manualcrop/tree/manualcrop.make
+;includes[manualcrop] = http://cgit.drupalcode.org/manualcrop/tree/manualcrop.make
 
 ; leaflet
 libraries[leaflet][directory_name] = "leaflet"
@@ -760,7 +760,7 @@ libraries[fontawesome][destination] = "libraries"
 ;libraries[simplepie][copy_file][] = simplepie.compiled.php
 ;libraries[simplepie][overwrite] = TRUE
 
-; jQuery imagesLoaded for equalheights
+; jQuery imagesLoaded for equalheights and manualcrop
 libraries[jquery.imagesloaded][download][type] = file
 libraries[jquery.imagesloaded][download][url] = https://github.com/desandro/imagesloaded/archive/v2.1.2.tar.gz
 libraries[jquery.imagesloaded][download][subtree] = imagesloaded-2.1.2
@@ -768,10 +768,10 @@ libraries[jquery.imagesloaded][directory_name] = "jquery.imagesloaded"
 libraries[jquery.imagesloaded][destination] = "libraries"
 
 
-; imgAreaSelect.
+; imgAreaSelect for manualcrop
 libraries[jquery.imgareaselect][download][type] = file
-libraries[jquery.imgareaselect][download][url] = http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip
-libraries[jquery.imgareaselect][download][subtree] = jquery.imgareaselect-0.9.10
+libraries[jquery.imgareaselect][download][url] = https://github.com/odyniec/imgareaselect/archive/v0.9.11-rc.1.tar.gz
+libraries[jquery.imgareaselect][download][subtree] = imgareaselect-0.9.11-rc.1
 libraries[jquery.imgareaselect][directory_name] = "jquery.imgareaselect"
 libraries[jquery.imgareaselect][destination] = "libraries"
 
