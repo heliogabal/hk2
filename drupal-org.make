@@ -172,13 +172,13 @@ projects[plupload][version] = "1.7"
 
 projects[entity_translation][version] = "1.0-beta4"
 
-projects[tmgmt][version] = 1.0-rc1
+;projects[tmgmt][version] = 1.0-rc1
 ; https://www.drupal.org/node/1543480 Exclude Fields from tmgmt translation
-projects[tmgmt][patch][] = "https://www.drupal.org/files/tmgmt_translate_attribute_0.patch"
+;projects[tmgmt][patch][] = "https://www.drupal.org/files/tmgmt_translate_attribute_0.patch"
 ; https://www.drupal.org/node/2442683 add wysiwyg support to tmgmt
-projects[tmgmt][patch][] = "https://www.drupal.org/files/issues/tmgmt-wysiwyg_support-2442683-1.patch"
+;projects[tmgmt][patch][] = "https://www.drupal.org/files/issues/tmgmt-wysiwyg_support-2442683-1.patch"
 
-projects[tmgmt_microsoft][version] = "1.0-alpha2"
+;projects[tmgmt_microsoft][version] = "1.0-alpha2"
 
 projects[i18n][version] = "1.13"
 ; Translate Field Pre- and Suffix, not passing tests: https://www.drupal.org/node/1221208
@@ -771,8 +771,8 @@ libraries[jquery.imagesloaded][destination] = "libraries"
 
 ; imgAreaSelect for manualcrop
 libraries[jquery.imgareaselect][download][type] = file
-libraries[jquery.imgareaselect][download][url] = "http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip"
-libraries[jquery.imgareaselect][download][subtree] = imgareaselect-0.9.10
+libraries[jquery.imgareaselect][download][url] = https://github.com/odyniec/imgareaselect/archive/v0.9.11-rc.1.zip
+libraries[jquery.imgareaselect][download][subtree] = imgareaselect-0.9.11-rc.1
 libraries[jquery.imgareaselect][directory_name] = "jquery.imgareaselect"
 libraries[jquery.imgareaselect][destination] = "libraries"
 

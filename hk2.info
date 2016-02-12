@@ -305,7 +305,7 @@ dependencies[] = features
 ;dependencies[] = hk_ct_apart
 ;dependencies[] = hk_ct_page
 
-dependencies[] = hk_base
+;dependencies[] = hk_base
 dependencies[] = hk_ct
 dependencies[] = hk_search
 ;dependencies[] = hk_admin
