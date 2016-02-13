@@ -704,7 +704,7 @@ libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][type] = "library"
 libraries[leaflet][destination] = "libraries"
 libraries[leaflet][download][type] = "get"
-libraries[leaflet][download][url] = "http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.zip"
+libraries[leaflet][download][url] = "http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.zip"
 
 ; leaflet markercluster
 libraries[leaflet_markercluster][download][type] = "get"
@@ -720,18 +720,18 @@ libraries[leaflet_markercluster][destination] = "libraries"
 ;libraries[leaflet_fullscreen][download][url] = "https://github.com/Leaflet/Leaflet.fullscreen.git"
 
 ; Leaflet.widget plugin
-libraries[leaflet_widget][directory_name] = "Leaflet.widget"
-libraries[leaflet_widget][destination] = "libraries"
-libraries[leaflet_widget][type] = "library"
-libraries[leaflet_widget][download][type] = "get"
-libraries[leaflet_widget][download][url] = "https://codeload.github.com/tnightingale/Leaflet.widget/legacy.zip/master"
+;libraries[leaflet_widget][directory_name] = "Leaflet.widget"
+;libraries[leaflet_widget][destination] = "libraries"
+;libraries[leaflet_widget][type] = "library"
+;libraries[leaflet_widget][download][type] = "get"
+;libraries[leaflet_widget][download][url] = "https://codeload.github.com/tnightingale/Leaflet.widget/legacy.zip/master"
 
 ; Leaflet.draw plugin
-libraries[leaflet_draw][directory_name] = "Leaflet.draw"
-libraries[leaflet_draw][destination] = "libraries"
-libraries[leaflet_draw][type] = "library"
-libraries[leaflet_draw][download][type] = "get"
-libraries[leaflet_draw][download][url] = "https://github.com/Leaflet/Leaflet.draw/archive/v0.2.4.zip"
+;libraries[leaflet_draw][directory_name] = "Leaflet.draw"
+;libraries[leaflet_draw][destination] = "libraries"
+;libraries[leaflet_draw][type] = "library"
+;libraries[leaflet_draw][download][type] = "get"
+;libraries[leaflet_draw][download][url] = "https://github.com/Leaflet/Leaflet.draw/archive/v0.2.4.zip"
 
 
 ; Views PDF
@@ -743,7 +743,7 @@ libraries[leaflet_draw][download][url] = "https://github.com/Leaflet/Leaflet.dra
 
 libraries[fpdi][type] = "libraries"
 libraries[fpdi][download][type] = "file"
-libraries[fpdi][download][url] = "http://www.setasign.com/supra/kon2_dl/80506/FPDI-1.5.2.zip"
+libraries[fpdi][download][url] = "https://www.setasign.com/supra/kon2_dl/103845/FPDI-1.6.1.zip"
 libraries[fpdi][directory_name] = "fpdi"
 libraries[fpdi][destination] = "libraries"
 
