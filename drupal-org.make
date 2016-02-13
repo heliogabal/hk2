@@ -778,7 +778,7 @@ libraries[jquery.imgareaselect][destination] = "libraries"
 
 ; Mobile_Detect
 libraries[Mobile_Detect][download][type] = file
-libraries[Mobile_Detect][download][url] = "https://github.com/serbanghita/Mobile-Detect/archive/2.8.12.zip"
+libraries[Mobile_Detect][download][url] = "https://github.com/serbanghita/Mobile-Detect/archive/2.8.19.zip"
 libraries[Mobile_Detect][directory_name] = "Mobile_Detect"
 libraries[Mobile_Detect][destination] = "libraries"
 
