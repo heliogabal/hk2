@@ -741,18 +741,18 @@ libraries[leaflet_markercluster][destination] = "libraries"
 ;libraries[tcpdf][directory_name] = "tcpdf"
 ;libraries[tcpdf][destination] = "libraries"
 
-libraries[fpdi][type] = "libraries"
-libraries[fpdi][download][type] = "file"
-libraries[fpdi][download][url] = "https://www.setasign.com/supra/kon2_dl/103845/FPDI-1.6.1.zip"
-libraries[fpdi][directory_name] = "fpdi"
-libraries[fpdi][destination] = "libraries"
+;libraries[fpdi][type] = "libraries"
+;libraries[fpdi][download][type] = "file"
+;libraries[fpdi][download][url] = "https://www.setasign.com/supra/kon2_dl/103845/FPDI-1.6.1.zip"
+;libraries[fpdi][directory_name] = "fpdi"
+;libraries[fpdi][destination] = "libraries"
 
 ; Fontawesome
-libraries[fontawesome][type] = "libraries"
-libraries[fontawesome][download][type] = "get"
-libraries[fontawesome][download][url] = "http://fortawesome.github.io/Font-Awesome/3.2.1/assets/font-awesome.zip"
-libraries[fontawesome][directory_name] = "fontawesome"
-libraries[fontawesome][destination] = "libraries"
+;libraries[fontawesome][type] = "libraries"
+;libraries[fontawesome][download][type] = "get"
+;libraries[fontawesome][download][url] = "http://fortawesome.github.io/Font-Awesome/3.2.1/assets/font-awesome.zip"
+;libraries[fontawesome][directory_name] = "fontawesome"
+;libraries[fontawesome][destination] = "libraries"
 
 ; SimplePie RSS parser for feeds
 ;libraries[simplepie][directory_name] = simplepie
