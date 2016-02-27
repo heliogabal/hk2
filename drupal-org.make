@@ -50,7 +50,7 @@ projects[date][version] = "2.9"
 
 projects[devel][version] = "1.5"
 
-projects[ds][version] = "2.12"
+projects[ds][version] = "2.13"
 ; idevels
 ;projects[ds][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/ds.patch"
 
@@ -631,7 +631,7 @@ projects[zen][version] = "5.6"
 projects[zen][subdir] = ""
 
 projects[adminimal_theme][type] = "theme"
-projects[adminimal_theme][version] = "1.23"
+projects[adminimal_theme][version] = "1.24"
 projects[adminimal_theme][subdir] = ""
 
 projects[hk_theme][type] = "theme"
