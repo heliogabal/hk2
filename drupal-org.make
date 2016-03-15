@@ -462,7 +462,7 @@ projects[node_clone][version] = "1.0"
 
 ; Problematic Versions
 
-projects[feeds][version] = "2.0-beta1"
+projects[feeds][version] = "2.0-beta2"
 ; see empty field behavior change in dev for later debugging https://www.drupal.org/node/1107522
 ;projects[feeds][version] = "2.x-dev"
 
