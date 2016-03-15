@@ -116,6 +116,8 @@ projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375
 projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/references_dialog_beta1-fix_theme_links-2315905-20.patch"
 ; Half of this patch needed for link parameter, then some additional patching, still hardcoded for now... https://www.drupal.org/node/2149805
 projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2149805-make-parent-context-available-to-dialog.patch"
+; custom patch to add bundle sensitivity
+projects[references_dialog][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/hk_references_dialog.patch"
 
 projects[field_group][version] = "1.5"
 ; until accordion open is fixed
