@@ -95,7 +95,7 @@ projects[addressfield_autocomplete][patch][] = https://www.drupal.org/files/issu
 ; Image order fix https://www.drupal.org/node/2534836 - now in dev version
 ;projects[addressfield_autocomplete][patch][] = "https://www.drupal.org/files/issues/addressfield_autocomplete-incompatible_with_tabledrag-2534836.patch"
 
-projects[gmap][version] = "2.10"
+projects[gmap][version] = "2.11"
 
 projects[compact_forms][version] = "1.0"
 
@@ -258,7 +258,7 @@ projects[leaflet][version] = "1.3"
 ; Unsupported operand types: https://www.drupal.org/node/2185767
 ;projects[leaflet][patch][] = "https://www.drupal.org/files/issues/field-formatter-errors-2185767-6.patch"
 
-projects[leaflet_mapbox][version] = "1.3"
+projects[leaflet_mapbox][version] = "1.5"
 projects[leaflet_mapbox][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/leaflet_mapbox.patch"
 
 projects[leaflet_label][version] = "1.2"
@@ -342,7 +342,7 @@ projects[picture][version] = "2.13"
 
 projects[relation][version] = "1.0-rc7"
 
-projects[search_api][version] = "1.16"
+projects[search_api][version] = "1.17"
 
 ;projects[search_api_ajax][version] = "1.2"
 
@@ -357,7 +357,7 @@ projects[search_api_db][version] = "1.5"
 projects[search_api_ranges][version] = "1.x-dev"
 ;needed for no 502 dropdown ranges
 
-projects[search_api_solr][version] = "1.9"
+projects[search_api_solr][version] = "1.10"
 ;idevels
 ;projects[search_api_solr][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/search_api_solr.patch"
 
