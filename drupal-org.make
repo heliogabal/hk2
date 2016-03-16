@@ -722,18 +722,18 @@ libraries[leaflet_markercluster][destination] = "libraries"
 ;libraries[leaflet_fullscreen][download][url] = "https://github.com/Leaflet/Leaflet.fullscreen.git"
 
 ; Leaflet.widget plugin
-;libraries[leaflet_widget][directory_name] = "Leaflet.widget"
-;libraries[leaflet_widget][destination] = "libraries"
-;libraries[leaflet_widget][type] = "library"
-;libraries[leaflet_widget][download][type] = "get"
-;libraries[leaflet_widget][download][url] = "https://codeload.github.com/tnightingale/Leaflet.widget/legacy.zip/master"
+libraries[leaflet_widget][directory_name] = "Leaflet.widget"
+libraries[leaflet_widget][destination] = "libraries"
+libraries[leaflet_widget][type] = "library"
+libraries[leaflet_widget][download][type] = "get"
+libraries[leaflet_widget][download][url] = "https://github.com/tnightingale/Leaflet.widget/zipball/master"
 
 ; Leaflet.draw plugin
-;libraries[leaflet_draw][directory_name] = "Leaflet.draw"
-;libraries[leaflet_draw][destination] = "libraries"
-;libraries[leaflet_draw][type] = "library"
-;libraries[leaflet_draw][download][type] = "get"
-;libraries[leaflet_draw][download][url] = "https://github.com/Leaflet/Leaflet.draw/archive/v0.2.4.zip"
+libraries[leaflet_draw][directory_name] = "Leaflet.draw"
+libraries[leaflet_draw][destination] = "libraries"
+libraries[leaflet_draw][type] = "library"
+libraries[leaflet_draw][download][type] = "get"
+libraries[leaflet_draw][download][url] = "https://github.com/Leaflet/Leaflet.draw/archive/v0.3.0.zip"
 
 
 ; Views PDF
