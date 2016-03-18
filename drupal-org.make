@@ -605,11 +605,11 @@ projects[hk_leaflet][subdir] = "custom"
 projects[hk_leaflet][options][working-copy] = TRUE
 
 ;hk_flexslider
-projects[hk_flexslider][type] = module
-projects[hk_flexslider][download][type] = "git"
-projects[hk_flexslider][download][url] = "https://github.com/heliogabal/hk_flexslider.git"
-projects[hk_flexslider][subdir] = "custom"
-projects[hk_flexslider][options][working-copy] = TRUE
+;projects[hk_flexslider][type] = module
+;projects[hk_flexslider][download][type] = "git"
+;projects[hk_flexslider][download][url] = "https://github.com/heliogabal/hk_flexslider.git"
+;projects[hk_flexslider][subdir] = "custom"
+;projects[hk_flexslider][options][working-copy] = TRUE
 
 ;ip_geoloc_patched
 ;projects[ip_geoloc][type] = module
