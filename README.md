@@ -1,4 +1,6 @@
 # hk2
-Installation profile for HK
-uses adapted omega8.cc core
-themes, features and custom modules are separate git repositories
+Installation profile for HK. 
+
+Uses adapted omega8.cc core.
+ 
+Themes, features and custom modules are separate git repositories.
