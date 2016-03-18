@@ -619,11 +619,11 @@ projects[hk_leaflet][options][working-copy] = TRUE
 ;projects[ip_geoloc][options][working-copy] = TRUE
 
 ;drudesk
-projects[drudesk][type] = module
-projects[drudesk][download][type] = "git"
-projects[drudesk][download][url] = "https://github.com/heliogabal/drudesk.git"
-projects[drudesk][subdir] = "custom"
-projects[drudesk][options][working-copy] = TRUE
+;projects[drudesk][type] = module
+;projects[drudesk][download][type] = "git"
+;projects[drudesk][download][url] = "https://github.com/heliogabal/drudesk.git"
+;projects[drudesk][subdir] = "custom"
+;projects[drudesk][options][working-copy] = TRUE
 
 ; +++++ Themes +++++
 
