@@ -368,9 +368,6 @@ projects[search_api_solr][version] = "1.10"
 projects[facetapi][version] = "1.5"
 
 projects[facetapi_bonus][version] = "1.x-dev"
-; strict warning https://www.drupal.org/node/1844680
-projects[facetapi_bonus][patch][] = "https://www.drupal.org/files/facetapi-warning.patch"
-;needed for Resest link
 
 ;projects[facetapi_pretty_paths][version] = "1.4"
 
