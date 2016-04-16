@@ -96,6 +96,8 @@ projects[addressfield_autocomplete][patch][] = https://www.drupal.org/files/issu
 ;projects[addressfield_autocomplete][patch][] = "https://www.drupal.org/files/issues/addressfield_autocomplete-incompatible_with_tabledrag-2534836.patch"
 
 projects[gmap][version] = "2.11"
+; don't do marker regeneration on drush cc: https://www.drupal.org/node/1114164
+projects[gmap][patch][] = "https://www.drupal.org/files/1114164_not_in_cli_mode.patch"
 
 projects[compact_forms][version] = "1.0"
 
