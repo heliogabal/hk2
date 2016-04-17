@@ -9,7 +9,7 @@ defaults[projects][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc5"
 
-projects[admin_menu_source][version] = "1.0"
+projects[admin_menu_source][version] = "1.1"
 
 projects[admin_theme][version] = "1.0"
 
@@ -54,9 +54,9 @@ projects[ds][version] = "2.13"
 ; idevels
 ;projects[ds][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/ds.patch"
 
-projects[features][version] = "2.7"
+projects[features][version] = "2.9"
 ; use regular cache instead of variables table (can be disabled with 2.8): https://www.drupal.org/node/1325288
-projects[features][patch][] = "https://www.drupal.org/files/issues/use_regular_cache_table-1325288-46.patch"
+;projects[features][patch][] = "https://www.drupal.org/files/issues/use_regular_cache_table-1325288-46.patch"
 
 projects[features_translations][version] = "2.0"
 
@@ -320,9 +320,10 @@ projects[taxonomy_manager][version] = "1.0"
 
 projects[term_merge][version] = "1.3"
 
-projects[title][version] = "1.x-dev"
+projects[title][version] = "1.0-alpha8"
 ; try simple solution first... https://www.drupal.org/node/2267251
-projects[title][patch][] = "https://www.drupal.org/files/issues/title-2267251-11_0.patch"
+;projects[title][patch][] = "https://www.drupal.org/files/issues/title-2267251-11_0.patch"
+projects[title][patch][] = "https://www.drupal.org/files/issues/2267251-27.patch"
 
 ;projects[translation_table][version] = "1.0-beta1"
 
@@ -338,7 +339,7 @@ projects[transliteration][version] = "3.2"
 projects[globalredirect][version] = "1.5"
 
 ;o_contrib_seven
-projects[entitycache][version] = "1.5"
+;projects[entitycache][version] = "1.5"
 
 projects[picture][version] = "2.13"
 
@@ -371,7 +372,8 @@ projects[search_api_solr][version] = "1.10"
 
 projects[facetapi][version] = "1.5"
 
-projects[facetapi_bonus][version] = "1.x-dev"
+projects[facetapi_bonus][version] = "1.2"
+projects[facetapi_bonus][patch][] = "https://www.drupal.org/files/issues/issue-1844680-4.patch"
 
 ;projects[facetapi_pretty_paths][version] = "1.4"
 
