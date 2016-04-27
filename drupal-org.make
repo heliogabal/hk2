@@ -161,6 +161,8 @@ projects[media][version] = "2.0-beta1"
 projects[media][patch][] = "https://www.drupal.org/files/issues/allow_selecting_of-951004-136.patch"
 ; https://www.drupal.org/node/2401989 testweise, content on this page has either been modified by another user
 projects[media][patch][] = "https://www.drupal.org/files/issues/media-add_admin_path-2401989-2.patch"
+; Don't open two media browsers: https://www.drupal.org/node/2549809
+projects[media][patch][] = "https://www.drupal.org/files/issues/status_of_fixed_media-2549809-3.patch"
 
 ;projects[media_youtube][version] = "2.0-rc1"
 
