@@ -27,7 +27,7 @@ projects[autocomplete_deluxe][version] = 2.1
 
 projects[block_class][version] = "2.3"
 
-;projects[cdn][version] = "2.6"
+;projects[cdn][version] = "2.8"
 ;projects[cdn][patch][] = "https://www.drupal.org/files/issues/1514182-IE-font-face-CSS-hack-URL-broken-68.patch"
 
 projects[module_filter][version] = "2.0"
@@ -224,7 +224,7 @@ projects[context][version] = "3.6"
 
 projects[context_flag][version] = "1.2"
 
-projects[contextual_view_modes][version] = "1.2"
+projects[contextual_view_modes][version] = "3.0"
 
 projects[session_api][version] = "1.0-rc1"
 
